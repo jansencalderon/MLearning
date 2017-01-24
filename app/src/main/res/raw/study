@@ -1,0 +1,3754 @@
+[
+  {
+    "id": 1,
+    "topics": [
+      {
+        "id": 6,
+        "lessons": [
+          {
+            "id": 6,
+            "lessondetails": [
+              {
+                "id": 3,
+                "sequence": 1,
+                "body": "Quantitative Pharmaceutical Chemistry may be define as the application of the procedures analytical chemistry (1) to the analysis and determination of the purity and quality of drugs and chemicals used in pharmacy, especially those official in the United States pharmacopeia and the National Formulary (2) to the analysis of the chemical constituents found in the human body whose altered concentrations during disease  states serve as diagnostic aids in the practice of medicine, and (3) to the analysis of medicinal agents and their metabolites found in biological systems.",
+                "caption": "",
+                "lesson": 6,
+                "body_type": 1
+              },
+              {
+                "id": 109,
+                "sequence": 2,
+                "body": "In modern practice of pharmacy it is important that pharmacists have more than an appreciation for quantitative analytical methodology. They must have working knowledge if they are to advise medical practitioners on drug quality of a drug product is challenged by a physician, the pharmacist is responsible for initiating steps to determine if indeed the product is defective. This may be accomplished by (1) calling and advising the drug manufacturer of the problem involving the product, (2) analyzing the preparation in the prescription laboratory, borrowing needed equipment from a clinical laboratory if necessary, (3) sending a portion of the sample to a private laboratory for analysis, or (4) a combination of all these steps. In any case, however, it remains the responsibility of the pharmacist to solve problems relating to drug quality. Pharmacist who have reason to believe that a drug product is not a proper quality and appears to be defective, because of improper labeling, discoloration, the presence of cloudiness, crystal, or precipitates in products known to be solutions, or for any other reason, are urged by the Food and Drug Administration and by the nonprofit standards-setting organization, The United States Pharmacopeia, to participate in the Drug Defect Reporting Program by preparing a report, or by completing a form [FD Form 2519a (2/72)], and sending it to: The united States Pharmacopeia, 12601 Twin brook parkway, Rockville, Md. The following information is requested: (1) trade name, dosage form, and strength, (2) lot number(s), (3) date purchased (if known), (4) source of product (where purchased, if known), (5) name address of pharmacy (included ZIP code, (8) telephone number (include area code), and (9) defects noted and suspected. This program alerts manufacturers to defective drug products and thereby ensures better quality in pharmaceutical products for the patient.",
+                "caption": "",
+                "lesson": 6,
+                "body_type": 1
+              },
+              {
+                "id": 113,
+                "sequence": 2,
+                "body": "In modern practice of pharmacy it is important that pharmacists have more than an appreciation for quantitative analytical methodology. They must have working knowledge if they are to advise medical practitioners on drug quality of a drug product is challenged by a physician, the pharmacist is responsible for initiating steps to determine if indeed the product is defective. This may be accomplished by (1) calling and advising the drug manufacturer of the problem involving the product, (2) analyzing the preparation in the prescription laboratory, borrowing needed equipment from a clinical laboratory if necessary, (3) sending a portion of the sample to a private laboratory for analysis, or (4) a combination of all these steps. In any case, however, it remains the responsibility of the pharmacist to solve problems relating to drug quality. Pharmacist who have reason to believe that a drug product is not a proper quality and appears to be defective, because of improper labeling, discoloration, the presence of cloudiness, crystal, or precipitates in products known to be solutions, or for any other reason, are urged by the Food and Drug Administration and by the nonprofit standards-setting organization, The United States Pharmacopeia, to participate in the Drug Defect Reporting Program by preparing a report, or by completing a form [FD Form 2519a (2/72)], and sending it to: The united States Pharmacopeia, 12601 Twin brook parkway, Rockville, Md. The following information is requested: (1) trade name, dosage form, and strength, (2) lot number(s), (3) date purchased (if known), (4) source of product (where purchased, if known), (5) name address of pharmacy (included ZIP code, (8) telephone number (include area code), and (9) defects noted and suspected. This program alerts manufacturers to defective drug products and thereby ensures better quality in pharmaceutical products for the patient.",
+                "caption": "",
+                "lesson": 6,
+                "body_type": 1
+              },
+              {
+                "id": 114,
+                "sequence": 3,
+                "body": "The term “quality” as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product. These properties are built into drug products through research and during the manufacturing process by procedures collectively referred to as “quality control”. Quality control guarantees within reasonable limits that a drug product (1) is free of impurities, (2) is physically and chemically stable, (3) contains the amount of active ingredient(s) as stated on the label, and (4) provides optimal release of active ingredient(s) when the product is administered. Of the four properties listed, item 3 is usually emphasized in quantitative pharmaceutical chemistry. The others are generally considered in other courses of the curriculum.",
+                "caption": "",
+                "lesson": 6,
+                "body_type": 1
+              },
+              {
+                "id": 115,
+                "sequence": 4,
+                "body": "Standards for drug quality are set by both state and federal agencies. At the federal level drug-quality requirements are set through an organization known as the United States Pharmacopeia Convention, inc., a nonprofit corporation composed of representatives from all accredited colleges and schools of pharmacy and medicine in the country, every state pharmaceutical and medical association and many other national associations such as the American Pharmaceutical Association and the American Medical Association, and various department of the federal government. Drugs are selected for inclusion in a particular revision by a committee composed of medical experts throughout the country. Drug-quality standards for these drugs are then set by medical and pharmaceutical scientists of many disciplines, who represent educational institutions, the federal government, and industry.",
+                "caption": "",
+                "lesson": 6,
+                "body_type": 1
+              }
+            ],
+            "sequence": 2,
+            "title": "Pharmaceutical",
+            "description": "",
+            "topic": 6
+          }
+        ],
+        "questions": [
+          {
+            "id": 22,
+            "choices": [
+              {
+                "id": 66,
+                "body": "True",
+                "question": 22,
+                "choice_type": 1
+              },
+              {
+                "id": 67,
+                "body": "False",
+                "question": 22,
+                "choice_type": 1
+              },
+              {
+                "id": 68,
+                "body": "None of The Above",
+                "question": 22,
+                "choice_type": 1
+              }
+            ],
+            "question": "Quality control guarantees within reasonable limits that a drug product is free of impurities, is physically and chemically stable, contains the amount of active ingredient(s) as stated on the label, and provides optimal release of active ingredient(s) when the product is administered.",
+            "answer": "True",
+            "topic": 6,
+            "question_type": 1
+          },
+          {
+            "id": 23,
+            "choices": [
+              {
+                "id": 69,
+                "body": "Quantitative Pharmaceutical Chemistry",
+                "question": 23,
+                "choice_type": 1
+              },
+              {
+                "id": 70,
+                "body": "Drug Tests",
+                "question": 23,
+                "choice_type": 1
+              },
+              {
+                "id": 71,
+                "body": "Pharmaceutical Drug",
+                "question": 23,
+                "choice_type": 1
+              },
+              {
+                "id": 72,
+                "body": "Drugs pharmacy",
+                "question": 23,
+                "choice_type": 1
+              }
+            ],
+            "question": "Define as the application of the procedures analytical chemistry to the analysis and determination of the purity and quality of drugs and chemicals used in pharmacy.",
+            "answer": "Quantitative Pharmaceutical Chemistry",
+            "topic": 6,
+            "question_type": 1
+          },
+          {
+            "id": 24,
+            "choices": [
+              {
+                "id": 73,
+                "body": "Antibiotic",
+                "question": 24,
+                "choice_type": 1
+              },
+              {
+                "id": 74,
+                "body": "Quality",
+                "question": 24,
+                "choice_type": 1
+              },
+              {
+                "id": 75,
+                "body": "Medicines",
+                "question": 24,
+                "choice_type": 1
+              },
+              {
+                "id": 76,
+                "body": "Drugs",
+                "question": 24,
+                "choice_type": 1
+              }
+            ],
+            "question": "A drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
+            "answer": "Quality",
+            "topic": 6,
+            "question_type": 1
+          },
+          {
+            "id": 25,
+            "choices": [
+              {
+                "id": 77,
+                "body": "United States Pharmacopeia Convention, inc.,",
+                "question": 25,
+                "choice_type": 1
+              },
+              {
+                "id": 78,
+                "body": "Federal government and industries",
+                "question": 25,
+                "choice_type": 1
+              },
+              {
+                "id": 79,
+                "body": "American Pharmaceutical Association",
+                "question": 25,
+                "choice_type": 1
+              },
+              {
+                "id": 80,
+                "body": "Educational institutions",
+                "question": 25,
+                "choice_type": 1
+              }
+            ],
+            "question": "The federal level drug-quality requirements are set through an organization known as.",
+            "answer": "United States Pharmacopeia Convention, inc.,",
+            "topic": 6,
+            "question_type": 1
+          },
+          {
+            "id": 26,
+            "choices": [
+              {
+                "id": 81,
+                "body": "True",
+                "question": 26,
+                "choice_type": 1
+              },
+              {
+                "id": 82,
+                "body": "False",
+                "question": 26,
+                "choice_type": 1
+              },
+              {
+                "id": 83,
+                "body": "None of The Above",
+                "question": 26,
+                "choice_type": 1
+              }
+            ],
+            "question": "The term “quality” as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
+            "answer": "True",
+            "topic": 6,
+            "question_type": 1
+          },
+          {
+            "id": 27,
+            "choices": [
+              {
+                "id": 84,
+                "body": "Pharmaceutical products",
+                "question": 27,
+                "choice_type": 1
+              },
+              {
+                "id": 85,
+                "body": "Quantitative analytical methodology",
+                "question": 27,
+                "choice_type": 1
+              },
+              {
+                "id": 86,
+                "body": "Quantitative Pharmaceutical Chemistry",
+                "question": 27,
+                "choice_type": 1
+              },
+              {
+                "id": 87,
+                "body": "Quality control",
+                "question": 27,
+                "choice_type": 1
+              }
+            ],
+            "question": "In modern practice of pharmacy it is important that pharmacists have more than an appreciation for ____________________.",
+            "answer": "Quantitative analytical methodology.",
+            "topic": 6,
+            "question_type": 1
+          },
+          {
+            "id": 28,
+            "choices": [
+              {
+                "id": 88,
+                "body": "Physician",
+                "question": 28,
+                "choice_type": 1
+              },
+              {
+                "id": 89,
+                "body": "testing",
+                "question": 28,
+                "choice_type": 1
+              },
+              {
+                "id": 90,
+                "body": "Pharmacist",
+                "question": 28,
+                "choice_type": 1
+              },
+              {
+                "id": 91,
+                "body": "Analyzing",
+                "question": 28,
+                "choice_type": 1
+              }
+            ],
+            "question": "___________ who have reason to believe that a drug product is not a proper quality and appears to be defective, because of improper labeling, discoloration, the presence of cloudiness, crystal, or precipitates in products known to be solutions.",
+            "answer": "Pharmacist",
+            "topic": 6,
+            "question_type": 1
+          },
+          {
+            "id": 29,
+            "choices": [
+              {
+                "id": 92,
+                "body": "True",
+                "question": 29,
+                "choice_type": 1
+              },
+              {
+                "id": 93,
+                "body": "False",
+                "question": 29,
+                "choice_type": 1
+              },
+              {
+                "id": 94,
+                "body": "None of The Above",
+                "question": 29,
+                "choice_type": 1
+              }
+            ],
+            "question": "The term “Drug” as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
+            "answer": "False",
+            "topic": 6,
+            "question_type": 1
+          },
+          {
+            "id": 30,
+            "choices": [
+              {
+                "id": 95,
+                "body": "Product",
+                "question": 30,
+                "choice_type": 1
+              },
+              {
+                "id": 96,
+                "body": "Chemical",
+                "question": 30,
+                "choice_type": 1
+              },
+              {
+                "id": 97,
+                "body": "Drug",
+                "question": 30,
+                "choice_type": 1
+              },
+              {
+                "id": 98,
+                "body": "Quality control",
+                "question": 30,
+                "choice_type": 1
+              }
+            ],
+            "question": "Guarantees within reasonable limits that a drug product is free of impurities, is physically and chemically stable, contains the amount of active ingredient(s) as stated on the label, and provides optimal release of active ingredient(s) when the product is administered.",
+            "answer": "Quality control",
+            "topic": 6,
+            "question_type": 1
+          },
+          {
+            "id": 31,
+            "choices": [
+              {
+                "id": 99,
+                "body": "True",
+                "question": 31,
+                "choice_type": 1
+              },
+              {
+                "id": 100,
+                "body": "False",
+                "question": 31,
+                "choice_type": 1
+              },
+              {
+                "id": 101,
+                "body": "None of The Above",
+                "question": 31,
+                "choice_type": 1
+              }
+            ],
+            "question": "The federal level drug-quality requirements are set through an organization known as the Pharmaceutical.",
+            "answer": "False",
+            "topic": 6,
+            "question_type": 1
+          }
+        ],
+        "sequence": 2,
+        "title": "Introduction to Pharmaceutical",
+        "description": "--",
+        "objective": "The student aims to Define the function of Quality Control in relation to drug analysis",
+        "image": "topic1_img",
+        "term": 1
+      },
+      {
+        "id": 7,
+        "lessons": [
+          {
+            "id": 7,
+            "lessondetails": [
+              {
+                "id": 9,
+                "sequence": 1,
+                "body": "Principles of Titrimetric (Volumetric) Analysis\r\nTitrimetric methods of analysis may be defined as those analytical methods in which the volume of a solution of known concentration consumed during an analysis is taken as a measure of the amount of active constituent in a sample being analyzed. For example, hydrochloric acid, U.S.P. XIX, is assayed by weighing a sample accurately and carefully adding a solution of known concentration of sodium hydroxide in the presence of a suitable indicator until equivalent amounts of NaOH and HCI have reacted. In this procedure, HCI",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 1
+              },
+              {
+                "id": 10,
+                "sequence": 4,
+                "body": "Definitions\r\nThe gram-equivalent weight (GEW) or, more simply, the gram-equivalent of a chemical is defined as that weight in grams which is chemically equivalent to 1 gram-atom of hydrogen (1.0079 g). In neutralization reactions it is defined as that weight of a substance in rams which (1) contains, (2) furnishes, (3) reacts with directly or indirectly, or (4) replaces 1 gram-atom or ion of hydrogen. Gram-milliequivalent weight (GmEW) is defined as GEW/1000. This term is used quite frequently in titrimetric calculations. The term equivalent (equiv) is defined as the number of gram-equivalents involved in a quantitative procedure. The term milliequivalent (meq)is used more frequently and is defined as the number of gram-milliequivalents involved in a quantitative procedure. (A useful analogy to help distinguish between equivalents and gram-equivalent weight is a bag containing identical marbles. The number of marbles in the bag is analogous to the number of gram-equivalents of chemical in solution, and the weight of a single marble is analogous to the gram-equivalent weight of the chemical.) A standard solution is a solution of known normality or molarity. Normality  is a concentration expression and is defined as the number of equivalents of solute per liter (equiv/liter) or milliequivalents per milliliter (meq/ml) of solution. Molarity is an expressions of the concentration of a solution in terms of moles per liter. The determination of the normality or molarity of a solution is known as standardization. This may be accomplished by the use of another standard solution known as a secondary standard, or by the use of a carefully weighed sample of a substance of known purity which is termed a primary standard. Thus a solution of hydrochloric acid may be standardized titrimetrically using a standard solution of sodium hydroxide as a secondary standard or using a sample of sodium carbonate of known purity as a primary standard.",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 1
+              },
+              {
+                "id": 74,
+                "sequence": 2,
+                "body": "lesson4_image.jpeg",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 2
+              },
+              {
+                "id": 75,
+                "sequence": 3,
+                "body": "Is the chemical substance being analyzed and is referred to as the analyte or active constituent in the sample. The Titrant, which is defined as the solution of known concentration, is sodium hydroxide. Titrants are usually added by means of a buret, and the act of adding and measuring the volume of titrant used in the assay is called titration. The indicator is usually a chemical which changes color at or very near the point in the titration where equivalent quantities of analyte and titrant have reacted. The theoretical point at which equivalent amounts of each have reacted is the stoichiometric point or equivalence point.  The Titration is actually stopped at some point, the end point, at which there occurs a sudden change in some property of the reaction mixture, a change which is made apparent by use of indicators or electrometrically. A titration is feasible only when the end point is very close to the theoretical stoichiometric.",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 1
+              },
+              {
+                "id": 76,
+                "sequence": 5,
+                "body": "lesson4_1_image.jpeg",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 2
+              },
+              {
+                "id": 77,
+                "sequence": 6,
+                "body": "Buret\r\nA burette (also buret) is a device used in analytical chemistry for the dispensing of variable, measured amounts of achemical solution. A volumetric burette delivers measured volumes of liquid.",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 1
+              }
+            ],
+            "sequence": 2,
+            "title": "Volumentric",
+            "description": "",
+            "topic": 7
+          },
+          {
+            "id": 8,
+            "lessondetails": [
+              {
+                "id": 11,
+                "sequence": 1,
+                "body": "Gravimetric Analysis\r\nTheory\r\nThe chemical reactions in gravimetric analysis take place in accordance with the established laws and theories of chemistry, i.e., law of mass action, reversible reactions, solubility product principle, and common-ion effect.",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 1
+              },
+              {
+                "id": 12,
+                "sequence": 2,
+                "body": "Law of Mass Action and Reversible Reactions \r\nThree general conditions tend to prevent reversal and lead to completion of a reaction: (1) the formation of an insoluble gas, (2) the formation of a sparingly soluble solid, (3) the formation of very slightly ionized molecules.",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 1
+              },
+              {
+                "id": 13,
+                "sequence": 3,
+                "body": "Gravimetric Method\r\nGravimetric analysis, is the measurement of the weight of the substance in a sample or calculation of the weight of the substance in a sample from the weight of a chemically equivalent amount of some other substance, ca be accomplished in various way. Frequently in pharmaceutical quantitative analysis, the substance to be measured gravimetrically is separated from other substance composing the samples by physical methods, purified, and weighed without chemical change.",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 1
+              },
+              {
+                "id": 14,
+                "sequence": 5,
+                "body": "Gravimetric  Advantages\r\nGravimetric analysis, if methods are followed carefully, provides for exceedingly precise analysis. In fact, gravimetric analysis was used to determine the atomic masses of many elements to six figure accuracy. Gravimetric provides very little room for instrumental error and does not require a series of standards for calculation of an unknown. Also, methods often do not require expensive equipment. Gravimetric analysis, due to its high degree of accuracy, when performed correctly, can also be used to calibrate other instruments in lieu of reference standards.",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 1
+              },
+              {
+                "id": 15,
+                "sequence": 6,
+                "body": "Gravimetric Disadvantages\r\nGravimetric analysis usually only provides for the analysis of a single element, or a limited group of elements, at a time. Comparing modern dynamic flash combustion coupled with gas chromatography with traditional combustion analysis will show that the former is both faster and allows for simultaneous determination of multiple elements while traditional determination allowed only for the determination of carbon and hydrogen. Methods are often convoluted and a slight mis-step in a procedure can often mean disaster for the analysis (colloid formation in precipitation gravimetric, for example). Compare this with hardy methods such as spectrophotometry and one will find that analysis by these methods is much more efficient.",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 1
+              },
+              {
+                "id": 78,
+                "sequence": 4,
+                "body": "gravimetric_image.jpeg",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 2
+              }
+            ],
+            "sequence": 3,
+            "title": "Gravimentric",
+            "description": "",
+            "topic": 7
+          },
+          {
+            "id": 28,
+            "lessondetails": [
+              {
+                "id": 8,
+                "sequence": 1,
+                "body": "Methods of analysis in quantitative pharmaceutical chemistry may be appropriately subdivided according to the following procedures, each of which requires a special technique. Volumetric analysis is the determination of the volume of a solution of known concentration required to react with a given amount of the substance to be analyzed.",
+                "caption": "",
+                "lesson": 28,
+                "body_type": 1
+              },
+              {
+                "id": 110,
+                "sequence": 2,
+                "body": "Physicochemical methods of analysis are based on some specific physical or chemical property or properties of the substance being analyzed. In many assays the measurement of these properties requires the utilization of an instrumental technique. Physicochemical methods which commonly employ instrumental techniques as applied in quantitative pharmaceutical chemistry are chromatographic, spectrophotometric, electrometric, thermal conductimetric, refractometric, and polaritmetric. They constitute some of the most valuable methods used in analytical procedures. Since each of them requires special treatment, they will be discussed separately.",
+                "caption": "",
+                "lesson": 28,
+                "body_type": 1
+              },
+              {
+                "id": 111,
+                "sequence": 3,
+                "body": "Gravimetric Analysis is the separation by extraction, precipitation, or other means of the constituents to be determined either in the natural state or in the form of a definite compound the composition of which is known to the analyst, and the weighing of the resulting product.\r\nSpecial methods are those which require a distinct type of technique, such as alkaloidal assaying.\r\nOfficial assays methods serve as an exact measure of the purity of a substance only when the results are considered in conjunction with the qualitative tests.",
+                "caption": "",
+                "lesson": 28,
+                "body_type": 1
+              },
+              {
+                "id": 112,
+                "sequence": 4,
+                "body": "Thus, in the assay of zinc oxide, the determination of the purity of the oxide by assay must follow quantitative test for other metals which is present would be estimated as zinc oxide. A complete analysis therefore requires the qualitative estimation.\r\nThe theoretical considerations applicable in any given analysis are inherently part of the analytical procedure. They should be mastered before a determination is made, and they should be carefully applied throughout each step of the procedure.",
+                "caption": "",
+                "lesson": 28,
+                "body_type": 1
+              }
+            ],
+            "sequence": 1,
+            "title": "Official Methods in Pharmaceutical Analysis",
+            "description": "",
+            "topic": 7
+          }
+        ],
+        "questions": [
+          {
+            "id": 32,
+            "choices": [
+              {
+                "id": 102,
+                "body": "Gram-equivalent",
+                "question": 32,
+                "choice_type": 1
+              },
+              {
+                "id": 103,
+                "body": "Molarity",
+                "question": 32,
+                "choice_type": 1
+              },
+              {
+                "id": 104,
+                "body": "Normality",
+                "question": 32,
+                "choice_type": 1
+              },
+              {
+                "id": 105,
+                "body": "Milliequivalent",
+                "question": 32,
+                "choice_type": 1
+              }
+            ],
+            "question": "Used more frequently and is defined as the number of gram-milliequivalents involved in a quantitative procedure.",
+            "answer": "Milliequivalent",
+            "topic": 7,
+            "question_type": 1
+          },
+          {
+            "id": 33,
+            "choices": [
+              {
+                "id": 106,
+                "body": "Normality",
+                "question": 33,
+                "choice_type": 1
+              },
+              {
+                "id": 107,
+                "body": "Molarity",
+                "question": 33,
+                "choice_type": 1
+              },
+              {
+                "id": 108,
+                "body": "Analyte",
+                "question": 33,
+                "choice_type": 1
+              },
+              {
+                "id": 109,
+                "body": "Titrant",
+                "question": 33,
+                "choice_type": 1
+              }
+            ],
+            "question": "Is a concentration expression and is defined as the number of equivalents of solute per liter (equiv/liter) or milliequivalents per milliliter (meq/ml) of solution.",
+            "answer": "Normality",
+            "topic": 7,
+            "question_type": 1
+          },
+          {
+            "id": 34,
+            "choices": [
+              {
+                "id": 110,
+                "body": "Equivalent",
+                "question": 34,
+                "choice_type": 1
+              },
+              {
+                "id": 111,
+                "body": "Gram-milliequivalent weight",
+                "question": 34,
+                "choice_type": 1
+              },
+              {
+                "id": 112,
+                "body": "Milliliter",
+                "question": 34,
+                "choice_type": 1
+              },
+              {
+                "id": 113,
+                "body": "Gram-equivalent weight",
+                "question": 34,
+                "choice_type": 1
+              }
+            ],
+            "question": "Defined as that weight in grams which is chemically equivalent to 1 gram-atom of hydrogen (1.0079 g).",
+            "answer": "Gram-equivalent weight",
+            "topic": 7,
+            "question_type": 1
+          },
+          {
+            "id": 35,
+            "choices": [
+              {
+                "id": 114,
+                "body": "Active",
+                "question": 35,
+                "choice_type": 1
+              },
+              {
+                "id": 115,
+                "body": "Molarity",
+                "question": 35,
+                "choice_type": 1
+              },
+              {
+                "id": 116,
+                "body": "Titrant",
+                "question": 35,
+                "choice_type": 1
+              },
+              {
+                "id": 117,
+                "body": "Normality",
+                "question": 35,
+                "choice_type": 1
+              }
+            ],
+            "question": "Is an expression of the concentration of a solution in terms of moles per liter.",
+            "answer": "Molarity",
+            "topic": 7,
+            "question_type": 1
+          },
+          {
+            "id": 36,
+            "choices": [
+              {
+                "id": 118,
+                "body": "The formation of an insoluble gas",
+                "question": 36,
+                "choice_type": 1
+              },
+              {
+                "id": 119,
+                "body": "The formation of a sparingly soluble solid",
+                "question": 36,
+                "choice_type": 1
+              },
+              {
+                "id": 120,
+                "body": "The formation of very slightly ionized molecules",
+                "question": 36,
+                "choice_type": 1
+              },
+              {
+                "id": 121,
+                "body": "The formation in precipitation gravimetric",
+                "question": 36,
+                "choice_type": 1
+              }
+            ],
+            "question": "Three general conditions tend to prevent reversal and lead to completion of a reaction EXCEPT:",
+            "answer": "The formation in precipitation gravimetric",
+            "topic": 7,
+            "question_type": 1
+          },
+          {
+            "id": 37,
+            "choices": [
+              {
+                "id": 122,
+                "body": "Gravimetric analysis",
+                "question": 37,
+                "choice_type": 1
+              },
+              {
+                "id": 123,
+                "body": "Spectrophotometer",
+                "question": 37,
+                "choice_type": 1
+              },
+              {
+                "id": 124,
+                "body": "Law of mass action",
+                "question": 37,
+                "choice_type": 1
+              },
+              {
+                "id": 125,
+                "body": "Reversible reation",
+                "question": 37,
+                "choice_type": 1
+              }
+            ],
+            "question": "The measurement of the weight of the substance in a sample or calculation of the weight of the substance in a sample from the weight of a chemically equivalent amount of some other substance.",
+            "answer": "Gravimetric analysis",
+            "topic": 7,
+            "question_type": 1
+          },
+          {
+            "id": 38,
+            "choices": [
+              {
+                "id": 126,
+                "body": "Volumetric analysis",
+                "question": 38,
+                "choice_type": 1
+              },
+              {
+                "id": 127,
+                "body": "Qualitative tests",
+                "question": 38,
+                "choice_type": 1
+              },
+              {
+                "id": 128,
+                "body": "Gravimetric analysis",
+                "question": 38,
+                "choice_type": 1
+              },
+              {
+                "id": 129,
+                "body": "Weak bases",
+                "question": 38,
+                "choice_type": 1
+              }
+            ],
+            "question": "Determination of the volume of a solution of known concentration required to react with a given amount of the substance to be analyzed.",
+            "answer": "Volumetric analysis",
+            "topic": 7,
+            "question_type": 1
+          },
+          {
+            "id": 39,
+            "choices": [
+              {
+                "id": 130,
+                "body": "Acetic",
+                "question": 39,
+                "choice_type": 1
+              },
+              {
+                "id": 131,
+                "body": "Zinc oxide",
+                "question": 39,
+                "choice_type": 1
+              },
+              {
+                "id": 132,
+                "body": "Electrometric",
+                "question": 39,
+                "choice_type": 1
+              },
+              {
+                "id": 133,
+                "body": "Arylamine",
+                "question": 39,
+                "choice_type": 1
+              }
+            ],
+            "question": "Physicochemical methods which commonly employ instrumental techniques as applied in quantitative pharmaceutical chemistry are chromatographic, spectrophotometric, _______, thermal conductimetric, refractometric, and polaritmetric.",
+            "answer": "Electrometric",
+            "topic": 7,
+            "question_type": 1
+          },
+          {
+            "id": 40,
+            "choices": [
+              {
+                "id": 134,
+                "body": "Volumetric analysis",
+                "question": 40,
+                "choice_type": 1
+              },
+              {
+                "id": 135,
+                "body": "Qualitative tests",
+                "question": 40,
+                "choice_type": 1
+              },
+              {
+                "id": 136,
+                "body": "Gravimetric analysis",
+                "question": 40,
+                "choice_type": 1
+              },
+              {
+                "id": 137,
+                "body": "Weak bases",
+                "question": 40,
+                "choice_type": 1
+              }
+            ],
+            "question": "The separation by extraction, precipitation, or other means of the constituents to be determined either in the natural state or in the form of a definite compound the composition of which is known to the analyst, and the weighing of the resulting product.",
+            "answer": "Gravimetric analysis",
+            "topic": 7,
+            "question_type": 1
+          },
+          {
+            "id": 41,
+            "choices": [
+              {
+                "id": 138,
+                "body": "Monoprotic assaying",
+                "question": 41,
+                "choice_type": 1
+              },
+              {
+                "id": 139,
+                "body": "Atropine assaying",
+                "question": 41,
+                "choice_type": 1
+              },
+              {
+                "id": 140,
+                "body": "Alkaloidal assaying",
+                "question": 41,
+                "choice_type": 1
+              },
+              {
+                "id": 141,
+                "body": "Alkaloidal assaying",
+                "question": 41,
+                "choice_type": 1
+              },
+              {
+                "id": 142,
+                "body": "Procaine assaying",
+                "question": 41,
+                "choice_type": 1
+              }
+            ],
+            "question": "Special methods are those which require a distinct type of technique, such as ____________.",
+            "answer": "Alkaloidal assaying",
+            "topic": 7,
+            "question_type": 1
+          }
+        ],
+        "sequence": 3,
+        "title": "Official Methods in Pharmaceutical Analysis",
+        "description": "--",
+        "objective": "The student aims to Demonstrate the different divisions of Volumetric Analysis",
+        "image": "topic2_img",
+        "term": 1
+      },
+      {
+        "id": 8,
+        "lessons": [
+          {
+            "id": 10,
+            "lessondetails": [
+              {
+                "id": 16,
+                "sequence": 1,
+                "body": "aqueous\r\n\r\nAn aqueous solution is a solution in which the solvent is water. It is usually shown in chemical equations by appending (aq) to the relevant chemical formula. For example, a solution of table salt, or sodium chloride (NaCl), in water would be represented as Na+(aq) + Cl−(aq). The word aqueous means pertaining to, related to, similar to, or dissolved in water. As water is an excellent solvent and is also naturally abundant, it is a ubiquitous solvent in chemistry.\r\nSubstances that are hydrophobic ('water-fearing') often do not dissolve well in water, whereas those that are hydrophilic ('water-loving') do. An example of a hydrophilic substance is sodium chloride. Acids and bases are aqueous solutions, as part of their Arrhenius definitions.\r\nThe ability of a substance to dissolve in water is determined by whether the substance can match or exceed the strong attractive forces that water molecules generate between themselves. If the substance lacks the ability to dissolve in water the molecules form a precipitate.\r\nReactions in aqueous solutions are usually metathesis reactions. Metathesis reactions are another term for double-displacement; that is, when a cation displaces to form an ionic bond with the other anion. The cation bonded with the latter anion will dissociate and bond with the other anion.\r\nAqueous solutions that conduct electric current efficiently contain strong electrolytes, while ones that conduct poorly are considered to have weak electrolytes. Those strong electrolytes are substances that are completely ionized in water, whereas the weak electrolytes exhibit only a small degree of ionization in water.\r\nNonelectrolytes are substances that dissolve in water yet maintain their molecular integrity (do not dissociate into ions). Examples include sugar, urea, glycerol, and methylsulfonylmethane (MSM).\r\nWhen writing the equations of aqueous reactions, it is essential to determine the precipitate. To determine the precipitate, one must consult a chart of solubility. Soluble compounds are aqueous, while insoluble compounds are the precipitate. Remember that there may not always be a precipitate.\r\nWhen performing calculations regarding the reacting of one or more aqueous solutions, in general one must know the concentration, or molarity, of the aqueous solutions. Solution concentration is given in terms of the form of the solute prior to it dissolving.",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 1
+              },
+              {
+                "id": 17,
+                "sequence": 2,
+                "body": "non-aqueous\r\n\r\nNonaqueous titration is the titration of substances dissolved in solvents other than water. It is the most common titrimetric procedure used in pharmacopoeial assays and serves a double purpose: it is suitable for the titration of very weak acids and very weak bases, and it provides a solvent in which organic compounds are soluble.\r\nThe most commonly used procedure is the titration of organic bases with perchloric acid in anhydrous acetic acid. These assays sometimes take some perfecting in terms of being able to judge the endpoint precisely.\r\nFor obvious reasons Karl Fischer titration for water content is nonaqueous, usually done in methanol or sometimes inethanol.",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 1
+              },
+              {
+                "id": 18,
+                "sequence": 3,
+                "body": "Theory\r\nAcid-base reactions\r\nThe theory is that water behaves as both a weak acid and a weak base; thus, in an aqueous environment, it can compete effectively with very weak acids and bases with regard to proton donation and acceptance, as shown below:",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 1
+              },
+              {
+                "id": 67,
+                "sequence": 4,
+                "body": "nonaqueous1_image.jpeg",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 2
+              },
+              {
+                "id": 68,
+                "sequence": 5,
+                "body": "or",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 1
+              },
+              {
+                "id": 69,
+                "sequence": 6,
+                "body": "nonaqueous2_image.jpg",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 2
+              },
+              {
+                "id": 70,
+                "sequence": 7,
+                "body": "The effect of this is that the inflection in the titration curves for very weak acids and very weak bases is small, because they approach the pH limits in water of 14 or 0 respectively, thus making endpoint detection relatively more difficult.\r\nA general rule is that bases with pKa < 7 or acids with pKa > 7 cannot be determined accurately in aqueous solution.\r\nSubstances which are either too weakly basic or too weakly acidic to give sharp endpoints in aqueous solution can often be titrated in nonaqueous solvents. The reactions which occur during many nonaqueous titrations can be explained by means of the concepts of the Brønsted-Lowry theory. According to this theory an acid is a proton donor, i.e. a substance which tends to dissociate to yield a proton, and a base is proton acceptor, i.e. a substance which tends to combine with a proton. When an acid HB dissociates it yields a proton together with the conjugate base B of the acid:",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 1
+              },
+              {
+                "id": 71,
+                "sequence": 8,
+                "body": "nonaqueous3_image.jpg",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 2
+              },
+              {
+                "id": 72,
+                "sequence": 9,
+                "body": "Alternatively, the base B will combine with a proton to yield the conjugate acid HB of the base B, for every base has its conjugate acid and, every acid has its conjugate base.\r\nIt follows from these definitions that an acid may be either:\r\n•\tan electrically neutral molecule, e.g. HCl, or\r\n•\ta positively charged cation, e.g. C6H5NH3+, or\r\n•\ta negatively charged anion, e.g. HSO4−.\r\nA base may be either:\r\n•\tan electrically neutral molecule, e.g. C6H5NH2, or\r\n•\tan anion, e.g. Cl−.\r\nSubstances which are potentially acidic can function as acids only in the presence of a base to which they can donate a proton. Conversely basic properties do not become apparent unless an acid also is present.\r\nOrganic solvents\r\nVarious organic solvents may be used to replace water since they compete less effectively with the analyte for proton donation or acceptance.",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 1
+              }
+            ],
+            "sequence": 1,
+            "title": "Principles of Neutralization Titration",
+            "description": "",
+            "topic": 8
+          }
+        ],
+        "questions": [
+          {
+            "id": 42,
+            "choices": [
+              {
+                "id": 143,
+                "body": "True",
+                "question": 42,
+                "choice_type": 1
+              },
+              {
+                "id": 144,
+                "body": "False",
+                "question": 42,
+                "choice_type": 1
+              },
+              {
+                "id": 145,
+                "body": "None of the above",
+                "question": 42,
+                "choice_type": 1
+              }
+            ],
+            "question": "Organic solvents may be used to replace water since they compete less effectively with the analyte for proton donation or acceptance.",
+            "answer": "True",
+            "topic": 8,
+            "question_type": 1
+          },
+          {
+            "id": 43,
+            "choices": [
+              {
+                "id": 146,
+                "body": "Alkalimetry analysis",
+                "question": 43,
+                "choice_type": 1
+              },
+              {
+                "id": 147,
+                "body": "Nonaqueous solution",
+                "question": 43,
+                "choice_type": 1
+              },
+              {
+                "id": 148,
+                "body": "Aqueous solution",
+                "question": 43,
+                "choice_type": 1
+              },
+              {
+                "id": 149,
+                "body": "Acidimetry analysis",
+                "question": 43,
+                "choice_type": 1
+              }
+            ],
+            "question": "Is a solution in which the solvent is water.",
+            "answer": "Aqueous solution",
+            "topic": 8,
+            "question_type": 1
+          },
+          {
+            "id": 44,
+            "choices": [
+              {
+                "id": 150,
+                "body": "True",
+                "question": 44,
+                "choice_type": 1
+              },
+              {
+                "id": 151,
+                "body": "False",
+                "question": 44,
+                "choice_type": 1
+              },
+              {
+                "id": 152,
+                "body": "None of The Above",
+                "question": 44,
+                "choice_type": 1
+              }
+            ],
+            "question": "The word aqueous means pertaining to, related to, similar to, or dissolved in water.",
+            "answer": "True",
+            "topic": 8,
+            "question_type": 1
+          },
+          {
+            "id": 45,
+            "choices": [
+              {
+                "id": 153,
+                "body": "Water",
+                "question": 45,
+                "choice_type": 1
+              },
+              {
+                "id": 154,
+                "body": "Acid",
+                "question": 45,
+                "choice_type": 1
+              },
+              {
+                "id": 155,
+                "body": "hydrophobic",
+                "question": 45,
+                "choice_type": 1
+              },
+              {
+                "id": 156,
+                "body": "Alcohol",
+                "question": 45,
+                "choice_type": 1
+              }
+            ],
+            "question": "Is an excellent solvent and is also naturally abundant, it is a ubiquitous solvent in chemistry.",
+            "answer": "Water",
+            "topic": 8,
+            "question_type": 1
+          },
+          {
+            "id": 46,
+            "choices": [
+              {
+                "id": 157,
+                "body": "True",
+                "question": 46,
+                "choice_type": 1
+              },
+              {
+                "id": 158,
+                "body": "False",
+                "question": 46,
+                "choice_type": 1
+              },
+              {
+                "id": 159,
+                "body": "None of The Above",
+                "question": 46,
+                "choice_type": 1
+              }
+            ],
+            "question": "Alcohol and Acid are aqueous solutions, as part of their Arrhenius definitions.",
+            "answer": "False",
+            "topic": 8,
+            "question_type": 1
+          },
+          {
+            "id": 47,
+            "choices": [
+              {
+                "id": 160,
+                "body": "Methylsulfonylmethane",
+                "question": 47,
+                "choice_type": 1
+              },
+              {
+                "id": 161,
+                "body": "Aspirin",
+                "question": 47,
+                "choice_type": 1
+              },
+              {
+                "id": 162,
+                "body": "Acid",
+                "question": 47,
+                "choice_type": 1
+              },
+              {
+                "id": 163,
+                "body": "Alkoxides",
+                "question": 47,
+                "choice_type": 1
+              }
+            ],
+            "question": "Nonelectrolytes are substances that dissolve in water yet maintain their molecular integrity Examples include sugar, urea, glycerol, and _______.",
+            "answer": "Methylsulfonylmethane",
+            "topic": 8,
+            "question_type": 1
+          },
+          {
+            "id": 48,
+            "choices": [
+              {
+                "id": 164,
+                "body": "True",
+                "question": 48,
+                "choice_type": 1
+              },
+              {
+                "id": 165,
+                "body": "None of The Above",
+                "question": 48,
+                "choice_type": 1
+              },
+              {
+                "id": 166,
+                "body": "False",
+                "question": 48,
+                "choice_type": 1
+              }
+            ],
+            "question": "The theory is that water behaves as both a weak acid and a weak base.",
+            "answer": "True",
+            "topic": 8,
+            "question_type": 1
+          },
+          {
+            "id": 49,
+            "choices": [
+              {
+                "id": 167,
+                "body": "liquid",
+                "question": 49,
+                "choice_type": 1
+              },
+              {
+                "id": 168,
+                "body": "Aquatic",
+                "question": 49,
+                "choice_type": 1
+              },
+              {
+                "id": 169,
+                "body": "Aqueous",
+                "question": 49,
+                "choice_type": 1
+              },
+              {
+                "id": 170,
+                "body": "Nonaqueous",
+                "question": 49,
+                "choice_type": 1
+              }
+            ],
+            "question": "Is the titration of substances dissolved in solvents other than water.",
+            "answer": "Nonaqueous",
+            "topic": 8,
+            "question_type": 1
+          },
+          {
+            "id": 50,
+            "choices": [
+              {
+                "id": 171,
+                "body": "Organic solvents",
+                "question": 50,
+                "choice_type": 1
+              },
+              {
+                "id": 172,
+                "body": "Nonorganic solvents",
+                "question": 50,
+                "choice_type": 1
+              },
+              {
+                "id": 173,
+                "body": "Solvents",
+                "question": 50,
+                "choice_type": 1
+              },
+              {
+                "id": 178,
+                "body": "Analyte",
+                "question": 50,
+                "choice_type": 1
+              }
+            ],
+            "question": "Used to replace water since they compete less effectively with the analyte for proton donation or acceptance.",
+            "answer": "Organic solvents",
+            "topic": 8,
+            "question_type": 1
+          },
+          {
+            "id": 51,
+            "choices": [
+              {
+                "id": 174,
+                "body": "Weak acid,weak base",
+                "question": 51,
+                "choice_type": 1
+              },
+              {
+                "id": 175,
+                "body": "Liquid,solid",
+                "question": 51,
+                "choice_type": 1
+              },
+              {
+                "id": 176,
+                "body": "Organic,nonorganic",
+                "question": 51,
+                "choice_type": 1
+              },
+              {
+                "id": 177,
+                "body": "Positive,negative",
+                "question": 51,
+                "choice_type": 1
+              }
+            ],
+            "question": "The theory is that water behaves as both a _____ and a _________.",
+            "answer": "Weak acid,weak base",
+            "topic": 8,
+            "question_type": 1
+          }
+        ],
+        "sequence": 4,
+        "title": "Volumetric Method: Neutralization",
+        "description": "--",
+        "objective": "The student can Explain the principles of Neutralization",
+        "image": "topic3_img",
+        "term": 1
+      },
+      {
+        "id": 10,
+        "lessons": [
+          {
+            "id": 13,
+            "lessondetails": [
+              {
+                "id": 19,
+                "sequence": 1,
+                "body": "Acidemetric\r\nAcidimetric, the direct or residual titrimetric analysis of bases using an accurately measured volume of acid, is supplied in the analytical control of a considerable number of official substances, both inorganic and organic.\r\n              Direct titration is conducted by introducing a standard acid solution gradually from a buret into a solution of the base being assayed until chemically equivalent amounts of each have reacted as shown by some change in properties of the mixture. Such an end point, which must be close to the stoichiometric point, is made evident by a change in the color of some indicator or by potentiometric means.\r\n              Residual titration is used whenever the end point of a direct titration deviates appreciably from the stoichiometric points for some reason; when the basic sample is insoluble in water and the rate of its reaction with the standard acid is relatively slow. In such a procedure, the basic sample is treated with an amount of standard acid known to be in excess of a chemically equivalent amount, and the excess acid is subsequently titrated with a standard base. The amount of standard acid which is chemically equivalent to the basic sample can be calculated simply by subtracting, from the total amount of standard acid employed, the amount of acid neutralized by the standard base in the back titration.",
+                "caption": "",
+                "lesson": 13,
+                "body_type": 1
+              },
+              {
+                "id": 20,
+                "sequence": 2,
+                "body": "acidmetry_image.jpg",
+                "caption": "",
+                "lesson": 13,
+                "body_type": 2
+              },
+              {
+                "id": 73,
+                "sequence": 3,
+                "body": "The Kjeldahl method's universality, precision and reproducibility have made it the internationally recognized method for estimating the protein content in foods and it is the standard method against which all other methods are judged. It is also used to assay soils, waste waters, fertilizers and other materials. It does not, however, give a measure of true protein content, as it measures non protein nitrogen in addition to the nitrogen in proteins. This is evidenced by the 2007 pet food incident and the 2008 Chinese milk powder scandal, when melamine, a nitrogen-rich chemical, was added to raw materials to fake high protein contents. Also, different correction factors are needed for different proteins to account for different amino acid sequences. Additional disadvantages, such as the need to use concentrated sulfuric acid at high temperature and the relatively long testing time (an hour or more), compare unfavorably with the Dumas method for measuring crude protein content.",
+                "caption": "",
+                "lesson": 13,
+                "body_type": 1
+              }
+            ],
+            "sequence": 1,
+            "title": "Acidmetry",
+            "description": "",
+            "topic": 10
+          },
+          {
+            "id": 14,
+            "lessondetails": [
+              {
+                "id": 21,
+                "sequence": 1,
+                "body": "Alkalimetry is the specialized analytic use of acid-base titration to determine the concentration of a basic (synonymous to alkaline) substance.\r\nAcids are estimated quantitatively by methods analogous to those employed for the quantitative estimation of bases, by directly titrating an exact quantity of the acid, acid salt, or other acidic substance with standard alkali solutions or by adding an excess of the latter and determining the amount in excess by residual titration with standard acid solution. Direct titration is employed when ever practicable, since it requires only one standard solution, the standard base, and fewer measurements of volume.",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 22,
+                "sequence": 2,
+                "body": "The equations and methods below assume that the concentration of the acid and base are at least 1000 times greater than the  Kα of the acid. \r\n1. The initial pH is approximated for a weak acid solution in water using the equation",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 23,
+                "sequence": 9,
+                "body": "3. At the equivalence point, the weak acid is consumed and converted to its conjugate base. The pH will be greater than 7 and can be calculated from an equation derived from the following relationships:\r\n1.\tpH + pOH = 14\r\n2.\tKaKb = 10−14\r\n3.\tat equivalence CaVa = CbVb\r\nThe previous 3 relationships are used to generate the equivalence point pH formula below:",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 24,
+                "sequence": 12,
+                "body": "4.\tAfter the equivalence point, the solution will contain two bases: the conjugate base of the acid and the strong base of the titrant. However, the base of the titrant is stronger than the conjugate base of the acid. Therefore, the pH in this region is controlled by the strong base. As such the pH can be found using the following:",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 79,
+                "sequence": 3,
+                "body": "alkalimetry1_image.jpg",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 2
+              },
+              {
+                "id": 80,
+                "sequence": 4,
+                "body": "where Ka is the dissociation constant and F is the concentration of the acid.\r\n\r\n2. The pH before the equivalence point depends on the amount of weak acid remaining and the amount of conjugate base formed. The pH can be calculated by the following formula (which is a variation of the Henderson-Hasselbalch equation):",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 81,
+                "sequence": 5,
+                "body": "alkalimetry2_image.jpg",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 2
+              },
+              {
+                "id": 82,
+                "sequence": 6,
+                "body": "where:\r\n•\tpKa is the negative log of the acid dissociation constant of the weak acid.\r\n•\tnOH- added is the number of moles of added strong base in the solution.\r\n•\tnHA initial is the number of moles the weak acid initially present.\r\nWhen the numerator of the log term equals the denominator",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 83,
+                "sequence": 7,
+                "body": "alkametry3_image.jpg",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 2
+              },
+              {
+                "id": 84,
+                "sequence": 8,
+                "body": "then the ratio goes to 1 and the log term goes to zero. Thus the pH will equal the pKa which occurs half-way to the equivalence point.",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 85,
+                "sequence": 10,
+                "body": "alkalimetry4_image.jpg",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 2
+              },
+              {
+                "id": 86,
+                "sequence": 11,
+                "body": "•\tCa = concentration of acid and Cb = concentration of base\r\n•\tKw = dissociation constant for water and Ka = for the acid\r\nNote that when an acid neutralizes a base, the pH may or may not be neutral (pH = 7). The pH depends on the strengths of the acid and base.",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 87,
+                "sequence": 13,
+                "body": "alkatimetry5_image.jpg",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 2
+              },
+              {
+                "id": 88,
+                "sequence": 14,
+                "body": "•\tφ = fraction of completion of the titration (φ < 1 is before the equivalence point, φ = 1 is the equivalence point, and φ > 1 is after the equivalence point)\r\n•\tCa, Cb = the concentrations of the acid and base respectively\r\n•\tVa, Vb = the volumes of the acid and base respectively\r\n•\tαA- = the fraction of the weak acid that is ionized\r\n•\tKa = the dissociation constant for the acid\r\n•\t[H+], [OH−] = concentrations of the H+ and OH− ions respectively",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              }
+            ],
+            "sequence": 2,
+            "title": "Alkalimetry",
+            "description": "",
+            "topic": 10
+          }
+        ],
+        "questions": [
+          {
+            "id": 52,
+            "choices": [
+              {
+                "id": 179,
+                "body": "Fajans",
+                "question": 52,
+                "choice_type": 1
+              },
+              {
+                "id": 180,
+                "body": "Kjeldahl",
+                "question": 52,
+                "choice_type": 1
+              },
+              {
+                "id": 181,
+                "body": "Mohr",
+                "question": 52,
+                "choice_type": 1
+              },
+              {
+                "id": 182,
+                "body": "Volhard",
+                "question": 52,
+                "choice_type": 1
+              }
+            ],
+            "question": "Recognized method for estimating the protein content in foods and it is the standard method against which all other methods are judged.",
+            "answer": "Kjeldahl",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 53,
+            "choices": [
+              {
+                "id": 183,
+                "body": "Direct reaction",
+                "question": 53,
+                "choice_type": 1
+              },
+              {
+                "id": 184,
+                "body": "Stoichometric titration",
+                "question": 53,
+                "choice_type": 1
+              },
+              {
+                "id": 185,
+                "body": "Residual titration",
+                "question": 53,
+                "choice_type": 1
+              },
+              {
+                "id": 186,
+                "body": "Water reaction",
+                "question": 53,
+                "choice_type": 1
+              }
+            ],
+            "question": "used whenever the end point of a direct titration deviates appreciably from the stoichiometric points for some reason; when the basic sample is insoluble in water and the rate of its reaction with the standard acid is relatively slow.",
+            "answer": "Residual titration",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 54,
+            "choices": [
+              {
+                "id": 187,
+                "body": "True",
+                "question": 54,
+                "choice_type": 1
+              },
+              {
+                "id": 188,
+                "body": "False",
+                "question": 54,
+                "choice_type": 1
+              },
+              {
+                "id": 189,
+                "body": "None of the above",
+                "question": 54,
+                "choice_type": 1
+              }
+            ],
+            "question": "The Kjeldahl method's universality, precision and reproducibility have made it the internationally recognized method for estimating the protein content in foods and it is the standard method against which all other methods are judged.",
+            "answer": "True",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 55,
+            "choices": [
+              {
+                "id": 190,
+                "body": "Titration",
+                "question": 55,
+                "choice_type": 1
+              },
+              {
+                "id": 191,
+                "body": "Acid solution",
+                "question": 55,
+                "choice_type": 1
+              },
+              {
+                "id": 192,
+                "body": "Direct titration",
+                "question": 55,
+                "choice_type": 1
+              },
+              {
+                "id": 193,
+                "body": "Indirect solution",
+                "question": 55,
+                "choice_type": 1
+              }
+            ],
+            "question": "Conducted by introducing a standard acid solution gradually from a buret into a solution of the base being assayed until chemically equivalent amounts of each have reacted as shown by some change in properties of the mixture.",
+            "answer": "Direct titration",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 56,
+            "choices": [
+              {
+                "id": 194,
+                "body": "Aqueous,  Nonaqueous",
+                "question": 56,
+                "choice_type": 1
+              },
+              {
+                "id": 195,
+                "body": "Metal, Nonmetal",
+                "question": 56,
+                "choice_type": 1
+              },
+              {
+                "id": 196,
+                "body": "Liquid, Solid",
+                "question": 56,
+                "choice_type": 1
+              },
+              {
+                "id": 197,
+                "body": "Inorganic, Organic.",
+                "question": 56,
+                "choice_type": 1
+              }
+            ],
+            "question": "Acidimetric, the direct or residual titrimetric analysis of bases using an accurately measured volume of acid, is supplied in the analytical control of a considerable number of official substances, both ______and ______.",
+            "answer": "Inorganic, Organic.",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 57,
+            "choices": [
+              {
+                "id": 198,
+                "body": "nHA initial",
+                "question": 57,
+                "choice_type": 1
+              },
+              {
+                "id": 199,
+                "body": "nOH- added",
+                "question": 57,
+                "choice_type": 1
+              },
+              {
+                "id": 200,
+                "body": "Ca",
+                "question": 57,
+                "choice_type": 1
+              },
+              {
+                "id": 201,
+                "body": "pKa",
+                "question": 57,
+                "choice_type": 1
+              }
+            ],
+            "question": "Is the negative log of the acid dissociation constant of the weak acid.",
+            "answer": "pKa",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 58,
+            "choices": [
+              {
+                "id": 202,
+                "body": "Titration",
+                "question": 58,
+                "choice_type": 1
+              },
+              {
+                "id": 203,
+                "body": "Acid base",
+                "question": 58,
+                "choice_type": 1
+              },
+              {
+                "id": 204,
+                "body": "Alkalimetry",
+                "question": 58,
+                "choice_type": 1
+              },
+              {
+                "id": 205,
+                "body": "Acidimetry",
+                "question": 58,
+                "choice_type": 1
+              }
+            ],
+            "question": "The specialized analytic use of acid-base titration to determine the concentration of a basic (synonymous to alkaline) substance.",
+            "answer": "Alkalimetry",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 59,
+            "choices": [
+              {
+                "id": 206,
+                "body": "True",
+                "question": 59,
+                "choice_type": 1
+              },
+              {
+                "id": 207,
+                "body": "False",
+                "question": 59,
+                "choice_type": 1
+              },
+              {
+                "id": 208,
+                "body": "none of the above",
+                "question": 59,
+                "choice_type": 1
+              }
+            ],
+            "question": "nHA initial  is the number of moles of added strong base in the solution.",
+            "answer": "False",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 60,
+            "choices": [
+              {
+                "id": 209,
+                "body": "Single formula",
+                "question": 60,
+                "choice_type": 1
+              },
+              {
+                "id": 210,
+                "body": "Weak titration",
+                "question": 60,
+                "choice_type": 1
+              },
+              {
+                "id": 211,
+                "body": "Double formula",
+                "question": 60,
+                "choice_type": 1
+              },
+              {
+                "id": 212,
+                "body": "Acid base",
+                "question": 60,
+                "choice_type": 1
+              }
+            ],
+            "question": "Describes the titration of a weak acid with a strong base from start to finish.",
+            "answer": "Single formula",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 61,
+            "choices": [
+              {
+                "id": 213,
+                "body": "id61_choice.jpg",
+                "question": 61,
+                "choice_type": 2
+              },
+              {
+                "id": 214,
+                "body": "id61_choices2.JPG",
+                "question": 61,
+                "choice_type": 2
+              },
+              {
+                "id": 215,
+                "body": "id61_choices3.jpg",
+                "question": 61,
+                "choice_type": 2
+              },
+              {
+                "id": 216,
+                "body": "id61_choices4",
+                "question": 61,
+                "choice_type": 2
+              }
+            ],
+            "question": "The initial pH is approximated for a weak acid solution in water using the equation.",
+            "answer": "pH = - log √(Ka F)",
+            "topic": 10,
+            "question_type": 1
+          },
+          {
+            "id": 67,
+            "choices": [
+              {
+                "id": 234,
+                "body": "True",
+                "question": 67,
+                "choice_type": 1
+              },
+              {
+                "id": 235,
+                "body": "False",
+                "question": 67,
+                "choice_type": 1
+              },
+              {
+                "id": 236,
+                "body": "None of the above",
+                "question": 67,
+                "choice_type": 1
+              }
+            ],
+            "question": "Fajans Method Fluorescein and its derivatives are adsorbed to the surface of colloidal AgCl.",
+            "answer": "True",
+            "topic": 10,
+            "question_type": 1
+          }
+        ],
+        "sequence": 6,
+        "title": "Divisions of Neutralization Titration",
+        "description": "--",
+        "objective": "The student aims to describe Official Drugs Assayed using Neutralization titration",
+        "image": "topic4_img",
+        "term": 1
+      }
+    ],
+    "code": "P",
+    "title": "Prelim",
+    "objective": "In the Prelim week of the course the student are expected to: Define the function of Quality Control about drug analysis. Demonstrate the different divisions of volumetric analysis, explain the principles of volumetric. Explain the principles of neutralization titration, Differentiate the aqueous from non-aqueous titration Official Drugs assayed using neutralization titration.",
+    "sequence": 1
+  },
+  {
+    "id": 2,
+    "topics": [
+      {
+        "id": 11,
+        "lessons": [
+          {
+            "id": 16,
+            "lessondetails": [
+              {
+                "id": 28,
+                "sequence": 1,
+                "body": "Methods of Precipitation Titration\r\n      According to end point detection method, three main procedures are widely used depending on the type of application. These are :\r\n-\tMohr method \r\n-\tVolhard’s method \r\n-\tFajan’s method",
+                "caption": "",
+                "lesson": 16,
+                "body_type": 1
+              },
+              {
+                "id": 29,
+                "sequence": 2,
+                "body": "\tMohr Method :\r\nThis method utilizes chromate as an indicator.  Chromate forms a precipilate with Ag+ but this precipitate has a greater solubility than that of AgCl, for example. Therefore, AgCl is formed first and after all Cl- is consumed, the first drop of Ag+ in excess will react with the chromate indicator giving a reddish precipitate.\r\n\t 2 Ag+  +  CrO42-      Ag2CrO4 \t\t\t\t\t\t\t\t\t\t\t\t\t\r\nIn this method, neutral medium should be used since, in alkaline solutions, silver will react with the hydroxide  ions forming AgOH. In acidic solutions, chromate will be converted to dichromate. Therefore, the pH of solution should be kept at about 7. There is always some error in this method because a dilule chromate solution is used due to the intense color of the indicator.  This will require additional amount of  Ag+ for the  Ag2CrO4  to form.",
+                "caption": "",
+                "lesson": 16,
+                "body_type": 1
+              },
+              {
+                "id": 30,
+                "sequence": 4,
+                "body": "\tVolhard Method :\r\nThis is an indirect method for chloride determination where an excess amount of standard Ag+ is added to the chloride solution containing  Fe3+ as an indicator. The excess  Ag+ is then titrated with standard SCN- solution untill a red color is obtained which results from the reaction:\r\n Fe3+ + SCN-     Fe(SCN)2+\t\t\t\t\t\r\nThe indicator system is very sensitive and usually good results are obtained.  The medium should be acidic to avoid the formation of  Fe(OH)3 \r\nHowever, the use of acidic medium together with added SCN- titrant increase the solubility of the precipitate leading to significant errors.  This problem had been overcome by two main procedures.",
+                "caption": "",
+                "lesson": 16,
+                "body_type": 1
+              },
+              {
+                "id": 31,
+                "sequence": 6,
+                "body": "\tFajans Method : \r\nFluorescein and its derivatives are adsorbed to the surface of colloidal AgCl. After all chloride is used, the first drop of Ag+ will react with fluorescein  (FI-) forming a reddish color.\r\nAg+  +  FI-     AgF\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\r\n      Among these methods, the Volhard Method is widely used because we can detect the end point of precepitation titration very well.",
+                "caption": "",
+                "lesson": 16,
+                "body_type": 1
+              },
+              {
+                "id": 32,
+                "sequence": 8,
+                "body": "Limitations of Precipitation Titration\r\n\tA few number of ions such as halide ions   (Cl-, Br-, l-) can be titrated by precipitation method.\r\n\t Co-precipitation may be occurred.\r\n\t It is very difficult to detect the end point.",
+                "caption": "",
+                "lesson": 16,
+                "body_type": 1
+              },
+              {
+                "id": 89,
+                "sequence": 3,
+                "body": "differentmethods1_image.jpg",
+                "caption": "",
+                "lesson": 16,
+                "body_type": 2
+              },
+              {
+                "id": 90,
+                "sequence": 5,
+                "body": "differentmethods2_image.jpg",
+                "caption": "",
+                "lesson": 16,
+                "body_type": 2
+              },
+              {
+                "id": 91,
+                "sequence": 7,
+                "body": "differentmethods3_image.jpg",
+                "caption": "",
+                "lesson": 16,
+                "body_type": 2
+              }
+            ],
+            "sequence": 2,
+            "title": "Different Methods",
+            "description": "",
+            "topic": 11
+          },
+          {
+            "id": 29,
+            "lessondetails": [
+              {
+                "id": 25,
+                "sequence": 1,
+                "body": "Precipitation Titration\r\nA special type of titrimetric procedure involves the formation of precipitates during the course of titration. The titrant react with the analyte forming an insoluble material and the titration continues till the very last amount of analyte is consumed. The first drop of titrant in excess will react with an indicator resulting in a color change and announcing the termination of the titration.\r\n    Example : AgNO3 + NaCl  AgCl + NaNO3",
+                "caption": "",
+                "lesson": 29,
+                "body_type": 1
+              },
+              {
+                "id": 26,
+                "sequence": 2,
+                "body": "Characteristics of Precipitation Titration\r\n\tThey are fast and the stoichiometry is known and reproducibile, (no secondary reactions of interference.)\r\n\t They are complete or can be quantified depending on the amount of solubility product (in general a precipitation titration is considered complete when Kps < 10-8)\r\n\t An indicator can be used to find the equivalence point or titration end point which, for this type of titration, corresponds to when precipitation of the analyte under analysis is complete.",
+                "caption": "",
+                "lesson": 29,
+                "body_type": 1
+              },
+              {
+                "id": 27,
+                "sequence": 3,
+                "body": "Principle of Precipitation Titration\r\n      The main principle of the precipitation titrations is that the quantity of the added precipitating reagent or precipitant is equivalent to the substance being precipitated.",
+                "caption": "",
+                "lesson": 29,
+                "body_type": 1
+              }
+            ],
+            "sequence": 1,
+            "title": "Precipitation Titration",
+            "description": "",
+            "topic": 11
+          }
+        ],
+        "questions": [
+          {
+            "id": 62,
+            "choices": [
+              {
+                "id": 217,
+                "body": "True",
+                "question": 62,
+                "choice_type": 1
+              },
+              {
+                "id": 218,
+                "body": "False",
+                "question": 62,
+                "choice_type": 1
+              },
+              {
+                "id": 219,
+                "body": "None of the above",
+                "question": 62,
+                "choice_type": 1
+              }
+            ],
+            "question": "Volhard method utilizes chromate as an indicator.  Chromate forms a precipilate with Ag+ but this precipitate has a greater solubility than that of AgCl.",
+            "answer": "False",
+            "topic": 11,
+            "question_type": 1
+          },
+          {
+            "id": 63,
+            "choices": [
+              {
+                "id": 220,
+                "body": "Mohr method",
+                "question": 63,
+                "choice_type": 1
+              },
+              {
+                "id": 221,
+                "body": "Volhard’s method",
+                "question": 63,
+                "choice_type": 1
+              },
+              {
+                "id": 222,
+                "body": "Austin method",
+                "question": 63,
+                "choice_type": 1
+              },
+              {
+                "id": 223,
+                "body": "Fajan’s method",
+                "question": 63,
+                "choice_type": 1
+              }
+            ],
+            "question": "Fluorescein and its derivatives are adsorbed to the surface of colloidal AgCl.",
+            "answer": "Fajan’s method",
+            "topic": 11,
+            "question_type": 1
+          },
+          {
+            "id": 64,
+            "choices": [
+              {
+                "id": 224,
+                "body": "Three",
+                "question": 64,
+                "choice_type": 1
+              },
+              {
+                "id": 225,
+                "body": "Two",
+                "question": 64,
+                "choice_type": 1
+              },
+              {
+                "id": 226,
+                "body": "None of the above",
+                "question": 64,
+                "choice_type": 1
+              }
+            ],
+            "question": "According to end point detection method, ____ main procedures are widely used depending on the type of application.",
+            "answer": "Three",
+            "topic": 11,
+            "question_type": 1
+          },
+          {
+            "id": 65,
+            "choices": [
+              {
+                "id": 227,
+                "body": "True",
+                "question": 65,
+                "choice_type": 1
+              },
+              {
+                "id": 228,
+                "body": "False",
+                "question": 65,
+                "choice_type": 1
+              },
+              {
+                "id": 229,
+                "body": "None of the above",
+                "question": 65,
+                "choice_type": 1
+              }
+            ],
+            "question": "The titrant react with the analyte forming an insoluble material and the titration continues till the very last amount of analyte is consumed.",
+            "answer": "True",
+            "topic": 11,
+            "question_type": 1
+          },
+          {
+            "id": 66,
+            "choices": [
+              {
+                "id": 230,
+                "body": "Mohr method",
+                "question": 66,
+                "choice_type": 1
+              },
+              {
+                "id": 231,
+                "body": "Volhard’s method",
+                "question": 66,
+                "choice_type": 1
+              },
+              {
+                "id": 232,
+                "body": "Austin method",
+                "question": 66,
+                "choice_type": 1
+              },
+              {
+                "id": 233,
+                "body": "Fajan’s method",
+                "question": 66,
+                "choice_type": 1
+              }
+            ],
+            "question": "There are three main procedures are widely used depending on the type of application EXCEPT:",
+            "answer": "Austin method",
+            "topic": 11,
+            "question_type": 1
+          },
+          {
+            "id": 68,
+            "choices": [
+              {
+                "id": 237,
+                "body": "Mohr method",
+                "question": 68,
+                "choice_type": 1
+              },
+              {
+                "id": 238,
+                "body": "Volhard’s method",
+                "question": 68,
+                "choice_type": 1
+              },
+              {
+                "id": 239,
+                "body": "Austin method",
+                "question": 68,
+                "choice_type": 1
+              },
+              {
+                "id": 240,
+                "body": "Fajan’s method",
+                "question": 68,
+                "choice_type": 1
+              }
+            ],
+            "question": "This method utilizes chromate as an indicator.  Chromate forms a precipilate with Ag+ but this precipitate has a greater solubility than that of AgCl, for example.",
+            "answer": "Mohr method",
+            "topic": 11,
+            "question_type": 1
+          },
+          {
+            "id": 69,
+            "choices": [
+              {
+                "id": 241,
+                "body": "Mohr method",
+                "question": 69,
+                "choice_type": 1
+              },
+              {
+                "id": 242,
+                "body": "Volhard’s method",
+                "question": 69,
+                "choice_type": 1
+              },
+              {
+                "id": 243,
+                "body": "Austin method",
+                "question": 69,
+                "choice_type": 1
+              },
+              {
+                "id": 244,
+                "body": "Fajan’s method",
+                "question": 69,
+                "choice_type": 1
+              }
+            ],
+            "question": "This is an indirect method for chloride determination where an excess amount of standard Ag+ is added to the chloride solution containing  Fe3+ as an indicator.",
+            "answer": "Volhard’s method",
+            "topic": 11,
+            "question_type": 1
+          },
+          {
+            "id": 70,
+            "choices": [
+              {
+                "id": 245,
+                "body": "True",
+                "question": 70,
+                "choice_type": 1
+              },
+              {
+                "id": 246,
+                "body": "False",
+                "question": 70,
+                "choice_type": 1
+              },
+              {
+                "id": 247,
+                "body": "None of the above",
+                "question": 70,
+                "choice_type": 1
+              }
+            ],
+            "question": "The titrant react with the analyte forming an insoluble material and the titration continues till the very last amount of analyte is consumed.",
+            "answer": "Volhard’s method",
+            "topic": 11,
+            "question_type": 1
+          },
+          {
+            "id": 71,
+            "choices": [
+              {
+                "id": 248,
+                "body": "True",
+                "question": 71,
+                "choice_type": 1
+              },
+              {
+                "id": 249,
+                "body": "False",
+                "question": 71,
+                "choice_type": 1
+              },
+              {
+                "id": 250,
+                "body": "None of the above",
+                "question": 71,
+                "choice_type": 1
+              }
+            ],
+            "question": "Mohr Method determination where an excess amount of standard Ag+ is added to the chloride solution containing  Fe3+ as an indicator.",
+            "answer": "False",
+            "topic": 11,
+            "question_type": 1
+          }
+        ],
+        "sequence": 1,
+        "title": "Precipitation Titration",
+        "description": "--",
+        "objective": "The student can Identify the Different methods applied in Precipitation Titration; Explain the Principle of Precipitation Titration",
+        "image": "topic5_img",
+        "term": 2
+      },
+      {
+        "id": 12,
+        "lessons": [
+          {
+            "id": 17,
+            "lessondetails": [
+              {
+                "id": 36,
+                "sequence": 1,
+                "body": "edta1_image.jpg",
+                "caption": "Edta1_image.jpg",
+                "lesson": 17,
+                "body_type": 2
+              },
+              {
+                "id": 37,
+                "sequence": 3,
+                "body": "•\tEDTA is the most commonly used chelating agents as it can form complexes with a wide range of metals.\r\n• The ability of EDTA to complex is dependent on its form. The most desirable state is the Y4- form.\r\n•\tAs the pH increases, more EDTA becomes Y4-.",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 1
+              },
+              {
+                "id": 38,
+                "sequence": 7,
+                "body": "Equilibrium Concentrations\r\n• Again we must consider equilibrium reactions and concentrations in analysis using complexation.\r\n• Equilibrium constants are referred to as formation constants, Kf.\r\n• For simple complexes (1:1) we can make some similar assumptions and generate similar equations as we did for monoprotic acids\r\n• For more complex systems we must deal with step-wise formations and step-wise formation constants.",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 1
+              },
+              {
+                "id": 39,
+                "sequence": 8,
+                "body": "EDTA titrations\r\n \r\n1. Before the equivalence point there is excess M in solution.\r\n2. At the equivalence point, treated as dissolving pure MY complex.\r\n3. After equivalence there is excess EDTA.",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 1
+              },
+              {
+                "id": 40,
+                "sequence": 9,
+                "body": "Indicators\r\n• The most common indicator is the metal ion indicator\r\n•\tTo be useful must bind less strongly than EDTA\r\n•\tThe most common indicator is Eriochrome black T. EBT binds to metal ions to give a red color. Upon release of the metal to EDTA, it becomes blue\r\n• Can use ion specific electrodes and/or mercury electrodes. Both of these are more expensive and time consuming.\r\n\r\nSometimes there is not a strong reaction between EBT and the metal. This can be overcome by a displacement titration. The solution begins with the Mg2+ complexed with EDTA. The analyte is added (assuming higher binding constant and lower concentration) and the Mg2+ is displaced. The Mg2+ is titrated with EBT.\r\nA second way to overcome titrations with weak end points is to do a back titration. In a back titration, excess EDTA is added to the sample solution. The excess is then titrated with a standard Mg or Zn solution \r\nEDTA is a widely applicable complexing agent as it will complex with almost any metal. This can be a problem if selectivity is desired however.\r\nSelectivity can be controlled through pH.",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 1
+              },
+              {
+                "id": 66,
+                "sequence": 2,
+                "body": "edta2_image.jpg",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 2
+              },
+              {
+                "id": 92,
+                "sequence": 4,
+                "body": "edta3_image.jpg",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 2
+              },
+              {
+                "id": 93,
+                "sequence": 5,
+                "body": "The formation constant for metal-EDTA\r\ncomplexes is:",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 1
+              },
+              {
+                "id": 94,
+                "sequence": 6,
+                "body": "edta4_image.jpg",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 2
+              },
+              {
+                "id": 95,
+                "sequence": 10,
+                "body": "edta5_image.jpg",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 2
+              },
+              {
+                "id": 96,
+                "sequence": 11,
+                "body": "A second method for adding selectivity is to add a competing reagent called a masking agent.\r\nA masking reagent reacts with one of the species and allows titration of the second. This can be applied to a simple binary mixture or to a more complex mixture.\r\nFor example, if NH3 is used as a buffer, Cd2+ can be titrated in the presence of Zn2+.",
+                "caption": "",
+                "lesson": 17,
+                "body_type": 1
+              }
+            ],
+            "sequence": 2,
+            "title": "EDTA Titrations",
+            "description": "",
+            "topic": 12
+          },
+          {
+            "id": 30,
+            "lessondetails": [
+              {
+                "id": 33,
+                "sequence": 1,
+                "body": "Complex Formation Titration\r\n\r\nComplexation Reaction: A reaction between two species having a well-defined stoichiometry. The resulting bond is not permanent from a covalent standpoint.\r\n Complex: The resulting structure formed during a complexation reaction. \r\nCoordination Center: Metal ion in a complex (Lewis acid) Ligand: The species that complexes the metal center. A single species can form one or more bonds with a single coordination center (Lewis base)\r\nCoordination Number: Number of ligand bonds formed around the coordination center. \r\nChelate: Ligands that form multiple bonds (multidentate; bi, tri, tetra, penta)",
+                "caption": "",
+                "lesson": 30,
+                "body_type": 1
+              },
+              {
+                "id": 34,
+                "sequence": 2,
+                "body": "Complex Formation Titration\r\nVolumetric method involves reaction of metal with ligand to form complex",
+                "caption": "",
+                "lesson": 30,
+                "body_type": 1
+              },
+              {
+                "id": 35,
+                "sequence": 7,
+                "body": "complex3_image.jpg",
+                "caption": "complex3_image.jpg",
+                "lesson": 30,
+                "body_type": 2
+              },
+              {
+                "id": 97,
+                "sequence": 3,
+                "body": "complex1_image.jpg",
+                "caption": "",
+                "lesson": 30,
+                "body_type": 2
+              },
+              {
+                "id": 98,
+                "sequence": 4,
+                "body": "Complex formation is a type of acid base reaction according to lewis concept, where metal ion is lewis acid (electron acceptor) and ligand is lewis base electron donor.",
+                "caption": "",
+                "lesson": 30,
+                "body_type": 1
+              },
+              {
+                "id": 99,
+                "sequence": 5,
+                "body": "complex2_image.jpg",
+                "caption": "",
+                "lesson": 30,
+                "body_type": 2
+              },
+              {
+                "id": 100,
+                "sequence": 6,
+                "body": "•\tThe tendency to form complex is inherent property in all metals\r\n•\tTherefore Metals form with water Aqua complex (solvated metal ion) as oxygen of water donate electrons to metal ions",
+                "caption": "",
+                "lesson": 30,
+                "body_type": 1
+              }
+            ],
+            "sequence": 1,
+            "title": "Complex Formation Titrations",
+            "description": "",
+            "topic": 12
+          }
+        ],
+        "questions": [
+          {
+            "id": 72,
+            "choices": [
+              {
+                "id": 251,
+                "body": "Complex formation",
+                "question": 72,
+                "choice_type": 1
+              },
+              {
+                "id": 252,
+                "body": "Chelate",
+                "question": 72,
+                "choice_type": 1
+              },
+              {
+                "id": 253,
+                "body": "Coordination Number",
+                "question": 72,
+                "choice_type": 1
+              },
+              {
+                "id": 254,
+                "body": "Complexation Reaction",
+                "question": 72,
+                "choice_type": 1
+              }
+            ],
+            "question": "Is a type of acid base reaction according to lewis concept, where metal ion is lewis acid (electron acceptor) and ligand is lewis base electron donor.",
+            "answer": "Complex formation",
+            "topic": 12,
+            "question_type": 1
+          },
+          {
+            "id": 73,
+            "choices": [
+              {
+                "id": 255,
+                "body": "True",
+                "question": 73,
+                "choice_type": 1
+              },
+              {
+                "id": 256,
+                "body": "False",
+                "question": 73,
+                "choice_type": 1
+              },
+              {
+                "id": 257,
+                "body": "None of the above",
+                "question": 73,
+                "choice_type": 1
+              }
+            ],
+            "question": "A masking reagent reacts with one of the species and allows titration of the second.",
+            "answer": "True",
+            "topic": 12,
+            "question_type": 1
+          },
+          {
+            "id": 74,
+            "choices": [
+              {
+                "id": 258,
+                "body": "Chelate",
+                "question": 74,
+                "choice_type": 1
+              },
+              {
+                "id": 259,
+                "body": "EDTA",
+                "question": 74,
+                "choice_type": 1
+              },
+              {
+                "id": 260,
+                "body": "Complex",
+                "question": 74,
+                "choice_type": 1
+              },
+              {
+                "id": 261,
+                "body": "Legends",
+                "question": 74,
+                "choice_type": 1
+              }
+            ],
+            "question": "Ligands that form multiple bonds (multidentate; bi, tri, tetra, penta)",
+            "answer": "Chelate",
+            "topic": 12,
+            "question_type": 1
+          },
+          {
+            "id": 75,
+            "choices": [
+              {
+                "id": 262,
+                "body": "True",
+                "question": 75,
+                "choice_type": 1
+              },
+              {
+                "id": 263,
+                "body": "False",
+                "question": 75,
+                "choice_type": 1
+              },
+              {
+                "id": 264,
+                "body": "False",
+                "question": 75,
+                "choice_type": 1
+              },
+              {
+                "id": 265,
+                "body": "None of the above",
+                "question": 75,
+                "choice_type": 1
+              }
+            ],
+            "question": "Chelate number of ligand bonds formed around the coordination center.",
+            "answer": "False",
+            "topic": 12,
+            "question_type": 1
+          },
+          {
+            "id": 76,
+            "choices": [
+              {
+                "id": 266,
+                "body": "Complexation Reaction",
+                "question": 76,
+                "choice_type": 1
+              },
+              {
+                "id": 267,
+                "body": "Coordination Number",
+                "question": 76,
+                "choice_type": 1
+              },
+              {
+                "id": 268,
+                "body": "EDTA",
+                "question": 76,
+                "choice_type": 1
+              },
+              {
+                "id": 269,
+                "body": "Equilibrium Concentrations",
+                "question": 76,
+                "choice_type": 1
+              }
+            ],
+            "question": "A reaction between two species having a well-defined stoichiometry.",
+            "answer": "Complexation Reaction",
+            "topic": 12,
+            "question_type": 1
+          },
+          {
+            "id": 77,
+            "choices": [
+              {
+                "id": 270,
+                "body": "Coordination Center",
+                "question": 77,
+                "choice_type": 1
+              },
+              {
+                "id": 271,
+                "body": "Complexation Reaction",
+                "question": 77,
+                "choice_type": 1
+              },
+              {
+                "id": 272,
+                "body": "Coordination Number",
+                "question": 77,
+                "choice_type": 1
+              },
+              {
+                "id": 273,
+                "body": "Legends",
+                "question": 77,
+                "choice_type": 1
+              }
+            ],
+            "question": "Metal ion in a complex (Lewis acid) Ligand: The species that complexes the metal center.",
+            "answer": "Coordination Center",
+            "topic": 12,
+            "question_type": 1
+          },
+          {
+            "id": 78,
+            "choices": [
+              {
+                "id": 274,
+                "body": "True",
+                "question": 78,
+                "choice_type": 1
+              },
+              {
+                "id": 275,
+                "body": "False",
+                "question": 78,
+                "choice_type": 1
+              },
+              {
+                "id": 276,
+                "body": "None of the above",
+                "question": 78,
+                "choice_type": 1
+              }
+            ],
+            "question": "The Complex resulting structure formed during a complexation reaction.",
+            "answer": "True",
+            "topic": 12,
+            "question_type": 1
+          },
+          {
+            "id": 79,
+            "choices": [
+              {
+                "id": 277,
+                "body": "EDTA",
+                "question": 79,
+                "choice_type": 1
+              },
+              {
+                "id": 278,
+                "body": "PETA",
+                "question": 79,
+                "choice_type": 1
+              },
+              {
+                "id": 279,
+                "body": "TADE",
+                "question": 79,
+                "choice_type": 1
+              }
+            ],
+            "question": "_____ is a Secondary Standard.",
+            "answer": "EDTA",
+            "topic": 12,
+            "question_type": 1
+          },
+          {
+            "id": 80,
+            "choices": [
+              {
+                "id": 280,
+                "body": "None of the above",
+                "question": 80,
+                "choice_type": 1
+              },
+              {
+                "id": 281,
+                "body": "True",
+                "question": 80,
+                "choice_type": 1
+              },
+              {
+                "id": 282,
+                "body": "False",
+                "question": 80,
+                "choice_type": 1
+              }
+            ],
+            "question": "Equilibrium is the most commonly used chelating agents as it can form complexes with a wide range of metals.",
+            "answer": "False",
+            "topic": 12,
+            "question_type": 1
+          },
+          {
+            "id": 81,
+            "choices": [
+              {
+                "id": 283,
+                "body": "Masking agent",
+                "question": 81,
+                "choice_type": 1
+              },
+              {
+                "id": 284,
+                "body": "Masking method",
+                "question": 81,
+                "choice_type": 1
+              },
+              {
+                "id": 285,
+                "body": "complex mixture.",
+                "question": 81,
+                "choice_type": 1
+              },
+              {
+                "id": 286,
+                "body": "displacement titration",
+                "question": 81,
+                "choice_type": 1
+              }
+            ],
+            "question": "A second method for adding selectivity is to add a competing reagent called a_______.",
+            "answer": "Masking agent",
+            "topic": 12,
+            "question_type": 1
+          }
+        ],
+        "sequence": 2,
+        "title": "Complex Formation Titrations",
+        "description": "--",
+        "objective": "The Student aims to Explain the Principles  of Complex Formation Titration",
+        "image": "topic6_img",
+        "term": 2
+      },
+      {
+        "id": 14,
+        "lessons": [
+          {
+            "id": 19,
+            "lessondetails": [
+              {
+                "id": 41,
+                "sequence": 1,
+                "body": "Balancing Redox Reactions\r\nBalancing redox reactions is slightly more complex than balancing standard reactions, but still follows a relatively simple set of rules. One major difference is the necessity to know the half-reactions of the involved reactants; a half-reaction table is very useful for this.  Half-reactions are often useful in that two half reactions can be added to get a total net equation. Although the half-reactions must be known to complete a redox reaction, it is often possible to figure them out without having to use a half-reaction table. This is demonstrated in the acidic and basic solution examples. Besides the general rules for neutral conditions, additional rules must be applied for aqueous reactions in acidic or basic conditions.\r\nThe method used to balance redox reactions is called the Half Equation Method. In this method, the equation is separated into two half-equations; one for oxidation and one for reduction.\r\nEach equation is balanced by adjusting coefficients and adding H2O, H+, and e- in this order:\r\n1.\tBalance elements in the equation other than O and H.\r\n2.\tBalance the oxygen atoms by adding the appropriate number of water (H2O) molecules to the opposite side of the equation.\r\n3.\tBalance the hydrogen atoms (including those added in step 2 to balance the oxygen atom) by adding H+ ions to the opposite side of the equation.               \r\n4.\tAdd up the charges on each side. Make them equal by adding enough electrons (e-) to the more positive side. (Rule of thumb: e- and H+ are almost always on the same side.)\r\n5.\tThe e- on each side must be made equal; if they are not equal, they must be multiplied by appropriate integers (the lowest common multiple) to be made the same.\r\n6.\tThe half-equations are added together, canceling out the electrons to form one balanced equation. Common terms should also be canceled out.\r\n7.\t(If the equation is being balanced in a basic solution, through the addition of one more step, the appropriate number of OH- must be added to turn the remaining H+ into water molecules.)\r\n8.\tThe equation can now be checked to make sure that it is balanced.",
+                "caption": "",
+                "lesson": 19,
+                "body_type": 1
+              },
+              {
+                "id": 48,
+                "sequence": 2,
+                "body": "Balancing Redox Reactions\r\nOxidation-Reduction Reactions, or redox reactions, are reactions in which one reactant is oxidized and one reactant is reduced simultaneously. This module demonstrates how to balance various redox equations.\r\nIdentifying Redox Reactions\r\nThe first step in balancing any redox reaction is determining whether or not it is even an oxidation-reduction reaction, which requires that species exhibits changing oxidation states during the reaction. To maintain charge neutrality in the sample, the redox reaction will entail both a reduction component and an oxidation component and is often separated into independent two hypothetical half-reactions to aid in understanding the reaction. This requires identifying which element is oxidized and which element is reduced. For example, consider this reaction:\r\nCu(s)+2Ag+(aq)→Cu2+(aq)+2Ag(s)(1)(1)Cu(s)+2Ag+(aq)→Cu2+(aq)+2Ag(s)\r\nThe first step in determining whether the reaction is a redox reaction is to splitting the equation into two hypothetical half-reactions. Let's start with the half-reaction involving the copper atoms:\r\nCu(s)→Cu2+(aq)(2a)(2a)Cu(s)→Cu2+(aq)\r\nThe oxidation state of copper on the left side is 0 because it is an element on its own. The oxidation state of copper on the right hand side of the equation is +2. The copper in this half-reaction is oxidized as the oxidation states increases from 0 in Cu to +2 in Cu2+. Now consider the silver atoms\r\n2Ag+(aq)→2Ag(s)(2b)(2b)2Ag+(aq)→2Ag(s)\r\nIn this half-reaction, the oxidation state of silver on the left side is a +1. The oxidation state of silver on the right is 0 because it is an element on its own. Because the oxidation state of silver decreases from +1 to 0, this is the reduction half-reaction.\r\nConsequently, this reaction is a redox reaction as both reduction and oxidation half-reactions occur (via the transfer of electrons that are not explicitly shown in equations 2). Once confirmed, it often necessary to balance the reaction (the reaction in equation 1 is balanced already though), which can be accomplished in two ways because the reaction could take place in neutral, acidic or basic conditions.",
+                "caption": "",
+                "lesson": 19,
+                "body_type": 1
+              }
+            ],
+            "sequence": 2,
+            "title": "Balancing a Redox Reaction",
+            "description": "",
+            "topic": 14
+          },
+          {
+            "id": 20,
+            "lessondetails": [
+              {
+                "id": 49,
+                "sequence": 1,
+                "body": "Permanganometry\r\nThis valuable and powerful oxidising agent was first introduced into titrimetric analysis by F. Margueritte for the titration of iron(II). In acid solutions, the reduction can be represented by the following equation",
+                "caption": "",
+                "lesson": 20,
+                "body_type": 1
+              },
+              {
+                "id": 50,
+                "sequence": 6,
+                "body": "Permanganate titration\r\nKMnO4     Powerful oxidant that the most widely used. \r\n Eq. Wt.(=M/5): In strongly acidic solutions (1M H2SO4 or HCl,  pH  1)\r\n         MnO4– + 8H+ + 5e-   =  Mn2 + + 4H2 O                  Eo = 1.51 V\r\n          violet color                          colorless manganous\r\n                     KMnO4  is a self-indicator.\r\n  In feebly acidic, neutral, or alkaline solutions (E=M/3)\r\n         MnO4– + 4H+ + 3e-   =  MnO2 (s)  + 2H2 O            Eo = 0.59 V\r\n                                              brown manganese dioxide solid\r\nIn very strongly alkaline solution (2M NaOH or Ba (OH)2) (E=M/1)     \r\n                      MnO4–  + e-   =  MnO42 –                                             Eo = 0.56 V\r\n                                  green manganate   \r\nE=M/4 (in HF or NH4HF2 Medium)",
+                "caption": "",
+                "lesson": 20,
+                "body_type": 1
+              },
+              {
+                "id": 101,
+                "sequence": 2,
+                "body": "permanganometry1_image.jpg",
+                "caption": "",
+                "lesson": 20,
+                "body_type": 2
+              },
+              {
+                "id": 102,
+                "sequence": 3,
+                "body": "The standard reduction potential in acid solution, E0 has been calculated to be 1.51 volts; hence the permanganate ion in acid solution is a strong oxidising agent. Sulphuric acid is the most suitable acid, as it has no action upon permanganate in dilute solution. With HCl, there is a likelihood of the reaction",
+                "caption": "",
+                "lesson": 20,
+                "body_type": 1
+              },
+              {
+                "id": 103,
+                "sequence": 4,
+                "body": "permanganometry2_image.jpg",
+                "caption": "",
+                "lesson": 20,
+                "body_type": 2
+              },
+              {
+                "id": 104,
+                "sequence": 5,
+                "body": "In the HCl , permanganate can oxidize Cl-  to Cl2, which can be a source of positive errors as permanganate is consumed in this reaction. \r\n(E°red Cl2/Cl-)= +1.36V",
+                "caption": "",
+                "lesson": 20,
+                "body_type": 1
+              }
+            ],
+            "sequence": 3,
+            "title": "Permananometry",
+            "description": "",
+            "topic": 14
+          },
+          {
+            "id": 22,
+            "lessondetails": [
+              {
+                "id": 116,
+                "sequence": 1,
+                "body": "The reversible reaction 2I - = I₂ + 2e can be applied in analysis of reducing agents such as thiosulfates and arsenates by the use of standard solution of iodine. Such a direct procedure is sometimes designated iodemetry. The same reversible reaction can be applied indirectly in the analysis of oxidizing agents, such as ferric and cupric salts, and “available” chlorine. In the indirect procedure , known as iodemetry, the sample of oxidizing agent is reduced with excess potassium iodide and an equivalent amount of iodine is produced. The iodine thus formed is titrated with a standard solution of sodium thiosulfate.",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 1
+              },
+              {
+                "id": 117,
+                "sequence": 2,
+                "body": "Ascorbic acid is a fairly strong reducing agent and is determined by simple titration with iodine solution, which oxidizes the ascorbic acid to de-hydro ascorbicacid; the iodine is reduced to iodide.\r\nI₂ + C₆H₈O₆ \t 2HI + C₆H₆O₆",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 1
+              },
+              {
+                "id": 118,
+                "sequence": 3,
+                "body": "Organic arsenicals can be determined as trivalent or pentavalent arsenic. He determination of arsenic in its pentavalent form will be taken up later.",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 1
+              },
+              {
+                "id": 119,
+                "sequence": 4,
+                "body": "A residual type of iodometric  procedure may be used for substances which react quantitatively with such oxidizing agents as potassium ferricyanide, potassium dichromate, or potassium periodate.",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 1
+              },
+              {
+                "id": 120,
+                "sequence": 5,
+                "body": "OXIDATION-REDUCTION METHODS WITH POTASSIUM IODATE (PAKI BOLD)\r\n\r\nPotassium iodate may be used as the oxidizing agent in the assay of a number of substances, such as iodides, arsenates, and other educing agents.\r\n\r\nWhen an excess of iodide is added to a solution of an oxidizing agent, I2 is produced in an amount equivalent to the oxidizing agent present. This I2 can, therefore, be titrated with a reducing agent, and the resut will be the same as if the oxidizing agent were titrated directly. The titrating agent used is sodium thiosulfate.",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 1
+              },
+              {
+                "id": 121,
+                "sequence": 6,
+                "body": "Analysis of an oxidizing agent in this way is called an iodemetric method. Consider, for example the determination of dichromate:\r\niodemitry_image1.jpg",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 1
+              },
+              {
+                "id": 122,
+                "sequence": 7,
+                "body": "iodemitry_image2.JPG",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 2
+              },
+              {
+                "id": 123,
+                "sequence": 8,
+                "body": "iodemitry_image3.JPG",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 2
+              },
+              {
+                "id": 124,
+                "sequence": 9,
+                "body": "iodemitry_image4.JPG",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 2
+              },
+              {
+                "id": 125,
+                "sequence": 10,
+                "body": "iodemitry_image5.jpg",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 2
+              },
+              {
+                "id": 126,
+                "sequence": 11,
+                "body": "iodemitry_image6.JPG",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 2
+              },
+              {
+                "id": 127,
+                "sequence": 12,
+                "body": "Iodometric Determinations\r\nDetermination of Cu+2 : \r\n\r\n2Cu+2  +   4I-    →   CuI  + I2\r\nAcetic acid buffer pH ~4.5 or better NH4HF2 buffer. In presence of free mineral acid, at pH<3, dissolved O2 liberate I2 from I- also.\r\nThe elments which interferes with the iodometric determination are iron, arsenic and antimony, Trivalent iron  is reduced by iodide:\r\n              2Fe3+ + 2I- ⇋ 2Fe2+ + I2",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 1
+              },
+              {
+                "id": 128,
+                "sequence": 13,
+                "body": "but by addition of excess of fluoride, the DETERMINATION OF THE AVAILABLE CHLORINE IN Bleaching powder the hypochlorite solution or suspension is treated with an\r\nexcess of a solution of potassium iodide, and strongly acidified with acetic acid:\r\n\r\nCa(OCl)+ KI +HAc → CaCl2 + I2 + H2O + KAc\r\nThe liberated iodine is titrated with standard sodium thiosulphate solution.",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 1
+              },
+              {
+                "id": 129,
+                "sequence": 14,
+                "body": "iodemitry_image7.JPG",
+                "caption": "",
+                "lesson": 22,
+                "body_type": 2
+              }
+            ],
+            "sequence": 5,
+            "title": "Iodiometry and Iodiometry-Gravimetric methods",
+            "description": "",
+            "topic": 14
+          },
+          {
+            "id": 31,
+            "lessondetails": [
+              {
+                "id": 42,
+                "sequence": 1,
+                "body": "redox1_image.jpg",
+                "caption": "redox1_image.jpg",
+                "lesson": 31,
+                "body_type": 2
+              },
+              {
+                "id": 43,
+                "sequence": 2,
+                "body": "redox2_image.jpg",
+                "caption": "redox2_image.jpg",
+                "lesson": 31,
+                "body_type": 2
+              },
+              {
+                "id": 44,
+                "sequence": 3,
+                "body": "Determine the end point\r\n•\tRedox indicators – the indicator has different color at reduction and oxidation state.\r\n•\tNon redox indicator – change color when excess amount of titrant exists, e.g. Starch changes to deep blue color when excess amount I2 remains",
+                "caption": "",
+                "lesson": 31,
+                "body_type": 1
+              },
+              {
+                "id": 45,
+                "sequence": 4,
+                "body": "Determine the end point\r\n•\tRedox indicators – the indicator has different color at reduction and oxidation state.\r\n•\tNon redox indicator – change color when excess amount of titrant exists, e.g. Starch changes to deep blue color when excess amount I2 remains",
+                "caption": "",
+                "lesson": 31,
+                "body_type": 1
+              },
+              {
+                "id": 46,
+                "sequence": 5,
+                "body": "Redox indicator",
+                "caption": "",
+                "lesson": 31,
+                "body_type": 1
+              },
+              {
+                "id": 47,
+                "sequence": 8,
+                "body": "Adjustment of oxidation state \r\n• Sometimes the oxidation states of analytes need to be adjusted before titration – oxidants need to be removed. \r\n– Pre-oxidation: \r\n• S2O8 2- (peroxydisulfate, persulfate): S2O8 2- + 2e  2SO4 2- S2O8 2- +2H2O → 4SO4\r\n2- +O2 + 4H+ (boiling) sometime, Ag+ is needed as catalyst S2O8 2- + Ag+ → SO4 2-+ SO4 - + 4Ag2+\r\n• H2O2",
+                "caption": "",
+                "lesson": 31,
+                "body_type": 1
+              },
+              {
+                "id": 106,
+                "sequence": 6,
+                "body": "redox3_image.jpg",
+                "caption": "",
+                "lesson": 31,
+                "body_type": 2
+              },
+              {
+                "id": 107,
+                "sequence": 7,
+                "body": "redox4_image.jpg",
+                "caption": "",
+                "lesson": 31,
+                "body_type": 2
+              }
+            ],
+            "sequence": 1,
+            "title": "Redox Titrations",
+            "description": "",
+            "topic": 14
+          }
+        ],
+        "questions": [
+          {
+            "id": 82,
+            "choices": [
+              {
+                "id": 287,
+                "body": "Iodemetric method",
+                "question": 82,
+                "choice_type": 1
+              },
+              {
+                "id": 288,
+                "body": "Potassium iodide",
+                "question": 82,
+                "choice_type": 1
+              },
+              {
+                "id": 289,
+                "body": "Copper oxidizing",
+                "question": 82,
+                "choice_type": 1
+              },
+              {
+                "id": 290,
+                "body": "Acetic method",
+                "question": 82,
+                "choice_type": 1
+              }
+            ],
+            "question": "Analysis of an oxidizing agent in this way is called _____",
+            "answer": "Iodemetric method",
+            "topic": 14,
+            "question_type": 1
+          },
+          {
+            "id": 83,
+            "choices": [
+              {
+                "id": 291,
+                "body": "Acedic",
+                "question": 83,
+                "choice_type": 1
+              },
+              {
+                "id": 292,
+                "body": "Anatomy",
+                "question": 83,
+                "choice_type": 1
+              },
+              {
+                "id": 293,
+                "body": "Antimony",
+                "question": 83,
+                "choice_type": 1
+              },
+              {
+                "id": 294,
+                "body": "Chlorine",
+                "question": 83,
+                "choice_type": 1
+              }
+            ],
+            "question": "The elments which interferes with the iodometric determination are iron, arsenic and ______.",
+            "answer": "antimony",
+            "topic": 14,
+            "question_type": 1
+          },
+          {
+            "id": 84,
+            "choices": [
+              {
+                "id": 295,
+                "body": "True",
+                "question": 84,
+                "choice_type": 1
+              },
+              {
+                "id": 296,
+                "body": "False",
+                "question": 84,
+                "choice_type": 1
+              },
+              {
+                "id": 297,
+                "body": "None of the above",
+                "question": 84,
+                "choice_type": 1
+              }
+            ],
+            "question": "When an excess of iodide is added o a solution of an oxidizing agent, I ₂ is produced in an amount equivalent to the oxidizing agent present.",
+            "answer": "True",
+            "topic": 14,
+            "question_type": 1
+          },
+          {
+            "id": 85,
+            "choices": [
+              {
+                "id": 298,
+                "body": "Arsenates agents",
+                "question": 85,
+                "choice_type": 1
+              },
+              {
+                "id": 299,
+                "body": "ferricyanide",
+                "question": 85,
+                "choice_type": 1
+              },
+              {
+                "id": 300,
+                "body": "oxidizing",
+                "question": 85,
+                "choice_type": 1
+              },
+              {
+                "id": 301,
+                "body": "Potassium iodate",
+                "question": 85,
+                "choice_type": 1
+              }
+            ],
+            "question": "May be used as the oxidizing agent in the assay of a number of substances, such as iodides, arsenates, and other educing agents.",
+            "answer": "Potassium iodate",
+            "topic": 14,
+            "question_type": 1
+          },
+          {
+            "id": 86,
+            "choices": [
+              {
+                "id": 302,
+                "body": "True",
+                "question": 86,
+                "choice_type": 1
+              },
+              {
+                "id": 303,
+                "body": "False",
+                "question": 86,
+                "choice_type": 1
+              },
+              {
+                "id": 304,
+                "body": "None of the above",
+                "question": 86,
+                "choice_type": 1
+              }
+            ],
+            "question": "The reversible reaction 2I - = I₂ + 2e can be applied in analysis of reducing agents such as thiosulfates and arsenates by the use of standard solution of iodine.",
+            "answer": "True",
+            "topic": 14,
+            "question_type": 1
+          },
+          {
+            "id": 87,
+            "choices": [
+              {
+                "id": 305,
+                "body": "Ascorbic acid",
+                "question": 87,
+                "choice_type": 1
+              },
+              {
+                "id": 306,
+                "body": "Vitamins",
+                "question": 87,
+                "choice_type": 1
+              },
+              {
+                "id": 307,
+                "body": "Iodine solution",
+                "question": 87,
+                "choice_type": 1
+              },
+              {
+                "id": 308,
+                "body": "Medicine",
+                "question": 87,
+                "choice_type": 1
+              }
+            ],
+            "question": "Is a fairly strong reducing agent and is determined by simple titration with iodine solution, which oxidizes the ascorbic acid to de-hydro ascorbicacid.",
+            "answer": "Ascorbic acid",
+            "topic": 14,
+            "question_type": 1
+          },
+          {
+            "id": 88,
+            "choices": [
+              {
+                "id": 309,
+                "body": "True",
+                "question": 88,
+                "choice_type": 1
+              },
+              {
+                "id": 310,
+                "body": "False",
+                "question": 88,
+                "choice_type": 1
+              },
+              {
+                "id": 311,
+                "body": "None of the above",
+                "question": 88,
+                "choice_type": 1
+              }
+            ],
+            "question": "A residual type of iodometric  procedure may be used for substances which react quantitatively with such oxidizing agents as potassium ferricyanide, potassium dichromate, or potassium periodate.",
+            "answer": "True",
+            "topic": 14,
+            "question_type": 1
+          },
+          {
+            "id": 89,
+            "choices": [
+              {
+                "id": 312,
+                "body": "Pentavalent arsenic",
+                "question": 89,
+                "choice_type": 1
+              },
+              {
+                "id": 313,
+                "body": "thiosulfates",
+                "question": 89,
+                "choice_type": 1
+              },
+              {
+                "id": 314,
+                "body": "Organic arsenicals",
+                "question": 89,
+                "choice_type": 1
+              },
+              {
+                "id": 315,
+                "body": "Ascorbic acid",
+                "question": 89,
+                "choice_type": 1
+              }
+            ],
+            "question": "Determined as trivalent or pentavalent arsenic. He determination of arsenic in its pentavalent form will be taken up later.",
+            "answer": "Organic arsenicals",
+            "topic": 14,
+            "question_type": 1
+          },
+          {
+            "id": 90,
+            "choices": [
+              {
+                "id": 316,
+                "body": "True",
+                "question": 90,
+                "choice_type": 1
+              },
+              {
+                "id": 317,
+                "body": "True",
+                "question": 90,
+                "choice_type": 1
+              },
+              {
+                "id": 318,
+                "body": "False",
+                "question": 90,
+                "choice_type": 1
+              },
+              {
+                "id": 319,
+                "body": "None of the above",
+                "question": 90,
+                "choice_type": 1
+              }
+            ],
+            "question": "Analysis of an oxidizing agent in this way is called copper oxidizing.",
+            "answer": "False",
+            "topic": 14,
+            "question_type": 1
+          },
+          {
+            "id": 91,
+            "choices": [
+              {
+                "id": 320,
+                "body": "Isopropyl",
+                "question": 91,
+                "choice_type": 1
+              },
+              {
+                "id": 321,
+                "body": "Boric acid",
+                "question": 91,
+                "choice_type": 1
+              },
+              {
+                "id": 322,
+                "body": "Idiomatic",
+                "question": 91,
+                "choice_type": 1
+              },
+              {
+                "id": 323,
+                "body": "acetic acid",
+                "question": 91,
+                "choice_type": 1
+              }
+            ],
+            "question": "The determination of the available chlorine in bleaching powder the hypochlorite solution or suspension is treated with an excess of a solution of potassium iodide, and strongly acidified with _______.",
+            "answer": "acetic acid",
+            "topic": 14,
+            "question_type": 1
+          }
+        ],
+        "sequence": 3,
+        "title": "Redox Titrations",
+        "description": "----",
+        "objective": "The Student aims to Explain the principles of Redox Titrations",
+        "image": "topic7_img",
+        "term": 2
+      }
+    ],
+    "code": "M",
+    "title": "Midterm",
+    "objective": "In the Midterm week of the course the student Explain the principles of precipitation titration, Identify the different methods applied in precipitation titration. Explain the Principles of Complex Formation titration, Identify the different methods applied to complex formation titration. Explain the different methods applied in complex formulation titration.",
+    "sequence": 2
+  },
+  {
+    "id": 3,
+    "topics": [
+      {
+        "id": 17,
+        "lessons": [
+          {
+            "id": 23,
+            "lessondetails": [
+              {
+                "id": 55,
+                "sequence": 1,
+                "body": "Ash Content\r\nThe ash content of a crude drug is generally taken to be the residue remaining after incineration. It usually represents the inorganic salts naturally occurring in the drug and adhering to it, but it may also include inorganic matter added for the purposes of adulteration. There is considerable difference in the ash content of different drugs, but the difference varies within narrow limits in the case of the same individual drug; hence, an ash determination furnishes a basis for judging the identity and cleanliness of a drug and gives information relative to its adulteration with inorganic matter. Ash standards have been established for a number of the official drugs; usually these standards set a maximum limit on the total ash or on the acid-insoluble ash permitted. The total ash is the residue remaining after incineration; the acid-insoluble ash is the part of the total ash which is insoluble in diluted hydrochloric acid.\r\nThe ash or residue yielded by an organic chemical compound is, as a rule, a measure of the amount of inorganic matter present as impurity. In most cases, the organic matter is present in small amounts which are difficult to remove in the purification process and which are not objectionable if only traces are present.\r\nThe careful control of temperature is the most important analytical factor to regulate in making ash determinations. All determinations should be made in such a manner as to duplicate insofar as possible the conditions under which standards are established.",
+                "caption": "",
+                "lesson": 23,
+                "body_type": 1
+              },
+              {
+                "id": 56,
+                "sequence": 2,
+                "body": "Water content\r\nMany drugs official U.S.P. and N.F. contain varying quantities of water, either as water of crystallization (hydrates) or as water in the adsorbed form. In order to ensure uniformity in the official drugs, it is necessary that the U.S.P. and the N.F. specify certain water-content limits in the drug monographs.\r\n              Water content of drugs may also be important for other reasons. When crude drugs, for example, are sold with guaranteed assay for active constituents, the percent active constituents must be calculated on the basis of the moisture-free drug. In scientific work also, moisture or water content of crude drugs and other substances must usually be accurately determined, since variable quantities of moisture would adversely affect the calculated results.\r\n             Water content is generally determined by one of six methods: (1) gravimetric, for drugs containing no constituents, other than water, volatile at 105  ͦC; (2) gravimetric, for drugs containing ether-soluble constituents volatile at 105  ͦC; (3) azeotropic (toluene distillation); (4) titrimetric (Karl Fischer); (5) dew point; and (6) electrolytic hygrometric.",
+                "caption": "",
+                "lesson": 23,
+                "body_type": 1
+              }
+            ],
+            "sequence": 2,
+            "title": "Ash and Water Determnation",
+            "description": "",
+            "topic": 17
+          },
+          {
+            "id": 24,
+            "lessondetails": [
+              {
+                "id": 58,
+                "sequence": 1,
+                "body": "Extractives and Crude Fiber Content\r\nThe amount of extractive and drug yields to a given solvent is often an approximate measure of the amount of a certain constituent or group of related constituents the drug contains. In cases where this is the object sought, it is important that a solvent be used which will not dissolve appreciable quantities of substances other than those sought in the extraction. In some cases, the amount of a drug soluble in a given solvent is an index of its purity; acacia must yield not more than 1% water-insoluble residue to meet the official requirement.\r\n             For efficient and complete extraction, the solvent should be divided into a number of relatively small portions and used successively. Each portion should be brought into intimate contact with all parts of the sample and then be removed before addition of the next portion. The use of fresh portions of solvent not saturated with extractive favors the rapid and thorough removal of the solute with the minimum quantity of solvent.\r\n            The complete removal of extractive matter from a drug by this method, however, requires a large quantity to solvent in most cases, and most volatile solvents are expensive. Consequently, it is convenient and economical to be able to use the same portion of solvent repeatedly. To do so necessitates the separation of the solvent and solute after the extraction, the separated solvent being employed in a second extraction apparatus, of which the Soxhlet is a good example.\r\n           The Soxhlet is the apparatus generally used for extraction with volatile solvents where small quantities of a drug are extracted, as in quantitative work. The solvent is placed in a weighed flask A, which is heated over an\r\n \r\n electric hot plate or over a water bath in the absence of a gas flame when the solvent is highly inflammable. The weighed sample of drug is placed in a porous paper extraction thimble which is the fitted into the extraction tube B. \r\nA reflux condenser C is attached to the top of the extraction tube. The solvent vapors pass upward from the flask A and through the side tube D of the extractor to the condenser. The condensate drips into the thimble until a sufficient amount has accumulated to raise level of liquid in the extraction tube to the top of the siphon tube E. the solution that has been standing in contact with the drug is then discharged into the flask where the solvent is vaporized again. The solvent passes through this cycle repeatedly, and the solute is collected in the flask. The heat should be adjusted so that the solvent passes through the cycle about once every 10 min. the top of the thimble should be above the level of the top of the siphon side tube. The solvent must not be volatilized more rapidly than it will filter through the porous thimble, or the latter will overflow and carry insoluble matter over mechanically. After the extraction is complete, the flask is removed, the solvent is driven off until the flask and its contents are of constant weight, and the percentage of extractive in the drug is calculated from the weight of the residue.",
+                "caption": "",
+                "lesson": 24,
+                "body_type": 1
+              }
+            ],
+            "sequence": 3,
+            "title": "Extractives and Crude fiber content",
+            "description": "",
+            "topic": 17
+          },
+          {
+            "id": 25,
+            "lessondetails": [
+              {
+                "id": 59,
+                "sequence": 1,
+                "body": "Constant of Oils, Waxes, Fatty Acids, balsams\r\nThe method of analysis of fatty substances, waxes, resins, etc., usually consist of the determination of a number of physical and chemical properties or values commonly known as constant, although they are constant only within certain limits. These constant, when taken in conjunction with color, odor, taste, and special identity tests for the given substance and for common adulterants, are the basis upon which the purity and quality of these substances are judged. Although the following determinations are not required for all the official substances that fall in the above category, they are generally used in the examination of such substances.\r\nSpecify gravity, solubility, melting point, congealing point, refractive index, and optical activity determinations are performed according to methods discussed in the U.S.P. and the N.F.",
+                "caption": "",
+                "lesson": 25,
+                "body_type": 1
+              }
+            ],
+            "sequence": 5,
+            "title": "Constants of Oils, Waxes,Fatty Acids,Balsams",
+            "description": "",
+            "topic": 17
+          },
+          {
+            "id": 26,
+            "lessondetails": [
+              {
+                "id": 60,
+                "sequence": 1,
+                "body": "Assay of Volatile Oils\r\nVolatile oils, also known as ethereal oils or essentials oils and, in some cases, as essences, are generally complex products composed of mixtures of compounds of widely variant chemical characteristics. The most important chemical components of official volatile oils are:\r\n1 hydrocarbons, occasionally of the acyclic series, such as heptane and myrcene, but more often of the isocyclic series, pinene, camphene, limonene, bornylene, fenchene, dipentene, sylvestrene and phellandrene.\r\n2 Alcohols, present both in the free state and in combination with acids as esters. The alcohols most generally found in official volatile oils are linalool, geraniol, citronellol, terpineol, borneol, menthol, and santalol. \r\n3 Aldehydes, such as benzaldehyde, cinnamic aldehyde, salicyl aldehyde, citral, and citronellal.\r\n4 Ketones, the most important being camphor, carvone,fenchone, thujone and menthone.\r\n5 Phenols, such as anethol, eugenol, carvacrol, safrol, chavicol, and thymol.\r\n6 Acids, sometimes present in the free state in small quantities, those occurring most commonly being acetic, propionic, butyric, valeric, benzoic, cinnamic, and hydrocyanic acids.\r\n6 Sulfur compounds, such as allyl isothiocyanate(mustard oil).\r\nThe analysis of volatile oils for the purposes of determining their purity and value is based on the measurement of certain physical characteristics, on the quantitative estimation of certain components such as alcohols, phenols, esters, and aldehydes, ad on the qualitative tests for the various substances commonly employed as adulterants. Only the official quantitative procedures will be discussed here.",
+                "caption": "",
+                "lesson": 26,
+                "body_type": 1
+              },
+              {
+                "id": 61,
+                "sequence": 2,
+                "body": "Methods of General application\r\nThe purity and quality of volatile oils may be judged to some extent by their appearance, odor, color, etc.,\r\n\r\nSpecific Gravity\r\nThe specific gravity of a volatile oil may be determined with a westphal balance or a pycnometer, the latter being the official method and the more accurate of the two, and expressed as the ratio of the weight of the volume of oil to that of an equal volume of pure water when both are determined at 25 ͦC.\r\n\r\nRotatory Power\r\nThe rotatory power of a volatile oil is generally measured with a Laurent half-shadow polarimeter, according to the procedure .\r\n\r\nRefractive Index \r\nThe Refractive Index of a volatile oil is most commonly determined by means of an Abbe refractometer.\r\n\r\nCongealing Temperature or Point \r\nThe congealing temperature or point of a volatile oil is determined by the method described under Congealing temperature in the U.S.P. most essential oils solidify only at low temperatures.\r\nDistillation range of Limits\r\n\r\nThe distillation range of a volatile oil is determined by the general method described under Boiling and Distilling Ranges in the U.S.P. Volatile oils composed of mixtures of hydrocarbons, alcohols, esters, etc., boil between certain limits of temperature, frequently separated widely.\r\n\r\nFractional Distillation\r\nFractional distillation is resorted to occasionally when determining purity of volatile oils.",
+                "caption": "",
+                "lesson": 26,
+                "body_type": 1
+              }
+            ],
+            "sequence": 5,
+            "title": "Assay of Volatile Oils",
+            "description": "",
+            "topic": 17
+          },
+          {
+            "id": 27,
+            "lessondetails": [
+              {
+                "id": 62,
+                "sequence": 1,
+                "body": "Assay of Alkaloids and Amine Drugs\r\nDefinitions\r\nAlkaloids may be defined as chemical substances which (1) are obtained from plant, animal, or synthetic sources, (2) contain organic nitrogen(s) within their chemical structure, and (3) usually possess physiological activity, Because the nitrogen(s) in alkaloids is usually a primary, secondary, or tertiary amine, the type formula R3N will be used to represent amines and amine type alkaloids in this discussion.",
+                "caption": "",
+                "lesson": 27,
+                "body_type": 1
+              },
+              {
+                "id": 63,
+                "sequence": 2,
+                "body": "General Preparations\r\nAlkaloidal drugs and preparations derived from them constitute a relatively important group of the official substances employed frequently in modern therapy. As a class of medicinal agents, they are characterized by their high potency, A slight deficiency of alkaloid in a preparations may caused a marked decrease in physiological effect; on the other hand, a slight excess may cause toxic effects when the preparation is administered.\r\n         The assay of alkaloidal drugs and preparations is generally performed for purposes of standardization, proof of purity, commercial evaluation, or pharmacolegal purposes. Methods of various types have been developed for the quantitative estimation of these principles, e.g., gravimetric, volumetric, spectrometric, electrometric, and physiological.\r\n        The amounts of alkaloids that occur in crude drugs are subject to considerable variation in different samples of the same drug. The variations may be caused by several factors: (1) the age of the plant when it is collected; (2) the season of the year when the drug is harvested; (3) the soil and climate in which the drug is grown; (4) the conditions under which the drug is collected, dried, and stored. The quantity of alkaloid present in galenical preparations is also subject to variation because of a number of factors, some of which are (a) the quality of drug employed, (b) the menstruum used in the extraction of the alkaloid, (c) the amount of decomposition of the alkaloid during the process of extraction and of storage.",
+                "caption": "",
+                "lesson": 27,
+                "body_type": 1
+              },
+              {
+                "id": 64,
+                "sequence": 3,
+                "body": "Sources of Error\r\nNumerous possibilities of error are encountered in alkaloidal assaying other than those common to all analytical work, such as those caused by inaccurate weighing, faulty calibration and reading of measuring apparatus, incorrect strength of volumetric solutions, dirty apparatus, etc. some of the more common error are caused by (1) failure to secure complex extraction of the alkaloids from the drug or from solution; (2) loss of volatile solvent during maceration of the drug before the aliquot portion is taken; (3) imperfect separation of the immiscible liquids; (4)failure to wash the stems of separators and funnels, graduates, and other apparatus with solvent to recapture small amounts of alkaloidal residues; (5)decomposition of the alkaloids, especially those which have an ester structure, upon prolonged contact with strong acids and alkalies; (6) use of the wrong indicator.",
+                "caption": "",
+                "lesson": 27,
+                "body_type": 1
+              },
+              {
+                "id": 65,
+                "sequence": 4,
+                "body": "Assay of Pharmaceutical Dosages Forms for alkaloidal Content\r\nOfficial assays of capsules, tablets, and other dosages forms for alkaloids are conducted in much the same way as the assays of the crude drugs in which the alkaloids occur, except that the methods of preparing the samples for assay differ and the procedures for the purification of the alkaloids are less involved.",
+                "caption": "",
+                "lesson": 27,
+                "body_type": 1
+              }
+            ],
+            "sequence": 6,
+            "title": "Assay of Alkaloids and Amine Drug",
+            "description": "",
+            "topic": 17
+          },
+          {
+            "id": 32,
+            "lessondetails": [
+              {
+                "id": 57,
+                "sequence": 1,
+                "body": "Quantitative analyses of crude drugs and of the products derived from them are made to established purity or to determine the amount of therapeutically active constituents present for the purpose of standardized. The special methods employed in the analyses of this type may be classified as follows:\r\n               Chemical methods, such as those employed in the determination of ash, moisture, crude fiber, extractive obtained with different solvents, the estimation of alkaloidal content, etc.\r\n               Biological methods or those in which the affects of drugs upon microbes, animals, or animal tissues are measured and which are employed in the absence of satisfactory chemical methods for standardization. Official standards for drugs or preparations include biological assays or tests for such medicinal agents as adrenal cortex, corticotrophin, digitalis, heparin sodium, insulin, oxytocin, parathyroid, and vasopressin. Microbiological assays are required for antibiotics, liver, vitamin B 1 and 2, and other related drugs. Tests are required for the toxicity and potency of serological preparations such as vaccines, serums, toxoids, and antitoxins. Biological methods required special apparatus for their performance and a technique that is not chemical in nature; hence a discussion of them does not fall within the scope of this text.\r\nMany tests of antibiotics which are based on chemical reactions are no longer included in the official compendiums, because they are available in the Federal Register. All antibiotics intended for use in humans are subject to production and testing controls under federal regulations. The Food and Drug Administration publishes these regulations in the Federal Register, and all the antibiotics recognized in the official compendiums are subject to the provisions of these regulations. Therefore analytical methods for the determination of purity, moisture, and other constants are obtained from this publication.",
+                "caption": "",
+                "lesson": 32,
+                "body_type": 1
+              }
+            ],
+            "sequence": 1,
+            "title": "Special Methods of Analysis",
+            "description": "",
+            "topic": 17
+          }
+        ],
+        "questions": [
+          {
+            "id": 92,
+            "choices": [
+              {
+                "id": 324,
+                "body": "Dignity",
+                "question": 92,
+                "choice_type": 1
+              },
+              {
+                "id": 325,
+                "body": "Collected",
+                "question": 92,
+                "choice_type": 1
+              },
+              {
+                "id": 326,
+                "body": "Pharmacolegal",
+                "question": 92,
+                "choice_type": 1
+              },
+              {
+                "id": 327,
+                "body": "Conditions",
+                "question": 92,
+                "choice_type": 1
+              }
+            ],
+            "question": "The assay of alkaloidal drugs and preparations is generally performed for purposes of standardization, proof of purity, commercial evaluation, or ________ purposes.",
+            "answer": "Pharmacolegal",
+            "topic": 17,
+            "question_type": 1
+          },
+          {
+            "id": 93,
+            "choices": [
+              {
+                "id": 328,
+                "body": "Alkaline",
+                "question": 93,
+                "choice_type": 1
+              },
+              {
+                "id": 329,
+                "body": "Physiological",
+                "question": 93,
+                "choice_type": 1
+              },
+              {
+                "id": 330,
+                "body": "Galenical",
+                "question": 93,
+                "choice_type": 1
+              },
+              {
+                "id": 331,
+                "body": "Acidimetric",
+                "question": 93,
+                "choice_type": 1
+              }
+            ],
+            "question": "Methods of various types have been developed for the quantitative estimation of these principles, e.g., gravimetric, volumetric, spectrometric, electrometric, and ________.",
+            "answer": "Physiological",
+            "topic": 17,
+            "question_type": 1
+          },
+          {
+            "id": 94,
+            "choices": [
+              {
+                "id": 332,
+                "body": "Boric",
+                "question": 94,
+                "choice_type": 1
+              },
+              {
+                "id": 333,
+                "body": "antitoxins",
+                "question": 94,
+                "choice_type": 1
+              },
+              {
+                "id": 334,
+                "body": "Toxins",
+                "question": 94,
+                "choice_type": 1
+              },
+              {
+                "id": 335,
+                "body": "Serum",
+                "question": 94,
+                "choice_type": 1
+              }
+            ],
+            "question": "Tests are required for the toxicity and potency of serological preparations such as vaccines, serums, toxoids, and______.",
+            "answer": "antitoxins",
+            "topic": 17,
+            "question_type": 1
+          },
+          {
+            "id": 95,
+            "choices": [
+              {
+                "id": 336,
+                "body": "Alkaloids",
+                "question": 95,
+                "choice_type": 1
+              },
+              {
+                "id": 337,
+                "body": "Mongoloids",
+                "question": 95,
+                "choice_type": 1
+              },
+              {
+                "id": 338,
+                "body": "Assays",
+                "question": 95,
+                "choice_type": 1
+              },
+              {
+                "id": 339,
+                "body": "Pharmacolegal",
+                "question": 95,
+                "choice_type": 1
+              }
+            ],
+            "question": "Defined as chemical substances which are obtained from plant, animal, or synthetic sources, contain organic nitrogen(s) within their chemical structure, and usually possess physiological activity.",
+            "answer": "Alkaloids",
+            "topic": 17,
+            "question_type": 1
+          },
+          {
+            "id": 96,
+            "choices": [
+              {
+                "id": 340,
+                "body": "Antivirus Assays",
+                "question": 96,
+                "choice_type": 1
+              },
+              {
+                "id": 341,
+                "body": "Medicines",
+                "question": 96,
+                "choice_type": 1
+              },
+              {
+                "id": 342,
+                "body": "Microbiological assays",
+                "question": 96,
+                "choice_type": 1
+              },
+              {
+                "id": 343,
+                "body": "Biotic Acid",
+                "question": 96,
+                "choice_type": 1
+              }
+            ],
+            "question": "Required for antibiotics, liver, vitamin B 1 and 2, and other related drugs.",
+            "answer": "Microbiological assays",
+            "topic": 17,
+            "question_type": 1
+          },
+          {
+            "id": 97,
+            "choices": [
+              {
+                "id": 344,
+                "body": "Cylinder",
+                "question": 97,
+                "choice_type": 1
+              },
+              {
+                "id": 345,
+                "body": "Burette",
+                "question": 97,
+                "choice_type": 1
+              },
+              {
+                "id": 346,
+                "body": "Soxhlet",
+                "question": 97,
+                "choice_type": 1
+              },
+              {
+                "id": 347,
+                "body": "Balancing",
+                "question": 97,
+                "choice_type": 1
+              }
+            ],
+            "question": "This apparatus generally used for extraction with volatile solvents where small quantities of a drug are extracted, as in quantitative work.",
+            "answer": "Soxhlet",
+            "topic": 17,
+            "question_type": 1
+          },
+          {
+            "id": 98,
+            "choices": [
+              {
+                "id": 348,
+                "body": "Number",
+                "question": 98,
+                "choice_type": 1
+              },
+              {
+                "id": 349,
+                "body": "Parts",
+                "question": 98,
+                "choice_type": 1
+              },
+              {
+                "id": 350,
+                "body": "Piece",
+                "question": 98,
+                "choice_type": 1
+              },
+              {
+                "id": 351,
+                "body": "None of the above",
+                "question": 98,
+                "choice_type": 1
+              }
+            ],
+            "question": "The solvent should be divided into a ____ of relatively small portions and used successively.",
+            "answer": "Number",
+            "topic": 17,
+            "question_type": 1
+          },
+          {
+            "id": 99,
+            "choices": [
+              {
+                "id": 352,
+                "body": "True",
+                "question": 99,
+                "choice_type": 1
+              },
+              {
+                "id": 353,
+                "body": "False",
+                "question": 99,
+                "choice_type": 1
+              },
+              {
+                "id": 354,
+                "body": "None of the above",
+                "question": 99,
+                "choice_type": 1
+              }
+            ],
+            "question": "The rotatory power of a volatile oil is generally measured with a Laurent half-shadow polarimeter, according to the procedure.",
+            "answer": "True",
+            "topic": 17,
+            "question_type": 1
+          },
+          {
+            "id": 100,
+            "choices": [
+              {
+                "id": 355,
+                "body": "thymol",
+                "question": 100,
+                "choice_type": 1
+              },
+              {
+                "id": 356,
+                "body": "Ketones",
+                "question": 100,
+                "choice_type": 1
+              },
+              {
+                "id": 357,
+                "body": "acetic",
+                "question": 100,
+                "choice_type": 1
+              },
+              {
+                "id": 358,
+                "body": "cinnamic",
+                "question": 100,
+                "choice_type": 1
+              }
+            ],
+            "question": "The most important being camphor, carvone,fenchone, thujone and menthone.",
+            "answer": "Ketones",
+            "topic": 17,
+            "question_type": 1
+          },
+          {
+            "id": 101,
+            "choices": [
+              {
+                "id": 359,
+                "body": "True",
+                "question": 101,
+                "choice_type": 1
+              },
+              {
+                "id": 360,
+                "body": "False",
+                "question": 101,
+                "choice_type": 1
+              },
+              {
+                "id": 361,
+                "body": "None of the above",
+                "question": 101,
+                "choice_type": 1
+              }
+            ],
+            "question": "Alcohols, present both in the free state and in combination with acids as esters.",
+            "answer": "True",
+            "topic": 17,
+            "question_type": 1
+          }
+        ],
+        "sequence": 1,
+        "title": "Special Methods Used in Pharmaceutical Analysis",
+        "description": "------",
+        "objective": "The Student aims to Identify the special methods used in Pharmaceutical Analysis",
+        "image": "topic8_img",
+        "term": 3
+      }
+    ],
+    "code": "F",
+    "title": "Finals",
+    "objective": "In the Final week of the course the student are expected to: Identify the special methods used in pharmaceutical analyze, Demonstrates knowledge in identifying the water and ash content of a crude drug.  Identify and differentiate the coloring and flavoring agents of natural origins in pharmacy and medicine. Identify and differentiate pesticidal, and plants used as insects repellents; uses and importance and contribution to the society.",
+    "sequence": 3
+  }
+]

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/gray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="Volatile oils, also known as ethereal oils or essentials oils and,
+in some cases, as essences, are generally complex products.
+The most important chemical components
+of official volatile oils are:"
+        android:textColor="@color/gray"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/alcohols" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ketones" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:src="@drawable/acids" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="Drag and Drop the corresponding items where the volatile oil can be found."
+        android:textColor="@color/gray"
+        android:textSize="14sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/start"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:minEms="10"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button_solid"
+        android:text="START" />
+</LinearLayout>

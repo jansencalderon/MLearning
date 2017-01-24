@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="lessonDetail"
+            type="com.tip.capstone.mlearning.model.LessonDetail" />
+    </data>
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/image_lesson_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="256dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{lessonDetail.bodyCaption}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+    </LinearLayout>
+
+</layout>

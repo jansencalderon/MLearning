@@ -1,0 +1,24 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.tip.capstone.mlearning.ui.lesson.LessonActivity$PlaceholderFragment">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_below="@id/recycler_view"
+            android:layout_margin="16dp"
+            android:text="TAKE QUIZ!"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_button_solid"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</layout>

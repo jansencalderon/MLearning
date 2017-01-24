@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1,
+    "word": "Quantitative Pharmaceutical Chemistry",
+    "description": "the application of the procedures analytical chemistry to the analysis and determination of the purity and quality of drugs and chemicals used in pharmacy."
+  },
+  {
+    "id": 2,
+    "word": "Qualitative",
+    "description": "relating to, measuring, or measured by the quality of something rather than its quantity."
+  },
+  {
+    "id": 3,
+    "word": "Metabolites",
+    "description": "a substance formed in or necessary for metabolism."
+  },
+  {
+    "id": 4,
+    "word": "Pharmaceutical",
+    "description": "a compound manufactured for use as a medicinal drug."
+  },
+  {
+    "id": 5,
+    "word": "Quality",
+    "description": "a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product."
+  },
+  {
+    "id": 6,
+    "word": "Quality Control",
+    "description": "a system of maintaining standards in manufactured products by testing a sample of the output against the specification."
+  },
+  {
+    "id": 7,
+    "word": "Gravimetric Analysis",
+    "description": "the measurement of the weight of the substance in a sample or calculation of the weight of the substance in a sample from the weight of a chemically equivalent amount of some other substance, can be accomplished in various way."
+  },
+  {
+    "id": 8,
+    "word": "Gas Chromatography",
+    "description": "is a common type of chromatography used in analytical chemistry for separating and analyzing compounds that can be vaporized without decomposition."
+  },
+  {
+    "id": 9,
+    "word": "Traditional Combustion Analysis",
+    "description": "is a method used in both organic chemistry and analytical chemistry to determine the elemental composition (more precisely empirical formula) of a pure organic compound by combusting the sample under conditions where the resulting combustion products can be quantitatively analyzed."
+  },
+  {
+    "id": 10,
+    "word": "Colloid formation",
+    "description": "in chemistry, is a mixture in which one substance of microscopically dispersed insoluble particles is suspended throughout another substance."
+  },
+  {
+    "id": 11,
+    "word": "Spectrophotometry",
+    "description": "is a method to measure how much a chemical substance absorbs light by measuring the intensity of light as a beam of light passes through sample solution."
+  },
+  {
+    "id": 12,
+    "word": "Volumetric analysis",
+    "description": "determination of the volume of a solution of known concentration required to react with a given amount of the substance to be analyzed."
+  },
+  {
+    "id": 13,
+    "word": "Chromatographic",
+    "description": "is a physical method of separation that distributes components to separate between two phases, one stationary (stationary phase), the other (the mobile phase) moving in a definite direction."
+  },
+  {
+    "id": 14,
+    "word": "Spectrophotometric",
+    "description": "is the quantitative measurement of the reflection or transmission properties of a material as a function of wavelength."
+  },
+  {
+    "id": 15,
+    "word": "Refractometric",
+    "description": "is the method of measuring substances' refractive index (one of their fundamental physical properties) in order to, for example, assess their composition or purity."
+  },
+  {
+    "id": 16,
+    "word": "Extraction",
+    "description": "in chemistry is a separation process consisting in the separation of a substance from a matrix. It includes Liquid-liquid extraction, and Solid phase extraction."
+  },
+  {
+    "id": 17,
+    "word": "Alkaloid",
+    "description": "any of a class of nitrogenous organic compounds of plant origin that have pronounced physiological actions on humans."
+  },
+  {
+    "id": 18,
+    "word": "Purity",
+    "description": "is the absence of impurity or contaminants in a substance."
+  },
+  {
+    "id": 19,
+    "word": "Oxide",
+    "description": "is a chemical compound that contains at least one oxygen atom and one other element in its chemical formula."
+  },
+  {
+    "id": 20,
+    "word": "Zinc oxide",
+    "description": "is an inorganic compound with the formula ZnO. ZnO is a white powder that is insoluble in water, and it is widely used as an additive in numerous materials and products including rubbers, plastics, ceramics, glass, cement, lubricants, paints, ointments, adhesives, sealants, pigments, foods, batteries, ferrites, fire retardants, and first-aid tapes."
+  },
+  {
+    "id": 21,
+    "word": "Titrimetric methods",
+    "description": "also known as titrimetry, is a common laboratory method of quantitative chemical analysis that is used to determine the unknown concentration of an identified analyte."
+  },
+  {
+    "id": 22,
+    "word": "Concentration",
+    "description": "is the abundance of a constituent divided by the total volume of a mixture."
+  },
+  {
+    "id": 23,
+    "word": "Analyte",
+    "description": "a substance whose chemical constituents are being identified and measured."
+  },
+  {
+    "id": 24,
+    "word": "Titrant",
+    "description": "is a solution of known concentration which is added (titrated) to another solution to determine the concentration of a second chemical species."
+  },
+  {
+    "id": 25,
+    "word": "Buret",
+    "description": "is a device used in analytical chemistry for the dispensing of variable, measured amounts of a chemical solution."
+  },
+  {
+    "id": 26,
+    "word": "Titration",
+    "description": "is the slow addition of one solution of a known concentration (called a titrant) to a known volume of another solution of unknown concentration until the reaction reaches neutralization, which is often indicated by a color change."
+  },
+  {
+    "id": 27,
+    "word": "Neutralization reactions",
+    "description": "is when an acid and a base react to form water and a salt and involves the combination of H+ ions and OH- ions to generate water."
+  },
+  {
+    "id": 28,
+    "word": "Marble",
+    "description": "is a metamorphic rock composed of recrystallized carbonate minerals, most commonly calcite or dolomite."
+  },
+  {
+    "id": 29,
+    "word": "Normality",
+    "description": "the number of equivalents of solute per liter (equiv/liter) or milliequivalents per milliliter (meq/ml) of solution."
+  },
+  {
+    "id": 30,
+    "word": "Molarity",
+    "description": "an expressions of the concentration of a solution in terms of moles per liter."
+  },
+  {
+    "id": 31,
+    "word": "Hydrochloric acid",
+    "description": "is a corrosive, strong mineral acid with many industrial uses."
+  },
+  {
+    "id": 32,
+    "word": "Sodium hydroxide",
+    "description": "known as lye and caustic soda, is an inorganic compound. It is a white solid and highly caustic metallic base and alkali of sodium which is available in pellets, flakes, granules, and as prepared solutions at different concentrations."
+  },
+  {
+    "id": 33,
+    "word": "Sodium carbonate",
+    "description": "known as washing soda, soda ash and soda crystals, and in the monohydrate form as crystal carbonate), Na2CO3, is the water-soluble sodium salt of carbonic acid."
+  },
+  {
+    "id": 34,
+    "word": "Aqueous solution",
+    "description": "is a solution in which the solvent is water."
+  },
+  {
+    "id": 35,
+    "word": "Hydrophobic",
+    "description": "effect is the observed tendency of nonpolar substances to aggregate in aqueous solution and exclude water molecules."
+  },
+  {
+    "id": 36,
+    "word": "Metathesis reactions",
+    "description": "a reaction in which two compounds exchange ions, typically with precipitation of an insoluble product."
+  },
+  {
+    "id": 37,
+    "word": "Ionic bond",
+    "description": "is a type of chemical bond that generates two oppositely charged ions."
+  },
+  {
+    "id": 38,
+    "word": "Electrolytes",
+    "description": "the ionized or ionizable constituents of a living cell, blood, or other organic matter."
+  },
+  {
+    "id": 39,
+    "word": "Urea",
+    "description": "also known as carbamide, is an organic compound with the chemical formula CO(NH2)2."
+  },
+  {
+    "id": 40,
+    "word": "Glycerol",
+    "description": "It is a colorless, odorless, viscous liquid that is sweet-tasting and non-toxic."
+  },
+  {
+    "id": 41,
+    "word": "Methylsulfonylmethane",
+    "description": "is an organosulfur compound with the formula (CH3)2SO2. It is also known by several other names including DMSO2, methyl sulfone, and dimethyl sulfone."
+  },
+  {
+    "id": 42,
+    "word": "Solubility",
+    "description": "is a chemical property referring to the ability for a given substance, the solute, to dissolve in a solvent."
+  },
+  {
+    "id": 43,
+    "word": "Nonaqueous titration",
+    "description": "is the titration of substances dissolved in solvents other than water."
+  },
+  {
+    "id": 44,
+    "word": "Pharmacopoeial assays",
+    "description": "is a book containing directions for the identification of compound medicines, and published by the authority of a government or a medical or pharmaceutical society."
+  },
+  {
+    "id": 45,
+    "word": "Perchloric acid",
+    "description": "is a mineral acid with the formula HClO4. Usually found as an aqueous solution, this colorless compound is a stronger acid than sulfuric and nitric acid."
+  },
+  {
+    "id": 46,
+    "word": "Anhydrous",
+    "description": "a substance, especially a crystalline compound containing no water."
+  },
+  {
+    "id": 47,
+    "word": "Acetic acid",
+    "description": "systematically named ethanoic acid is a colourless liquid organic compound with the chemical formula CH3COOH (also written as CH3CO2H or C2H4O2)."
+  },
+  {
+    "id": 48,
+    "word": "Karl Fischer",
+    "description": "titration is a classic titration method in analytical chemistry that uses coulometric or volumetric titration to determine trace amounts of water in a sample."
+  },
+  {
+    "id": 49,
+    "word": "Methanol",
+    "description": "also known as methyl alcohol among others, is a chemical with the formula CH3OH (often abbreviated MeOH)."
+  },
+  {
+    "id": 50,
+    "word": "Organic solvents",
+    "description": "be used to replace water since they compete less effectively with the analyte for proton donation or acceptance."
+  },
+  {
+    "id": 51,
+    "word": "Kjeldahl method's",
+    "description": "the internationally recognized method for estimating the protein content in foods and it is the standard method against which all other methods are judged."
+  },
+  {
+    "id": 52,
+    "word": "Amino acid",
+    "description": "a simple organic compound containing both a carboxyl (—COOH) and an amino (—NH2) group."
+  },
+  {
+    "id": 53,
+    "word": "Sulfuric acid",
+    "description": "It is a pungent-ethereal, colorless to slightly yellow viscous liquid that is soluble in water at all concentrations."
+  },
+  {
+    "id": 54,
+    "word": "Dumas method",
+    "description": "in analytical chemistry is a method for the quantitative determination of nitrogen in chemical substances based on a method first described by Jean-Baptiste Dumas in 1826."
+  },
+  {
+    "id": 55,
+    "word": "Crude protein content",
+    "description": "is calculated as mineral nitrogen x 6.25 (the assumption is that proteins of typical animal feeds contain 16% nitrogen in average)."
+  },
+  {
+    "id": 56,
+    "word": "Alkalimetry",
+    "description": "is the specialized analytic use of acid-base titration to determine the concentration of a basic (synonymous to alkaline) substance."
+  },
+  {
+    "id": 57,
+    "word": "Chloride solution",
+    "description": "is the anion (negatively charged ion) Cl−. It is formed when the element chlorine (a halogen) gains an electron or when a compound such as hydrogen chloride is dissolved in water or other polar solvents."
+  },
+  {
+    "id": 58,
+    "word": "Fluorescein",
+    "description": "is a synthetic organic compound available as a dark orange/red powder slightly soluble in water and alcohol. It is widely used as a fluorescent tracer for many applications."
+  },
+  {
+    "id": 59,
+    "word": "Silver nitrate",
+    "description": "is an inorganic compound with chemical formula AgNO\r\n3. This compound is a versatile precursor to many other silver compounds, such as those used in photography."
+  },
+  {
+    "id": 60,
+    "word": "nitric acid",
+    "description": "known as aqua fortis and spirit of niter, is a highly corrosive mineral acid."
+  },
+  {
+    "id": 61,
+    "word": "Thiocyanate solution",
+    "description": "It is the conjugate base of thiocyanic acid. Common derivatives include the colourless salts potassium thiocyanate and sodium thiocyanate."
+  },
+  {
+    "id": 62,
+    "word": "Ammonium thiocyanate",
+    "description": "is an inorganic compound with the formula NH4SCN. It is the salt of the ammonium cation and the thiocyanate anion."
+  },
+  {
+    "id": 63,
+    "word": "Redox titration",
+    "description": "is a type of titration based on a redox reaction between the analyte and titrant."
+  },
+  {
+    "id": 64,
+    "word": "Oxidation-reduction",
+    "description": "reaction is a type of chemical reaction that involves a transfer of electrons between two species."
+  },
+  {
+    "id": 65,
+    "word": "Redox indicators",
+    "description": "is an indicator which undergoes a definite color change at a specific electrode potential."
+  },
+  {
+    "id": 66,
+    "word": "Oxidation",
+    "description": "the process or result of oxidizing or being oxidized."
+  },
+  {
+    "id": 67,
+    "word": "Oxidation-Reduction Reactions",
+    "description": "is a type of chemical reaction that involves a transfer of electrons between two species."
+  },
+  {
+    "id": 68,
+    "word": "Complexation Reaction",
+    "description": "A chemical reaction that takes place between a metal ion and a molecular or ionic entity known as a ligand that contains at least one atom with an unshared pair of electrons."
+  },
+  {
+    "id": 69,
+    "word": "Chelate",
+    "description": "a compound containing a ligand (typically organic) bonded to a central metal atom at two or more points."
+  },
+  {
+    "id": 70,
+    "word": "Lewis acid",
+    "description": "a compound or ionic species that can accept an electron pair from a donor compound."
+  },
+  {
+    "id": 71,
+    "word": "Ligand",
+    "description": "is an ion or molecule (functional group) that binds to a central metal atom to form a coordination complex."
+  },
+  {
+    "id": 72,
+    "word": "Complexation reaction",
+    "description": "is the replacement of solvent molecules by ligand."
+  },
+  {
+    "id": 73,
+    "word": "Back titration",
+    "description": "is a titration method where the concentration of an analyte is determined by reacting it with a known amount of excess reagent."
+  },
+  {
+    "id": 74,
+    "word": "Masking agent",
+    "description": "is a reagent used in chemical analysis which reacts with chemical species that may interfere in the analysis."
+  },
+  {
+    "id": 75,
+    "word": "Reversible reaction",
+    "description": "a chemical reaction where the reactants form products that, in turn, react together to give the reactants back."
+  },
+  {
+    "id": 76,
+    "word": "Thiosulfates",
+    "description": "is a sulfate ion with one oxygen replaced by sulfur."
+  },
+  {
+    "id": 77,
+    "word": "Arsenates",
+    "description": "a salts or esters of arsenic acid."
+  },
+  {
+    "id": 78,
+    "word": "Iodine",
+    "description": "is a chemical element with symbol I and atomic number 53."
+  },
+  {
+    "id": 79,
+    "word": "Iodemetry",
+    "description": "the quantitative analysis of a solution of an oxidizing agent by adding an iodide that reacts to form iodine, which is then titrated."
+  },
+  {
+    "id": 80,
+    "word": "Oxidizing agents",
+    "description": "a substance that tends to bring about oxidation by being reduced and gaining electrons."
+  },
+  {
+    "id": 81,
+    "word": "Ferric",
+    "description": "refers to iron-containing materials or compounds."
+  },
+  {
+    "id": 82,
+    "word": "Ascorbic acid",
+    "description": "is a naturally occurring organic compound with antioxidant properties. It is a white solid, but impure samples can appear yellowish."
+  },
+  {
+    "id": 83,
+    "word": "Potassium dichromate",
+    "description": "is a common inorganic chemical reagent, most commonly used as an oxidizing agent in various laboratory and industrial applications."
+  },
+  {
+    "id": 84,
+    "word": "Potassium iodate",
+    "description": "may be used as the oxidizing agent in the assay of a number of substances, such as iodides, arsenates, and other educing agents."
+  },
+  {
+    "id": 85,
+    "word": "Iodometric",
+    "description": "also known as iodometric titration, is a method of volumetric chemical analysis, a redox titration where the appearance or disappearance of elementary iodine indicates the end point."
+  },
+  {
+    "id": 86,
+    "word": "Sodium thiosulphate",
+    "description": "is an inorganic compound that is typically available as the pentahydrate, Na2S2O. 5H2O."
+  }
+]

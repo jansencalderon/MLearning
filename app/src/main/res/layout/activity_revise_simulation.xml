@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/activity_revise_simulation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.tip.capstone.mlearning.ui.simulation.ReviseSimulationActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/layout_top_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                app:alignContent="flex_start"
+                app:alignItems="flex_start"
+                app:flexWrap="wrap">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Volatile Oils"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="6dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption" />
+
+                <ImageView
+                    android:id="@+id/acids_acetic"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_acetic" />
+
+                <ImageView
+                    android:id="@+id/alcohol_geraniol"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_geraniol" />
+
+                <ImageView
+                    android:id="@+id/alcohol_borneol"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_borneol" />
+
+                <ImageView
+                    android:id="@+id/ketones_camphor"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_camphor" />
+
+                <ImageView
+                    android:id="@+id/ketones_carvone"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_carvone" />
+
+                <ImageView
+                    android:id="@+id/acids_butyric"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_butyric" />
+
+                <ImageView
+                    android:id="@+id/alcohol_menthol"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_menthols" />
+
+                <ImageView
+                    android:id="@+id/acids_cinnamic"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_cinnamic" />
+
+                <ImageView
+                    android:id="@+id/ketones_menthone"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_menthone" />
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/layout_acids"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:alignContent="flex_start"
+                android:padding="10dp"
+                app:alignItems="flex_start"
+                android:background="@drawable/shape_acids"
+                app:flexWrap="wrap">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Acids"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption" />
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/layout_ketones"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                app:alignContent="flex_start"
+                app:alignItems="flex_start"
+                android:background="@drawable/shape_ketones"
+                app:flexWrap="wrap">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Ketones"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption" />
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:id="@+id/layout_alcohol"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_alcohols"
+                android:layout_weight="1"
+                app:alignContent="flex_start"
+                app:alignItems="flex_start"
+                android:padding="10dp"
+                app:flexWrap="wrap">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:text="Alcohols"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption" />
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

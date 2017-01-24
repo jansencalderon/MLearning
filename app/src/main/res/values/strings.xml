@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QPC App</string>
+    <string name="title_activity_lesson">LessonActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="reset_grades">Reset Grades</string>
+    <string name="quiz">Quiz</string>
+    <string name="score">Score</string>
+    <string name="average">Average</string>
+    <string name="topic">Topic</string>
+    <string name="study">Study</string>
+    <string name="assessment">Assessment</string>
+    <string name="grades">Grades</string>
+    <string name="videos">Videos</string>
+    <string name="simulation">Simulation</string>
+    <string name="glossary">Glossary</string>
+    <string name="your_answer">Your Answer:</string>
+    <string name="raw_score">Raw Score</string>
+    <string name="correct_answer">Correct Answer:</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="title_activity_simulation">SimulationActivity</string>
+</resources>
