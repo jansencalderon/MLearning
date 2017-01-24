@@ -118,6 +118,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
             chart.setPinchZoom(false);
             chart.animateY(2000);
             chart.setTouchEnabled(false);
+            chart.getXAxis().setAxisMinimum(0f);
             chart.setHighlightFullBarEnabled(false);
             chart.setDoubleTapToZoomEnabled(false);
             chart.invalidate();
@@ -159,6 +160,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
             chart.animateY(1000);
             chart.setPinchZoom(false);
             chart.setTouchEnabled(false);
+            chart.getXAxis().setAxisMinimum(0f);
             chart.setHighlightFullBarEnabled(false);
             chart.setDoubleTapToZoomEnabled(false);
             chart.getAxisLeft().setAxisMaximum(100f);
@@ -188,9 +190,8 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
             xl.setCenterAxisLabels(true);
 
             for (int i = 0; i < realmResults.size(); i++) {
-                Toast.makeText(this, i+" realm"+realmResults.size(), Toast.LENGTH_SHORT).show();
-                yVals1.add(new BarEntry(i+1, (float) realmResults.get(i).getRawScore() * 10f));
-                yVals2.add(new BarEntry(i+1, (float) realmResults2.get(i).getRawScore() * 10f));
+                yVals1.add(new BarEntry(i, (float) realmResults.get(i).getRawScore() * 10f));
+                yVals2.add(new BarEntry(i, (float) realmResults2.get(i).getRawScore() * 10f));
             }
 
             set1 = new BarDataSet(yVals1, "Pre Quiz");
@@ -213,6 +214,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
             binding.comparison.setDoubleTapToZoomEnabled(false);
             binding.comparison.setHighlightFullBarEnabled(false);
             binding.comparison.getAxisLeft().setAxisMaximum(100f);
+            binding.comparison.getXAxis().setAxisMinimum(0f);
             binding.comparison.getAxisLeft().setDrawGridLines(false);
             binding.comparison.getAxisRight().setEnabled(false);
             binding.comparison.getBarData().setBarWidth(barWidth);

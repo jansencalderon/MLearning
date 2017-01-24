@@ -26,6 +26,7 @@
 
             <TextView
                 android:layout_width="wrap_content"
+                android:textStyle="bold"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="Pre Quiz"
@@ -41,6 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
+                android:textStyle="bold"
                 android:text="Post Quiz"
                 android:textColor="@color/darkGray"
                 android:textSize="16sp" />
@@ -56,6 +58,7 @@
                 android:padding="10dp"
                 android:text="Pre and Post Quizzes Comparison"
                 android:textColor="@color/darkGray"
+                android:textStyle="bold"
                 android:textSize="16sp" />
 
             <com.github.mikephil.charting.charts.BarChart
