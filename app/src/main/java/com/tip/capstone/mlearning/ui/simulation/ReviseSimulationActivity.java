@@ -158,9 +158,10 @@ public class ReviseSimulationActivity extends AppCompatActivity
                     FlexboxLayout container = (FlexboxLayout) view;
                     container.addView(view1);
                     view1.setVisibility(View.VISIBLE);
-                    MediaPlayer mp = MediaPlayer.create(ReviseSimulationActivity.this, R.raw.ting);
-                    mp.start();
-
+                    if(view.getId() != R.id.layout_top_left){
+                        MediaPlayer mp = MediaPlayer.create(ReviseSimulationActivity.this, R.raw.ting);
+                        mp.start();
+                    }
                 } else {
                     imageView.setVisibility(View.VISIBLE);
                     MediaPlayer mp = MediaPlayer.create(ReviseSimulationActivity.this, R.raw.engk);
