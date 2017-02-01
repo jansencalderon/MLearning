@@ -15,6 +15,7 @@ import android.view.Window;
 import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.BarChart;
+import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.AxisBase;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
@@ -22,6 +23,8 @@ import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.highlight.Highlight;
 import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
 import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
@@ -98,7 +101,6 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
             XAxis xl = chart.getXAxis();
             xl.setGranularity(1f);
-            xl.setCenterAxisLabels(true);
 
             for (int i = 0; i < realmResults.size(); i++) {
                 BARENTRY.add(new BarEntry((float) i + 1, (float) realmResults.get(i).getRawScore() * 10f, "Pre Quiz " + i));
@@ -111,17 +113,50 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
             Bardataset.setColors(ContextCompat.getColor(this, R.color.colorPrimary));
             chart.setData(BARDATA);
-            chart.setFitBars(true);
             chart.getAxisRight().setAxisMaximum(100f);
             chart.getAxisLeft().setAxisMaximum(100f);
             chart.setDescription(null);
             chart.setPinchZoom(false);
             chart.animateY(2000);
             chart.setTouchEnabled(false);
-            chart.getXAxis().setAxisMinimum(0f);
+            chart.getXAxis().setAxisMinimum(1f);
             chart.setHighlightFullBarEnabled(false);
             chart.setDoubleTapToZoomEnabled(false);
+            chart.getAxisRight().setEnabled(false);
             chart.invalidate();
+
+            //set Line Graph
+
+            LineChart lineChart;
+            lineChart = binding.preQuizLineGraph;
+            lineChart.setTouchEnabled(false);
+            lineChart.setPinchZoom(false);
+            lineChart.setDescription(null);
+            lineChart.getAxisLeft().setAxisMaximum(100f);
+            lineChart.getAxisRight().setEnabled(false);
+            lineChart.animateY(1000);
+
+            XAxis xl2 = lineChart.getXAxis();
+            xl2.setGranularity(1f);
+
+            ArrayList<Entry> entries = new ArrayList<>();
+            for (int i = 0; i < realmResults.size(); i++) {
+                entries.add(new Entry(i+1, (float) realmResults.get(i).getRawScore()*10));
+            }
+
+            ArrayList<String> labels = new ArrayList<>();
+            for (int i = 0; i < realmResults.size(); i++) {
+                labels.add(i,"Quiz "+i);
+            }
+
+            LineDataSet lineDataSet = new LineDataSet(entries, "Pre Quizzes");
+            lineDataSet.setColor(ContextCompat.getColor(this, R.color.colorPrimary));
+            lineDataSet.setDrawFilled(true);
+            lineDataSet.setCircleColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+
+            LineData lineData = new LineData(lineDataSet);
+
+            lineChart.setData(lineData);
         }
 
     }
@@ -143,7 +178,6 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
             XAxis xl = chart.getXAxis();
             xl.setGranularity(1f);
-            xl.setCenterAxisLabels(true);
 
             for (int i = 0; i < realmResults2.size(); i++) {
                 BARENTRY.add(new BarEntry((float) i + 1, (float) realmResults2.get(i).getRawScore() * 10f, "Quiz " + i));
@@ -155,18 +189,50 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
             Bardataset.setColors(ContextCompat.getColor(this, R.color.colorPrimary));
             chart.setData(BARDATA);
-            chart.setFitBars(true);
             chart.setDescription(null);
             chart.animateY(1000);
             chart.setPinchZoom(false);
             chart.setTouchEnabled(false);
-            chart.getXAxis().setAxisMinimum(0f);
+            chart.getXAxis().setAxisMinimum(1f);
             chart.setHighlightFullBarEnabled(false);
             chart.setDoubleTapToZoomEnabled(false);
             chart.getAxisLeft().setAxisMaximum(100f);
             chart.getAxisRight().setAxisMaximum(100f);
+            chart.getAxisRight().setEnabled(false);
             chart.invalidate();
+
+            LineChart lineChart;
+            lineChart = binding.postQuizLineGraph;
+            lineChart.setTouchEnabled(false);
+            lineChart.setPinchZoom(false);
+            lineChart.setDescription(null);
+            lineChart.getAxisLeft().setAxisMaximum(100f);
+            lineChart.getAxisRight().setEnabled(false);
+            lineChart.animateY(1000);
+
+            XAxis xl2 = lineChart.getXAxis();
+            xl2.setGranularity(1f);
+
+            ArrayList<Entry> entries = new ArrayList<>();
+            for (int i = 0; i < realmResults2.size(); i++) {
+                entries.add(new Entry(i+1,(float) realmResults2.get(i).getRawScore()*10));
+            }
+
+            ArrayList<String> labels = new ArrayList<>();
+            for (int i = 0; i < realmResults2.size(); i++) {
+                labels.add(i,"Quiz "+i);
+            }
+
+            LineDataSet lineDataSet = new LineDataSet(entries, "Post Quizzes");
+            lineDataSet.setColor(ContextCompat.getColor(this, R.color.colorPrimary));
+            lineDataSet.setDrawFilled(true);
+            lineDataSet.setCircleColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
+
+            LineData lineData = new LineData(lineDataSet);
+
+            lineChart.setData(lineData);
         }
+
 
 
     }
@@ -175,7 +241,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
         RealmResults<PreQuizGrade> realmResults = realm.where(PreQuizGrade.class).findAll();
         RealmResults<QuizGrade> realmResults2 = realm.where(QuizGrade.class).findAll();
-        if (realmResults.size() > 0 && realmResults2.size() > 0) {
+        if (realmResults.size() > 0 && realmResults2.size() > 0 ) {
             BarChart chart;
             float groupSpace = 0.04f;
             float barSpace = 0.02f; // x2 dataset
@@ -187,11 +253,14 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
             XAxis xl = binding.comparison.getXAxis();
             xl.setGranularity(1f);
-            xl.setCenterAxisLabels(true);
 
             for (int i = 0; i < realmResults.size(); i++) {
-                yVals1.add(new BarEntry(i, (float) realmResults.get(i).getRawScore() * 10f));
-                yVals2.add(new BarEntry(i, (float) realmResults2.get(i).getRawScore() * 10f));
+                try {
+                    yVals1.add(new BarEntry(i, (float) realmResults.get(i).getRawScore() * 10f));
+                    yVals2.add(new BarEntry(i, (float) realmResults2.get(i).getRawScore() * 10f));
+                }catch (IndexOutOfBoundsException e){
+                    e.printStackTrace();
+                }
             }
 
             set1 = new BarDataSet(yVals1, "Pre Quiz");
@@ -331,6 +400,8 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
                         realm.delete(AssessmentGrade.class);
                         binding.preQuiz.invalidate();
                         binding.quiz.invalidate();
+                        binding.postQuizLineGraph.invalidate();
+                        binding.preQuizLineGraph.invalidate();
                     }
                 });
                 getData();

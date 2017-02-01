@@ -38,6 +38,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp" />
 
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/preQuizLineGraph"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,6 +54,10 @@
 
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/quiz"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/postQuizLineGraph"
                 android:layout_width="match_parent"
                 android:layout_height="150dp" />
 
