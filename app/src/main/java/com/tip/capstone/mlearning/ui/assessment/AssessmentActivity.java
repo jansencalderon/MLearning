@@ -274,7 +274,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
                 }
             }
             userAnswer.setUserAnswer(adapterLetterAnswer.getAnswer());
-            userAnswer.setChoiceType(Constant.DETAIL_TYPE_IMAGE);
+            userAnswer.setChoiceType(Constant.DETAIL_TYPE_TEXT);
         }
         if (userAnswerList.size() > ((AssessmentViewState) getViewState()).getCounter())
             userAnswerList.set(((AssessmentViewState) getViewState()).getCounter(), userAnswer);

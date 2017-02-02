@@ -29,43 +29,49 @@
                 android:textStyle="bold"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Pre Quiz"
+                android:text="Pre Assessments"
                 android:textColor="@color/darkGray"
                 android:textSize="16sp" />
 
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/preQuiz"
+                android:visibility="gone"
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="120dp" />
 
             <com.github.mikephil.charting.charts.LineChart
                 android:id="@+id/preQuizLineGraph"
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="200dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:textStyle="bold"
-                android:text="Post Quiz"
+                android:text="Post Assesments"
                 android:textColor="@color/darkGray"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView2" />
 
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/quiz"
+                android:visibility="gone"
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="120dp" />
+
             <com.github.mikephil.charting.charts.LineChart
                 android:id="@+id/postQuizLineGraph"
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="200dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="Pre and Post Quizzes Comparison"
+                android:layout_marginTop="20dp"
+                android:text="Pre and Post Assessment Comparison"
                 android:textColor="@color/darkGray"
                 android:textStyle="bold"
                 android:textSize="16sp" />
@@ -73,7 +79,7 @@
             <com.github.mikephil.charting.charts.BarChart
                 android:id="@+id/comparison"
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="200dp" />
 
             <Button
                 android:id="@+id/showDialog"
