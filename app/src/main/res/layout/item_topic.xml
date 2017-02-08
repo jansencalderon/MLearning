@@ -15,41 +15,42 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_marginBottom="16dp"
-        android:layout_height="wrap_content">
-    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:onClick="@{() -> view.onTopicClicked(topic)}"
-        android:orientation="vertical">
+        android:layout_marginBottom="16dp"
+        android:foreground="?attr/selectableItemBackground">
 
-        <ImageView
-            android:id="@+id/image_topic"
-            android:layout_width="match_parent"
-            android:layout_height="170dp"
-            tools:ignore="ContentDescription" />
-
-        <TextView
+        <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{topic.title}"
-            android:layout_above="@+id/desc"
-            android:background="#3e000000"
-            android:textColor="@color/white"
-            android:padding="@dimen/activity_vertical_margin"
-            android:layout_alignBottom="@+id/image_topic"
-            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+            android:onClick="@{() -> view.onTopicClicked(topic)}"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/desc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:layout_alignBottom="@+id/image_topic"
-            android:padding="@dimen/activity_vertical_margin"
-            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+            <ImageView
+                android:id="@+id/image_topic"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                tools:ignore="ContentDescription" />
 
-    </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/desc"
+                android:layout_alignBottom="@+id/image_topic"
+                android:background="#3e000000"
+                android:padding="@dimen/activity_vertical_margin"
+                android:text="@{topic.title}"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/image_topic"
+                android:padding="@dimen/activity_vertical_margin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:visibility="gone" />
+
+        </RelativeLayout>
     </android.support.v7.widget.CardView>
 </layout>

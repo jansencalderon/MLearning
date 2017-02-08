@@ -184,7 +184,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
             for (int i = 0; i < realmResults2.size(); i++) {
                 BARENTRY.add(new BarEntry((float) i + 1, (float) realmResults2.get(i).getRawScore() * 10f, "Quiz " + i));
             }
-            Bardataset = new BarDataSet(BARENTRY, "Post Quiz");
+            Bardataset = new BarDataSet(BARENTRY, "Post Assessments");
 
 
             BARDATA = new BarData(Bardataset);
@@ -223,10 +223,10 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
             ArrayList<String> labels = new ArrayList<>();
             for (int i = 0; i < realmResults2.size(); i++) {
-                labels.add(i, "Quiz " + i);
+                labels.add(i, "Post Assessments " + i);
             }
 
-            LineDataSet lineDataSet = new LineDataSet(entries, "Post Quizzes");
+            LineDataSet lineDataSet = new LineDataSet(entries, "Post Assessments");
             lineDataSet.setColor(ContextCompat.getColor(this, R.color.colorPrimary));
             lineDataSet.setDrawFilled(true);
             lineDataSet.setCircleColor(ContextCompat.getColor(this, R.color.colorPrimaryDark));
@@ -267,7 +267,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
             set1 = new BarDataSet(yVals1, "Pre Assessments");
             set1.setColors(ColorTemplate.COLORFUL_COLORS);
-            set2 = new BarDataSet(yVals2, "Quiz Assessments");
+            set2 = new BarDataSet(yVals2, "Post Assessments");
             set2.setColors(ColorTemplate.COLORFUL_COLORS);
 
             ArrayList<IBarDataSet> dataSets = new ArrayList<IBarDataSet>();
@@ -320,7 +320,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
                 Grades nonHeader = new Grades();
 
                 nonHeader.setHeader(false);
-                nonHeader.setTitle("Pre Quiz");
+                nonHeader.setTitle("Pre Assessments");
                 PreQuizGrade preQuizGrade = realm.where(PreQuizGrade.class).equalTo(Constant.ID, topic.getId()).findFirst();
                 if (preQuizGrade != null) {
                     QuizGrade preGrade = new QuizGrade();
@@ -335,7 +335,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
                 nonHeader = new Grades();
                 nonHeader.setHeader(false);
-                nonHeader.setTitle("Post Quiz");
+                nonHeader.setTitle("Post Assessments");
                 QuizGrade quizGrade = realm.where(QuizGrade.class).equalTo(Constant.ID, topic.getId()).findFirst();
 
                 if (quizGrade != null) {
@@ -353,7 +353,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
         AssessmentGrade assessmentGrade = realm.where(AssessmentGrade.class).findFirst();
 
         Grades gradeAssessmentHeader = new Grades();
-        gradeAssessmentHeader.setTitle("Assessment");
+        gradeAssessmentHeader.setTitle("Post Assessments");
         gradeAssessmentHeader.setSequence(gradesList.size() + 1);
         gradeAssessmentHeader.setAssessmentGrade(assessmentGrade != null ? realm.copyFromRealm(assessmentGrade) : new AssessmentGrade());
         gradesList.add(gradeAssessmentHeader);

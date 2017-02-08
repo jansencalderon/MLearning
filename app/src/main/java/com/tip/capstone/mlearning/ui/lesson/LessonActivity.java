@@ -101,7 +101,7 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
                         dialogInterface.dismiss();
                         Intent intent = new Intent(LessonActivity.this, QuizActivity.class);
                         intent.putExtra(Constant.ID, topic.getId());
-                        intent.putExtra(Constant.PRE_QUIZ, true);
+                          intent.putExtra(Constant.PRE_QUIZ, true);
                         startActivity(intent);
                     }
                 })
