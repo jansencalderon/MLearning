@@ -353,7 +353,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
         AssessmentGrade assessmentGrade = realm.where(AssessmentGrade.class).findFirst();
 
         Grades gradeAssessmentHeader = new Grades();
-        gradeAssessmentHeader.setTitle("Post Assessments");
+        gradeAssessmentHeader.setTitle("Assessment");
         gradeAssessmentHeader.setSequence(gradesList.size() + 1);
         gradeAssessmentHeader.setAssessmentGrade(assessmentGrade != null ? realm.copyFromRealm(assessmentGrade) : new AssessmentGrade());
         gradesList.add(gradeAssessmentHeader);
