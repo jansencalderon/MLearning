@@ -17,6 +17,30 @@
                 "body_type": 1
               },
               {
+                "id": 113,
+                "sequence": 2,
+                "body": "In modern practice of pharmacy it is important that pharmacists have more than an appreciation for quantitative analytical methodology. They must have working knowledge if they are to advise medical practitioners on drug quality of a drug product is challenged by a physician, the pharmacist is responsible for initiating steps to determine if indeed the product is defective. This may be accomplished by (1) calling and advising the drug manufacturer of the problem involving the product, (2) analyzing the preparation in the prescription laboratory, borrowing needed equipment from a clinical laboratory if necessary, (3) sending a portion of the sample to a private laboratory for analysis, or (4) a combination of all these steps. In any case, however, it remains the responsibility of the pharmacist to solve problems relating to drug quality.",
+                "caption": "",
+                "lesson": 6,
+                "body_type": 1
+              },
+              {
+                "id": 114,
+                "sequence": 4,
+                "body": "The following information is requested: (1) trade name, dosage form, and strength, (2) lot number(s), (3) date purchased (if known), (4) source of product (where purchased, if known), (5) name address of pharmacy (included ZIP code, (8) telephone number (include area code), and (9) defects noted and suspected. This program alerts manufacturers to defective drug products and thereby ensures better quality in pharmaceutical products for the patient.The term “quality” as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product. These properties are built into drug products through research and during the manufacturing process by procedures collectively referred to as “quality control”.",
+                "caption": "",
+                "lesson": 6,
+                "body_type": 1
+              },
+              {
+                "id": 115,
+                "sequence": 5,
+                "body": "Quality control guarantees within reasonable limits that a drug product (1) is free of impurities, (2) is physically and chemically stable, (3) contains the amount of active ingredient(s) as stated on the label, and (4) provides optimal release of active ingredient(s) when the product is administered. Of the four properties listed, item 3 is usually emphasized in quantitative pharmaceutical chemistry. The others are generally considered in other courses of the curriculum.Standards for drug quality are set by both state and federal agencies.",
+                "caption": "",
+                "lesson": 6,
+                "body_type": 1
+              },
+              {
                 "id": 130,
                 "sequence": 3,
                 "body": "Pharmacist who have reason to believe that a drug product is not a proper quality and appears to be defective, because of improper labeling, discoloration, the presence of cloudiness, crystal, or precipitates in products known to be solutions, or for any other reason, are urged by the Food and Drug Administration and by the nonprofit standards-setting organization, The United States Pharmacopeia, to participate in the Drug Defect Reporting Program by preparing a report, or by completing a form [FD Form 2519a (2/72)], and sending it to: The united States Pharmacopeia, 12601 Twin brook parkway, Rockville, Md.",
@@ -31,68 +55,9 @@
                 "caption": "",
                 "lesson": 6,
                 "body_type": 1
-              },
-              {
-                "id": 132,
-                "sequence": 7,
-                "body": "At the federal level drug-quality requirements are set through an organization known as the United States Pharmacopeia Convention, inc., a nonprofit corporation composed of representatives from all accredited colleges and schools of pharmacy and medicine in the country, every state pharmaceutical and medical association and many other national associations such as the American Pharmaceutical Association and the American Medical Association, and various department of the federal government. Drugs are selected for inclusion in a particular revision by a committee composed of medical experts throughout the country. Drug-quality standards for these drugs are then set by medical and pharmaceutical scientists of many disciplines, who represent educational institutions, the federal government, and industry.",
-                "caption": "",
-                "lesson": 6,
-                "body_type": 1
               }
             ],
             "sequence": 2,
-            "title": "Pharmaceutical",
-            "description": "",
-            "topic": 6
-          },
-          {
-            "id": 33,
-            "lessondetails": [
-              {
-                "id": 114,
-                "sequence": 4,
-                "body": "The following information is requested: (1) trade name, dosage form, and strength, (2) lot number(s), (3) date purchased (if known), (4) source of product (where purchased, if known), (5) name address of pharmacy (included ZIP code, (8) telephone number (include area code), and (9) defects noted and suspected. This program alerts manufacturers to defective drug products and thereby ensures better quality in pharmaceutical products for the patient.The term “quality” as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product. These properties are built into drug products through research and during the manufacturing process by procedures collectively referred to as “quality control”.",
-                "caption": "",
-                "lesson": 33,
-                "body_type": 1
-              }
-            ],
-            "sequence": 3,
-            "title": "Pharmaceutical",
-            "description": "",
-            "topic": 6
-          },
-          {
-            "id": 34,
-            "lessondetails": [
-              {
-                "id": 113,
-                "sequence": 2,
-                "body": "In modern practice of pharmacy it is important that pharmacists have more than an appreciation for quantitative analytical methodology. They must have working knowledge if they are to advise medical practitioners on drug quality of a drug product is challenged by a physician, the pharmacist is responsible for initiating steps to determine if indeed the product is defective. This may be accomplished by (1) calling and advising the drug manufacturer of the problem involving the product, (2) analyzing the preparation in the prescription laboratory, borrowing needed equipment from a clinical laboratory if necessary, (3) sending a portion of the sample to a private laboratory for analysis, or (4) a combination of all these steps. In any case, however, it remains the responsibility of the pharmacist to solve problems relating to drug quality.",
-                "caption": "",
-                "lesson": 34,
-                "body_type": 1
-              }
-            ],
-            "sequence": 2,
-            "title": "Pharmaceutical",
-            "description": "",
-            "topic": 6
-          },
-          {
-            "id": 35,
-            "lessondetails": [
-              {
-                "id": 115,
-                "sequence": 5,
-                "body": "Quality control guarantees within reasonable limits that a drug product (1) is free of impurities, (2) is physically and chemically stable, (3) contains the amount of active ingredient(s) as stated on the label, and (4) provides optimal release of active ingredient(s) when the product is administered. Of the four properties listed, item 3 is usually emphasized in quantitative pharmaceutical chemistry. The others are generally considered in other courses of the curriculum.Standards for drug quality are set by both state and federal agencies.",
-                "caption": "",
-                "lesson": 35,
-                "body_type": 1
-              }
-            ],
-            "sequence": 4,
             "title": "Pharmaceutical",
             "description": "",
             "topic": 6
@@ -422,10 +387,50 @@
               {
                 "id": 9,
                 "sequence": 2,
-                "body": "Principles of Titrimetric (Volumetric) Analysis\r\nTitrimetric methods of analysis may be defined as those analytical methods in which the volume of a solution of known concentration consumed during an analysis is taken as a measure of the amount of active constituent in a sample being analyzed. For example, hydrochloric acid, U.S.P. XIX, is assayed by weighing a sample accurately and carefully adding a solution of known concentration of sodium hydroxide in the presence of a suitable indicator until equivalent amounts of NaOH and HCI have reacted. In this procedure, HCI\r\n\r\nlesson4_image.jpeg\r\n\r\nIs the chemical substance being analyzed and is referred to as the analyte or active constituent in the sample. The Titrant, which is defined as the solution of known concentration, is sodium hydroxide. Titrants are usually added by means of a buret, and the act of adding and measuring the volume of titrant used in the assay is called titration. The indicator is usually a chemical which changes color at or very near the point in the titration where equivalent quantities of analyte and titrant have reacted. The theoretical point at which equivalent amounts of each have reacted is the stoichiometric point or equivalence point.  The Titration is actually stopped at some point, the end point, at which there occurs a sudden change in some property of the reaction mixture, a change which is made apparent by use of indicators or electrometrically. A titration is feasible only when the end point is very close to the theoretical stoichiometric.\r\n\r\nDefinitions\r\nThe gram-equivalent weight (GEW) or, more simply, the gram-equivalent of a chemical is defined as that weight in grams which is chemically equivalent to 1 gram-atom of hydrogen (1.0079 g). In neutralization reactions it is defined as that weight of a substance in rams which (1) contains, (2) furnishes, (3) reacts with directly or indirectly, or (4) replaces 1 gram-atom or ion of hydrogen. Gram-milliequivalent weight (GmEW) is defined as GEW/1000. This term is used quite frequently in titrimetric calculations. The term equivalent (equiv) is defined as the number of gram-equivalents involved in a quantitative procedure. The term milliequivalent (meq)is used more frequently and is defined as the number of gram-milliequivalents involved in a quantitative procedure. (A useful analogy to help distinguish between equivalents and gram-equivalent weight is a bag containing identical marbles. The number of marbles in the bag is analogous to the number of gram-equivalents of chemical in solution, and the weight of a single marble is analogous to the gram-equivalent weight of the chemical.) A standard solution is a solution of known normality or molarity. Normality  is a concentration expression and is defined as the number of equivalents of solute per liter (equiv/liter) or milliequivalents per milliliter (meq/ml) of solution. Molarity is an expressions of the concentration of a solution in terms of moles per liter. The determination of the normality or molarity of a solution is known as standardization. This may be accomplished by the use of another standard solution known as a secondary standard, or by the use of a carefully weighed sample of a substance of known purity which is termed a primary standard. Thus a solution of hydrochloric acid may be standardized titrimetrically using a standard solution of sodium hydroxide as a secondary standard or using a sample of sodium carbonate of known purity as a primary standard.\r\n\r\nBuret\r\nA burette (also buret) is a device used in analytical chemistry for the dispensing of variable, measured amounts of achemical solution. A volumetric burette delivers measured volumes of liquid.\r\n\r\nlesson4_1_image.jpeg",
+                "body": "Principles of Titrimetric (Volumetric) Analysis\r\nTitrimetric methods of analysis may be defined as those analytical methods in which the volume of a solution of known concentration consumed during an analysis is taken as a measure of the amount of active constituent in a sample being analyzed. For example, hydrochloric acid, U.S.P. XIX, is assayed by weighing a sample accurately and carefully adding a solution of known concentration of sodium hydroxide in the presence of a suitable indicator until equivalent amounts of NaOH and HCI have reacted. In this procedure, HCI",
                 "caption": "",
                 "lesson": 7,
                 "body_type": 1
+              },
+              {
+                "id": 133,
+                "sequence": 2,
+                "body": "lesson4_image.jpeg",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 2
+              },
+              {
+                "id": 134,
+                "sequence": 3,
+                "body": "Is the chemical substance being analyzed and is referred to as the analyte or active constituent in the sample. The Titrant, which is defined as the solution of known concentration, is sodium hydroxide. Titrants are usually added by means of a buret, and the act of adding and measuring the volume of titrant used in the assay is called titration. The indicator is usually a chemical which changes color at or very near the point in the titration where equivalent quantities of analyte and titrant have reacted. The theoretical point at which equivalent amounts of each have reacted is the stoichiometric point or equivalence point.  The Titration is actually stopped at some point, the end point, at which there occurs a sudden change in some property of the reaction mixture, a change which is made apparent by use of indicators or electrometrically. A titration is feasible only when the end point is very close to the theoretical stoichiometric.",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 1
+              },
+              {
+                "id": 135,
+                "sequence": 4,
+                "body": "Definitions\r\nThe gram-equivalent weight (GEW) or, more simply, the gram-equivalent of a chemical is defined as that weight in grams which is chemically equivalent to 1 gram-atom of hydrogen (1.0079 g). In neutralization reactions it is defined as that weight of a substance in rams which (1) contains, (2) furnishes, (3) reacts with directly or indirectly, or (4) replaces 1 gram-atom or ion of hydrogen. Gram-milliequivalent weight (GmEW) is defined as GEW/1000. This term is used quite frequently in titrimetric calculations. The term equivalent (equiv) is defined as the number of gram-equivalents involved in a quantitative procedure. The term milliequivalent (meq)is used more frequently and is defined as the number of gram-milliequivalents involved in a quantitative procedure. (A useful analogy to help distinguish between equivalents and gram-equivalent weight is a bag containing identical marbles. The number of marbles in the bag is analogous to the number of gram-equivalents of chemical in solution, and the weight of a single marble is analogous to the gram-equivalent weight of the chemical.) A standard solution is a solution of known normality or molarity. Normality  is a concentration expression and is defined as the number of equivalents of solute per liter (equiv/liter) or milliequivalents per milliliter (meq/ml) of solution. Molarity is an expressions of the concentration of a solution in terms of moles per liter. The determination of the normality or molarity of a solution is known as standardization. This may be accomplished by the use of another standard solution known as a secondary standard, or by the use of a carefully weighed sample of a substance of known purity which is termed a primary standard. Thus a solution of hydrochloric acid may be standardized titrimetrically using a standard solution of sodium hydroxide as a secondary standard or using a sample of sodium carbonate of known purity as a primary standard.",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 1
+              },
+              {
+                "id": 136,
+                "sequence": 5,
+                "body": "Buret\r\nA burette (also buret) is a device used in analytical chemistry for the dispensing of variable, measured amounts of achemical solution. A volumetric burette delivers measured volumes of liquid.",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 1
+              },
+              {
+                "id": 137,
+                "sequence": 6,
+                "body": "lesson4_1_image.jpeg",
+                "caption": "",
+                "lesson": 7,
+                "body_type": 2
               }
             ],
             "sequence": 1,
@@ -438,8 +443,48 @@
             "lessondetails": [
               {
                 "id": 11,
+                "sequence": 1,
+                "body": "Gravimetric Analysis\r\nTheory\r\nThe chemical reactions in gravimetric analysis take place in accordance with the established laws and theories of chemistry, i.e., law of mass action, reversible reactions, solubility product principle, and common-ion effect.",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 1
+              },
+              {
+                "id": 138,
+                "sequence": 2,
+                "body": "Law of Mass Action and Reversible Reactions \r\nThree general conditions tend to prevent reversal and lead to completion of a reaction: (1) the formation of an insoluble gas, (2) the formation of a sparingly soluble solid, (3) the formation of very slightly ionized molecules.",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 1
+              },
+              {
+                "id": 139,
                 "sequence": 3,
-                "body": "Gravimetric Analysis\r\nTheory\r\nThe chemical reactions in gravimetric analysis take place in accordance with the established laws and theories of chemistry, i.e., law of mass action, reversible reactions, solubility product principle, and common-ion effect.\r\n\r\nLaw of Mass Action and Reversible Reactions \r\nThree general conditions tend to prevent reversal and lead to completion of a reaction: (1) the formation of an insoluble gas, (2) the formation of a sparingly soluble solid, (3) the formation of very slightly ionized molecules.\r\n\r\nGravimetric Method\r\nGravimetric analysis, is the measurement of the weight of the substance in a sample or calculation of the weight of the substance in a sample from the weight of a chemically equivalent amount of some other substance, ca be accomplished in various way. Frequently in pharmaceutical quantitative analysis, the substance to be measured gravimetrically is separated from other substance composing the samples by physical methods, purified, and weighed without chemical change.\r\n\r\ngravimetric_image.jpeg\r\n\r\nGravimetric  Advantages\r\nGravimetric analysis, if methods are followed carefully, provides for exceedingly precise analysis. In fact, gravimetric analysis was used to determine the atomic masses of many elements to six figure accuracy. Gravimetric provides very little room for instrumental error and does not require a series of standards for calculation of an unknown. Also, methods often do not require expensive equipment. Gravimetric analysis, due to its high degree of accuracy, when performed correctly, can also be used to calibrate other instruments in lieu of reference standards.\r\n\r\nGravimetric Disadvantages\r\nGravimetric analysis usually only provides for the analysis of a single element, or a limited group of elements, at a time. Comparing modern dynamic flash combustion coupled with gas chromatography with traditional combustion analysis will show that the former is both faster and allows for simultaneous determination of multiple elements while traditional determination allowed only for the determination of carbon and hydrogen. Methods are often convoluted and a slight mis-step in a procedure can often mean disaster for the analysis (colloid formation in precipitation gravimetric, for example). Compare this with hardy methods such as spectrophotometry and one will find that analysis by these methods is much more efficient.",
+                "body": "Gravimetric Method\r\nGravimetric analysis, is the measurement of the weight of the substance in a sample or calculation of the weight of the substance in a sample from the weight of a chemically equivalent amount of some other substance, ca be accomplished in various way. Frequently in pharmaceutical quantitative analysis, the substance to be measured gravimetrically is separated from other substance composing the samples by physical methods, purified, and weighed without chemical change.",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 1
+              },
+              {
+                "id": 140,
+                "sequence": 4,
+                "body": "gravimetric_image.jpeg",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 2
+              },
+              {
+                "id": 141,
+                "sequence": 5,
+                "body": "Gravimetric  Advantages\r\nGravimetric analysis, if methods are followed carefully, provides for exceedingly precise analysis. In fact, gravimetric analysis was used to determine the atomic masses of many elements to six figure accuracy. Gravimetric provides very little room for instrumental error and does not require a series of standards for calculation of an unknown. Also, methods often do not require expensive equipment. Gravimetric analysis, due to its high degree of accuracy, when performed correctly, can also be used to calibrate other instruments in lieu of reference standards.",
+                "caption": "",
+                "lesson": 8,
+                "body_type": 1
+              },
+              {
+                "id": 142,
+                "sequence": 6,
+                "body": "Gravimetric Disadvantages\r\nGravimetric analysis usually only provides for the analysis of a single element, or a limited group of elements, at a time. Comparing modern dynamic flash combustion coupled with gas chromatography with traditional combustion analysis will show that the former is both faster and allows for simultaneous determination of multiple elements while traditional determination allowed only for the determination of carbon and hydrogen. Methods are often convoluted and a slight mis-step in a procedure can often mean disaster for the analysis (colloid formation in precipitation gravimetric, for example). Compare this with hardy methods such as spectrophotometry and one will find that analysis by these methods is much more efficient.",
                 "caption": "",
                 "lesson": 8,
                 "body_type": 1
@@ -488,86 +533,6 @@
             ],
             "sequence": 1,
             "title": "Official Methods in Pharmaceutical Analysis",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 36,
-            "lessondetails": [],
-            "sequence": 2,
-            "title": "Volumetric",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 37,
-            "lessondetails": [],
-            "sequence": 3,
-            "title": "Volumetric",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 38,
-            "lessondetails": [],
-            "sequence": 4,
-            "title": "Volumetric",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 39,
-            "lessondetails": [],
-            "sequence": 5,
-            "title": "Volumetric",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 40,
-            "lessondetails": [],
-            "sequence": 6,
-            "title": "Volumetric",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 41,
-            "lessondetails": [],
-            "sequence": 2,
-            "title": "Gravimentric",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 42,
-            "lessondetails": [],
-            "sequence": 3,
-            "title": "Gravimentric",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 43,
-            "lessondetails": [],
-            "sequence": 4,
-            "title": "Gravimentric",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 44,
-            "lessondetails": [],
-            "sequence": 5,
-            "title": "Gravimentric",
-            "description": "",
-            "topic": 7
-          },
-          {
-            "id": 45,
-            "lessondetails": [],
-            "sequence": 6,
-            "title": "Gravimentric",
             "description": "",
             "topic": 7
           }
@@ -930,91 +895,73 @@
                 "caption": "",
                 "lesson": 10,
                 "body_type": 1
-              }
-            ],
-            "sequence": 1,
-            "title": "Principles of Neutralization Titration",
-            "description": "",
-            "topic": 8
-          },
-          {
-            "id": 46,
-            "lessondetails": [
+              },
               {
                 "id": 17,
                 "sequence": 2,
                 "body": "non-aqueous\r\n\r\nNonaqueous titration is the titration of substances dissolved in solvents other than water. It is the most common titrimetric procedure used in pharmacopoeial assays and serves a double purpose: it is suitable for the titration of very weak acids and very weak bases, and it provides a solvent in which organic compounds are soluble.\r\nThe most commonly used procedure is the titration of organic bases with perchloric acid in anhydrous acetic acid. These assays sometimes take some perfecting in terms of being able to judge the endpoint precisely.\r\nFor obvious reasons Karl Fischer titration for water content is nonaqueous, usually done in methanol or sometimes inethanol.",
                 "caption": "",
-                "lesson": 46,
+                "lesson": 10,
                 "body_type": 1
-              }
-            ],
-            "sequence": 2,
-            "title": "Principles of Neutralization Titration",
-            "description": "",
-            "topic": 8
-          },
-          {
-            "id": 47,
-            "lessondetails": [
+              },
               {
                 "id": 18,
                 "sequence": 3,
-                "body": "Theory\r\nAcid-base reactions\r\nThe theory is that water behaves as both a weak acid and a weak base; thus, in an aqueous environment, it can compete effectively with very weak acids and bases with regard to proton donation and acceptance, as shown below:\r\n\r\nnonaqueous1_image.jpeg\r\n\r\nor\r\n\r\nnonaqueous2_image.jpg\r\n\r\nThe effect of this is that the inflection in the titration curves for very weak acids and very weak bases is small, because they approach the pH limits in water of 14 or 0 respectively, thus making endpoint detection relatively more difficult.\r\nA general rule is that bases with pKa < 7 or acids with pKa > 7 cannot be determined accurately in aqueous solution.\r\nSubstances which are either too weakly basic or too weakly acidic to give sharp endpoints in aqueous solution can often be titrated in nonaqueous solvents. The reactions which occur during many nonaqueous titrations can be explained by means of the concepts of the Brønsted-Lowry theory. According to this theory an acid is a proton donor, i.e. a substance which tends to dissociate to yield a proton, and a base is proton acceptor, i.e. a substance which tends to combine with a proton. When an acid HB dissociates it yields a proton together with the conjugate base B of the acid:\r\n\r\nnonaqueous3_image.jpg\r\n\r\nAlternatively, the base B will combine with a proton to yield the conjugate acid HB of the base B, for every base has its conjugate acid and, every acid has its conjugate base.\r\nIt follows from these definitions that an acid may be either:\r\n•\tan electrically neutral molecule, e.g. HCl, or\r\n•\ta positively charged cation, e.g. C6H5NH3+, or\r\n•\ta negatively charged anion, e.g. HSO4−.\r\nA base may be either:\r\n•\tan electrically neutral molecule, e.g. C6H5NH2, or\r\n•\tan anion, e.g. Cl−.\r\nSubstances which are potentially acidic can function as acids only in the presence of a base to which they can donate a proton. Conversely basic properties do not become apparent unless an acid also is present.\r\nOrganic solvents\r\nVarious organic solvents may be used to replace water since they compete less effectively with the analyte for proton donation or acceptance.",
+                "body": "Theory\r\nAcid-base reactions\r\nThe theory is that water behaves as both a weak acid and a weak base; thus, in an aqueous environment, it can compete effectively with very weak acids and bases with regard to proton donation and acceptance, as shown below:",
                 "caption": "",
-                "lesson": 47,
+                "lesson": 10,
+                "body_type": 1
+              },
+              {
+                "id": 143,
+                "sequence": 4,
+                "body": "nonaqueous1_image.jpeg\r\n\r\nor\r\n\r\nnonaqueous2_image.jpg",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 2
+              },
+              {
+                "id": 144,
+                "sequence": 5,
+                "body": "The effect of this is that the inflection in the titration curves for very weak acids and very weak bases is small, because they approach the pH limits in water of 14 or 0 respectively, thus making endpoint detection relatively more difficult.\r\nA general rule is that bases with pKa < 7 or acids with pKa > 7 cannot be determined accurately in aqueous solution.",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 1
+              },
+              {
+                "id": 145,
+                "sequence": 6,
+                "body": "Substances which are either too weakly basic or too weakly acidic to give sharp endpoints in aqueous solution can often be titrated in nonaqueous solvents. The reactions which occur during many nonaqueous titrations can be explained by means of the concepts of the Brønsted-Lowry theory. According to this theory an acid is a proton donor, i.e. a substance which tends to dissociate to yield a proton, and a base is proton acceptor, i.e. a substance which tends to combine with a proton. When an acid HB dissociates it yields a proton together with the conjugate base B of the acid:",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 1
+              },
+              {
+                "id": 146,
+                "sequence": 7,
+                "body": "nonaqueous3_image.jpg",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 2
+              },
+              {
+                "id": 147,
+                "sequence": 8,
+                "body": "Alternatively, the base B will combine with a proton to yield the conjugate acid HB of the base B, for every base has its conjugate acid and, every acid has its conjugate base.\r\nIt follows from these definitions that an acid may be either:\r\n•\tan electrically neutral molecule, e.g. HCl, or\r\n•\ta positively charged cation, e.g. C6H5NH3+, or\r\n•\ta negatively charged anion, e.g. HSO4−.\r\nA base may be either:\r\n•\tan electrically neutral molecule, e.g. C6H5NH2, or\r\n•\tan anion, e.g. Cl−.\r\nSubstances which are potentially acidic can function as acids only in the presence of a base to which they can donate a proton. Conversely basic properties do not become apparent unless an acid also is present.",
+                "caption": "",
+                "lesson": 10,
+                "body_type": 1
+              },
+              {
+                "id": 148,
+                "sequence": 9,
+                "body": "Organic solvents\r\nVarious organic solvents may be used to replace water since they compete less effectively with the analyte for proton donation or acceptance.",
+                "caption": "",
+                "lesson": 10,
                 "body_type": 1
               }
             ],
-            "sequence": 3,
-            "title": "Principles of Neutralization Titration",
-            "description": "",
-            "topic": 8
-          },
-          {
-            "id": 48,
-            "lessondetails": [],
-            "sequence": 4,
-            "title": "Principles of Neutralization Titration",
-            "description": "",
-            "topic": 8
-          },
-          {
-            "id": 49,
-            "lessondetails": [],
-            "sequence": 5,
-            "title": "Principles of Neutralization Titration",
-            "description": "",
-            "topic": 8
-          },
-          {
-            "id": 50,
-            "lessondetails": [],
-            "sequence": 6,
-            "title": "Principles of Neutralization Titration",
-            "description": "",
-            "topic": 8
-          },
-          {
-            "id": 51,
-            "lessondetails": [],
-            "sequence": 7,
-            "title": "Principles of Neutralization Titration",
-            "description": "",
-            "topic": 8
-          },
-          {
-            "id": 52,
-            "lessondetails": [],
-            "sequence": 8,
-            "title": "Principles of Neutralization Titration",
-            "description": "",
-            "topic": 8
-          },
-          {
-            "id": 53,
-            "lessondetails": [],
-            "sequence": 9,
+            "sequence": 1,
             "title": "Principles of Neutralization Titration",
             "description": "",
             "topic": 8
@@ -1344,7 +1291,47 @@
               {
                 "id": 19,
                 "sequence": 1,
-                "body": "Acidemetric\r\nAcidimetric, the direct or residual titrimetric analysis of bases using an accurately measured volume of acid, is supplied in the analytical control of a considerable number of official substances, both inorganic and organic.\r\n              Direct titration is conducted by introducing a standard acid solution gradually from a buret into a solution of the base being assayed until chemically equivalent amounts of each have reacted as shown by some change in properties of the mixture. Such an end point, which must be close to the stoichiometric point, is made evident by a change in the color of some indicator or by potentiometric means.\r\n              Residual titration is used whenever the end point of a direct titration deviates appreciably from the stoichiometric points for some reason; when the basic sample is insoluble in water and the rate of its reaction with the standard acid is relatively slow. In such a procedure, the basic sample is treated with an amount of standard acid known to be in excess of a chemically equivalent amount, and the excess acid is subsequently titrated with a standard base. The amount of standard acid which is chemically equivalent to the basic sample can be calculated simply by subtracting, from the total amount of standard acid employed, the amount of acid neutralized by the standard base in the back titration.",
+                "body": "Acidemetric\r\n\r\nAcidimetric, the direct or residual titrimetric analysis of bases using an accurately measured volume of acid, is supplied in the analytical control of a considerable number of official substances, both inorganic and organic.",
+                "caption": "",
+                "lesson": 13,
+                "body_type": 1
+              },
+              {
+                "id": 20,
+                "sequence": 2,
+                "body": "Direct titration is conducted by introducing a standard acid solution gradually from a buret into a solution of the base being assayed until chemically equivalent amounts of each have reacted as shown by some change in properties of the mixture. Such an end point, which must be close to the stoichiometric point, is made evident by a change in the color of some indicator or by potentiometric means.",
+                "caption": "",
+                "lesson": 13,
+                "body_type": 1
+              },
+              {
+                "id": 149,
+                "sequence": 3,
+                "body": "Residual titration is used whenever the end point of a direct titration deviates appreciably from the stoichiometric points for some reason; when the basic sample is insoluble in water and the rate of its reaction with the standard acid is relatively slow. In such a procedure, the basic sample is treated with an amount of standard acid known to be in excess of a chemically equivalent amount, and the excess acid is subsequently titrated with a standard base. The amount of standard acid which is chemically equivalent to the basic sample can be calculated simply by subtracting, from the total amount of standard acid employed, the amount of acid neutralized by the standard base in the back titration.",
+                "caption": "",
+                "lesson": 13,
+                "body_type": 1
+              },
+              {
+                "id": 150,
+                "sequence": 4,
+                "body": "acidmetry_image.jpg",
+                "caption": "",
+                "lesson": 13,
+                "body_type": 2
+              },
+              {
+                "id": 151,
+                "sequence": 5,
+                "body": "The Kjeldahl method's universality, precision and reproducibility have made it the internationally recognized method for estimating the protein content in foods and it is the standard method against which all other methods are judged. It is also used to assay soils, waste waters, fertilizers and other materials. It does not, however, give a measure of true protein content, as it measures non protein nitrogen in addition to the nitrogen in proteins.",
+                "caption": "",
+                "lesson": 13,
+                "body_type": 1
+              },
+              {
+                "id": 152,
+                "sequence": 6,
+                "body": "This is evidenced by the 2007 pet food incident and the 2008 Chinese milk powder scandal, when melamine, a nitrogen-rich chemical, was added to raw materials to fake high protein contents. Also, different correction factors are needed for different proteins to account for different amino acid sequences. Additional disadvantages, such as the need to use concentrated sulfuric acid at high temperature and the relatively long testing time (an hour or more), compare unfavorably with the Dumas method for measuring crude protein content.",
                 "caption": "",
                 "lesson": 13,
                 "body_type": 1
@@ -1365,165 +1352,121 @@
                 "caption": "",
                 "lesson": 14,
                 "body_type": 1
-              }
-            ],
-            "sequence": 1,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 55,
-            "lessondetails": [],
-            "sequence": 2,
-            "title": "Acidmentry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 56,
-            "lessondetails": [
-              {
-                "id": 20,
-                "sequence": 2,
-                "body": "acidmetry_image.jpg\r\n\r\nThe Kjeldahl method's universality, precision and reproducibility have made it the internationally recognized method for estimating the protein content in foods and it is the standard method against which all other methods are judged. It is also used to assay soils, waste waters, fertilizers and other materials. It does not, however, give a measure of true protein content, as it measures non protein nitrogen in addition to the nitrogen in proteins. This is evidenced by the 2007 pet food incident and the 2008 Chinese milk powder scandal, when melamine, a nitrogen-rich chemical, was added to raw materials to fake high protein contents. Also, different correction factors are needed for different proteins to account for different amino acid sequences. Additional disadvantages, such as the need to use concentrated sulfuric acid at high temperature and the relatively long testing time (an hour or more), compare unfavorably with the Dumas method for measuring crude protein content.",
-                "caption": "",
-                "lesson": 56,
-                "body_type": 2
-              }
-            ],
-            "sequence": 3,
-            "title": "Acidmentry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 57,
-            "lessondetails": [
+              },
               {
                 "id": 22,
                 "sequence": 2,
-                "body": "The equations and methods below assume that the concentration of the acid and base are at least 1000 times greater than the  Kα of the acid. \r\n1. The initial pH is approximated for a weak acid solution in water using the equation\r\n\r\nalkalimetry1_image.jpg\r\n\r\nwhere Ka is the dissociation constant and F is the concentration of the acid.\r\n\r\n2. The pH before the equivalence point depends on the amount of weak acid remaining and the amount of conjugate base formed. The pH can be calculated by the following formula (which is a variation of the Henderson-Hasselbalch equation):\r\n\r\nalkalimetry2_image.jpg\r\n\r\nwhere:\r\n•\tpKa is the negative log of the acid dissociation constant of the weak acid.\r\n•\tnOH- added is the number of moles of added strong base in the solution.\r\n•\tnHA initial is the number of moles the weak acid initially present.\r\nWhen the numerator of the log term equals the denominator\r\n\r\nalkametry3_image.jpg\r\n\r\nthen the ratio goes to 1 and the log term goes to zero. Thus the pH will equal the pKa which occurs half-way to the equivalence point.",
+                "body": "The equations and methods below assume that the concentration of the acid and base are at least 1000 times greater than the  Kα of the acid. \r\n1. The initial pH is approximated for a weak acid solution in water using the equation",
                 "caption": "",
-                "lesson": 57,
+                "lesson": 14,
                 "body_type": 1
-              }
-            ],
-            "sequence": 2,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 58,
-            "lessondetails": [],
-            "sequence": 3,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 59,
-            "lessondetails": [],
-            "sequence": 4,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 60,
-            "lessondetails": [],
-            "sequence": 5,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 61,
-            "lessondetails": [],
-            "sequence": 6,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 62,
-            "lessondetails": [],
-            "sequence": 7,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 63,
-            "lessondetails": [],
-            "sequence": 8,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 64,
-            "lessondetails": [
+              },
               {
                 "id": 23,
                 "sequence": 3,
-                "body": "3. At the equivalence point, the weak acid is consumed and converted to its conjugate base. The pH will be greater than 7 and can be calculated from an equation derived from the following relationships:\r\n1.\tpH + pOH = 14\r\n2.\tKaKb = 10−14\r\n3.\tat equivalence CaVa = CbVb\r\nThe previous 3 relationships are used to generate the equivalence point pH formula below:\r\n\r\nalkalimetry4_image.jpg\r\n\r\n•\tCa = concentration of acid and Cb = concentration of base\r\n•\tKw = dissociation constant for water and Ka = for the acid\r\nNote that when an acid neutralizes a base, the pH may or may not be neutral (pH = 7). The pH depends on the strengths of the acid and base.",
+                "body": "alkalimetry1_image.jpg",
                 "caption": "",
-                "lesson": 64,
-                "body_type": 1
-              }
-            ],
-            "sequence": 9,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 65,
-            "lessondetails": [],
-            "sequence": 10,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 66,
-            "lessondetails": [],
-            "sequence": 11,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 67,
-            "lessondetails": [
+                "lesson": 14,
+                "body_type": 2
+              },
               {
                 "id": 24,
                 "sequence": 4,
-                "body": "4.\tAfter the equivalence point, the solution will contain two bases: the conjugate base of the acid and the strong base of the titrant. However, the base of the titrant is stronger than the conjugate base of the acid. Therefore, the pH in this region is controlled by the strong base. As such the pH can be found using the following:\r\n\r\nalkatimetry5_image.jpg\r\n\r\n•\tφ = fraction of completion of the titration (φ < 1 is before the equivalence point, φ = 1 is the equivalence point, and φ > 1 is after the equivalence point)\r\n•\tCa, Cb = the concentrations of the acid and base respectively\r\n•\tVa, Vb = the volumes of the acid and base respectively\r\n•\tαA- = the fraction of the weak acid that is ionized\r\n•\tKa = the dissociation constant for the acid\r\n•\t[H+], [OH−] = concentrations of the H+ and OH− ions respectively",
+                "body": "where Ka is the dissociation constant and F is the concentration of the acid.",
                 "caption": "",
-                "lesson": 67,
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 153,
+                "sequence": 5,
+                "body": "2. The pH before the equivalence point depends on the amount of weak acid remaining and the amount of conjugate base formed. The pH can be calculated by the following formula (which is a variation of the Henderson-Hasselbalch equation):",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 154,
+                "sequence": 6,
+                "body": "alkalimetry2_image.jpg",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 2
+              },
+              {
+                "id": 155,
+                "sequence": 7,
+                "body": "where:\r\n•\tpKa is the negative log of the acid dissociation constant of the weak acid.\r\n•\tnOH- added is the number of moles of added strong base in the solution.\r\n•\tnHA initial is the number of moles the weak acid initially present.\r\nWhen the numerator of the log term equals the denominator",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 156,
+                "sequence": 8,
+                "body": "alkametry3_image.jpg",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 2
+              },
+              {
+                "id": 157,
+                "sequence": 9,
+                "body": "then the ratio goes to 1 and the log term goes to zero. Thus the pH will equal the pKa which occurs half-way to the equivalence point.",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 158,
+                "sequence": 10,
+                "body": "3. At the equivalence point, the weak acid is consumed and converted to its conjugate base. The pH will be greater than 7 and can be calculated from an equation derived from the following relationships:\r\n1.\tpH + pOH = 14\r\n2.\tKaKb = 10−14\r\n3.\tat equivalence CaVa = CbVb\r\nThe previous 3 relationships are used to generate the equivalence point pH formula below:",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 159,
+                "sequence": 11,
+                "body": "alkalimetry4_image.jpg",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 2
+              },
+              {
+                "id": 160,
+                "sequence": 12,
+                "body": "•\tCa = concentration of acid and Cb = concentration of base\r\n•\tKw = dissociation constant for water and Ka = for the acid\r\nNote that when an acid neutralizes a base, the pH may or may not be neutral (pH = 7). The pH depends on the strengths of the acid and base.",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 161,
+                "sequence": 13,
+                "body": "4.\tAfter the equivalence point, the solution will contain two bases: the conjugate base of the acid and the strong base of the titrant. However, the base of the titrant is stronger than the conjugate base of the acid. Therefore, the pH in this region is controlled by the strong base. As such the pH can be found using the following:",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 1
+              },
+              {
+                "id": 162,
+                "sequence": 14,
+                "body": "alkatimetry5_image.jpg",
+                "caption": "",
+                "lesson": 14,
+                "body_type": 2
+              },
+              {
+                "id": 163,
+                "sequence": 15,
+                "body": "•\tφ = fraction of completion of the titration (φ < 1 is before the equivalence point, φ = 1 is the equivalence point, and φ > 1 is after the equivalence point)\r\n•\tCa, Cb = the concentrations of the acid and base respectively\r\n•\tVa, Vb = the volumes of the acid and base respectively\r\n•\tαA- = the fraction of the weak acid that is ionized\r\n•\tKa = the dissociation constant for the acid\r\n•\t[H+], [OH−] = concentrations of the H+ and OH− ions respectively",
+                "caption": "",
+                "lesson": 14,
                 "body_type": 1
               }
             ],
-            "sequence": 12,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 68,
-            "lessondetails": [],
-            "sequence": 13,
-            "title": "Alkalimetry",
-            "description": "",
-            "topic": 10
-          },
-          {
-            "id": 69,
-            "lessondetails": [],
-            "sequence": 14,
+            "sequence": 1,
             "title": "Alkalimetry",
             "description": "",
             "topic": 10
