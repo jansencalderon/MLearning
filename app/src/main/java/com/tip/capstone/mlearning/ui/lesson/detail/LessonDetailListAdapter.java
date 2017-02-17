@@ -18,7 +18,7 @@ import com.tip.capstone.mlearning.databinding.ItemLessonDetailImageBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonDetailTextBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonHeaderBinding;
 import com.tip.capstone.mlearning.databinding.ItemLessonQuizButtonBinding;
-import com.tip.capstone.mlearning.helper.ImageHelper;
+import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.Lesson;
 import com.tip.capstone.mlearning.model.LessonDetail;
 
@@ -150,7 +150,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 Log.d(TAG, "onBindViewHolder: " + lessonDetails.get(lesson != null ? position - 1 : position).getBody());
 
                 Glide.with(holder.itemView.getContext())
-                        .load(ImageHelper.getResourceId(holder.itemView.getContext(),
+                        .load(ResourceHelper.getDrawableResourceId(holder.itemView.getContext(),
                                 lessonDetails.get(lesson != null ? position - 1 : position).getBody()))
                         .into(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
                 break;

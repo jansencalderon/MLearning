@@ -13,6 +13,7 @@ public class Assessment extends RealmObject {
 
     @PrimaryKey
     private int id;
+    private int term;
     private String question;
     private String answer;
     private RealmList<AssessmentChoice> assessmentchoices;
@@ -24,6 +25,14 @@ public class Assessment extends RealmObject {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getTerm() {
+        return term;
+    }
+
+    public void setTerm(int term) {
+        this.term = term;
     }
 
     public String getQuestion() {
@@ -57,4 +66,5 @@ public class Assessment extends RealmObject {
     public void setQuestion_type(int question_type) {
         this.question_type = question_type;
     }
+
 }

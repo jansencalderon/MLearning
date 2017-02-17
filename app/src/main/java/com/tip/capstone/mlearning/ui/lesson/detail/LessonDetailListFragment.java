@@ -17,14 +17,17 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.hannesdorfmann.mosby.mvp.MvpFragment;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.FragmentLessonBinding;
+import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.Lesson;
 import com.tip.capstone.mlearning.model.LessonDetail;
 import com.tip.capstone.mlearning.ui.quiz.QuizActivity;
+import com.tip.capstone.mlearning.ui.videos.play.VideoPlayActivity;
 
 import java.util.List;
 import java.util.Locale;
@@ -45,11 +48,13 @@ public class LessonDetailListFragment
     private static final String ARG_QUERY = "arg-query";
     private static final String ARG_FIRST_INST = "arg-first-inst";
     private static final String TAG = LessonDetailListFragment.class.getSimpleName();
+    private static final String ARG_VIDEO = "arg-video";
 
     private int topicId;
     private int lessonId;
     private boolean isLastPage;
     private String query;
+    private String videoRawName;
 
     private Realm realm;
     private FragmentLessonBinding binding;
@@ -64,7 +69,8 @@ public class LessonDetailListFragment
      * @param firstLessonId
      * @return new instance of LessonDetailFragment
      */
-    public static LessonDetailListFragment newInstance(int topicId, int lessonId, boolean isLastPage, String query, int firstLessonId) {
+    public static LessonDetailListFragment newInstance(int topicId, int lessonId, boolean isLastPage,
+                                                       String query, int firstLessonId, String videoRawName) {
         LessonDetailListFragment fragment = new LessonDetailListFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_TOPIC_ID, topicId);
@@ -72,6 +78,7 @@ public class LessonDetailListFragment
         args.putBoolean(ARG_IS_LAST, isLastPage);
         args.putString(ARG_QUERY, query);
         args.putInt(ARG_FIRST_INST, firstLessonId);
+        args.putString(ARG_VIDEO, videoRawName);
         fragment.setArguments(args);
         Log.d(TAG, "newInstance: query: " + query);
         return fragment;
@@ -93,6 +100,7 @@ public class LessonDetailListFragment
             isLastPage = getArguments().getBoolean(ARG_IS_LAST, false);
             query = getArguments().getString(ARG_QUERY);
             firstLessonId = getArguments().getInt(ARG_FIRST_INST, -1);
+            videoRawName = getArguments().getString(ARG_VIDEO, null);
         }
     }
 
@@ -165,6 +173,17 @@ public class LessonDetailListFragment
         Intent intent = new Intent(getContext(), QuizActivity.class);
         intent.putExtra(Constant.ID, topicId);
         startActivity(intent);
+    }
+
+    @Override
+    public void onViewVideo() {
+        if (videoRawName != null) {
+            Intent intent = new Intent(getContext(), VideoPlayActivity.class);
+            intent.putExtra(Constant.RES_ID, ResourceHelper.getRawResourceId(getContext(), videoRawName));
+            startActivity(intent);
+        } else {
+            Toast.makeText(getContext(), "No Video Name", Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override

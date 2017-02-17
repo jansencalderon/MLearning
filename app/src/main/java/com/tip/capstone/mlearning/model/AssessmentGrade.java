@@ -15,6 +15,8 @@ public class AssessmentGrade extends RealmObject {
     private int rawScore;
     private int itemCount;
     private long dateUpdated;
+    private int count;
+    private int term;
 
     public int getId() {
         return id;
@@ -53,5 +55,21 @@ public class AssessmentGrade extends RealmObject {
      */
     public double average() {
         return (((double) rawScore / (double) itemCount) * 50.0) + 50.0;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public int getTerm() {
+        return term;
+    }
+
+    public void setTerm(int term) {
+        this.term = term;
     }
 }

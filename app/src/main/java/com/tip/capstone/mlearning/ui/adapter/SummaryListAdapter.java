@@ -1,4 +1,4 @@
-package com.tip.capstone.mlearning.ui.adapters;
+package com.tip.capstone.mlearning.ui.adapter;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
@@ -9,7 +9,7 @@ import com.bumptech.glide.Glide;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ItemUserAnswerBinding;
-import com.tip.capstone.mlearning.helper.ImageHelper;
+import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.UserAnswer;
 
 import java.util.ArrayList;
@@ -51,10 +51,10 @@ public class SummaryListAdapter extends RecyclerView.Adapter<SummaryListAdapter.
         // load the images if the choice type is image
         if (userAnswer.getChoiceType() == Constant.DETAIL_TYPE_IMAGE) {
             Glide.with(holder.itemUserAnswerBinding.getRoot().getContext())
-                    .load(ImageHelper.getResourceId(holder.itemUserAnswerBinding.getRoot().getContext(), userAnswer.getUserAnswer()))
+                    .load(ResourceHelper.getDrawableResourceId(holder.itemUserAnswerBinding.getRoot().getContext(), userAnswer.getUserAnswer()))
                     .into(holder.itemUserAnswerBinding.imgUserAnswer);
             Glide.with(holder.itemUserAnswerBinding.getRoot().getContext())
-                    .load(ImageHelper.getResourceId(holder.itemUserAnswerBinding.getRoot().getContext(), userAnswer.getCorrectAnswer()))
+                    .load(ResourceHelper.getDrawableResourceId(holder.itemUserAnswerBinding.getRoot().getContext(), userAnswer.getCorrectAnswer()))
                     .into(holder.itemUserAnswerBinding.imgCorrectAnswer);
         }
     }

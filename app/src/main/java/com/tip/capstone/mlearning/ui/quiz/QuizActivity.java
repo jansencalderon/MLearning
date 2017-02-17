@@ -27,8 +27,8 @@ import com.tip.capstone.mlearning.model.Question;
 import com.tip.capstone.mlearning.model.QuizGrade;
 import com.tip.capstone.mlearning.model.Topic;
 import com.tip.capstone.mlearning.model.UserAnswer;
-import com.tip.capstone.mlearning.ui.adapters.LetterListAdapter;
-import com.tip.capstone.mlearning.ui.adapters.SummaryListAdapter;
+import com.tip.capstone.mlearning.ui.adapter.LetterListAdapter;
+import com.tip.capstone.mlearning.ui.adapter.SummaryListAdapter;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -174,7 +174,7 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
                     .setCancelable(false)
                     .show();
         }
-        QuizGrade quizGrade = realm.where(QuizGrade.class).equalTo(Constant.ID, topic.getId()).findFirst();
+        /*QuizGrade quizGrade = realm.where(QuizGrade.class).equalTo(Constant.ID, topic.getId()).findFirst();
         if (quizGrade != null) {
             // already taken the quiz
             new AlertDialog.Builder(this)
@@ -194,7 +194,7 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
                         }
                     })
                     .show();
-        }
+        }*/
         // setup data
         ((QuizViewState) getViewState()).setCounter(0);
 
@@ -420,11 +420,18 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
                     preQuizGrade.setDateUpdated(new Date().getTime());
                     realm.copyToRealmOrUpdate(preQuizGrade);
                 } else {
+
+                    Number maxCount = realm.where(QuizGrade.class)
+                            .equalTo("topic", topic.getId()).max("count");
+                    Number maxId = realm.where(QuizGrade.class).max("id");
+
                     QuizGrade quizGrade = new QuizGrade();
-                    quizGrade.setId(topic.getId());
+                    quizGrade.setId(maxId == null ? 1 : maxId.intValue() + 1);
+                    quizGrade.setTopic(topic.getId());
                     quizGrade.setRawScore(finalScore);
                     quizGrade.setItemCount(items);
                     quizGrade.setDateUpdated(new Date().getTime());
+                    quizGrade.setCount(maxCount == null ? 1 : maxCount.intValue() + 1);
                     realm.copyToRealmOrUpdate(quizGrade);
                 }
             }

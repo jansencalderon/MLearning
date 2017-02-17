@@ -15,23 +15,29 @@ import com.hannesdorfmann.mosby.mvp.MvpActivity;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityTopicsListBinding;
+import com.tip.capstone.mlearning.model.QuizGrade;
 import com.tip.capstone.mlearning.model.Term;
 import com.tip.capstone.mlearning.model.Topic;
+import com.tip.capstone.mlearning.ui.assessment.AssessmentActivity;
 import com.tip.capstone.mlearning.ui.lesson.LessonActivity;
 
 import io.realm.Realm;
+import io.realm.RealmResults;
 
 public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPresenter>
         implements TopicListView {
 
+    private ActivityTopicsListBinding binding;
     private Realm realm;
+    private Term term;
 
     @SuppressWarnings("ConstantConditions")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         realm = Realm.getDefaultInstance();
-        ActivityTopicsListBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_topics_list);
+
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_topics_list);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         int termId = getIntent().getIntExtra(Constant.ID, -1);
@@ -40,7 +46,7 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
             finish();
         }
 
-        Term term = realm.where(Term.class).equalTo(Constant.ID, termId).findFirst();
+        term = realm.where(Term.class).equalTo(Constant.ID, termId).findFirst();
         if (term == null) {
             Toast.makeText(this, "No Term Object Found", Toast.LENGTH_SHORT).show();
             finish();
@@ -52,10 +58,28 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
         binding.recyclerView.setItemAnimator(new DefaultItemAnimator());
         binding.recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
 
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
         TopicListAdapter topicListAdapter = new TopicListAdapter(this, getMvpView());
         binding.recyclerView.setAdapter(topicListAdapter);
 
         topicListAdapter.setTopicList(term.getTopics().sort(Topic.COL_SEQ));
+
+        boolean isAssessmentOkayToTake = true;
+        for (int i = 0; i < term.getTopics().size(); i++) {
+            QuizGrade quizGrade = realm.where(QuizGrade.class)
+                    .equalTo("id", term.getTopics().get(i).getId())
+                    .findFirst();
+            if (quizGrade == null) {
+                isAssessmentOkayToTake = false;
+                break;
+            }
+        }
+        topicListAdapter.setAssessmentEnable(isAssessmentOkayToTake);
     }
 
     @Override
@@ -94,6 +118,13 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
     public void onTopicClicked(Topic topic) {
         Intent intent = new Intent(this, LessonActivity.class);
         intent.putExtra(Constant.ID, topic.getId());
+        startActivity(intent);
+    }
+
+    @Override
+    public void onTakeAssessment() {
+        Intent intent = new Intent(this, AssessmentActivity.class);
+        intent.putExtra("term", term.getId());
         startActivity(intent);
     }
 }

@@ -25,8 +25,8 @@ import com.tip.capstone.mlearning.model.AssessmentChoice;
 import com.tip.capstone.mlearning.model.AssessmentGrade;
 import com.tip.capstone.mlearning.model.Letter;
 import com.tip.capstone.mlearning.model.UserAnswer;
-import com.tip.capstone.mlearning.ui.adapters.SummaryListAdapter;
-import com.tip.capstone.mlearning.ui.adapters.LetterListAdapter;
+import com.tip.capstone.mlearning.ui.adapter.SummaryListAdapter;
+import com.tip.capstone.mlearning.ui.adapter.LetterListAdapter;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -43,6 +43,8 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         implements AssessmentView {
 
     private static final String TAG = AssessmentActivity.class.getSimpleName();
+
+    private int termId;
 
     private Realm realm;
     private RealmResults<Assessment> assessmentRealmResults;
@@ -64,7 +66,12 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         super.onCreate(savedInstanceState);
         realm = Realm.getDefaultInstance(); // init realm
         // retrieving data from Realm DB
-        assessmentRealmResults = realm.where(Assessment.class).findAll();
+        termId = getIntent().getIntExtra("term", -1);
+        if (termId == -1) {
+            Toast.makeText(getApplicationContext(), "No Term ID Found", Toast.LENGTH_SHORT).show();
+            finish();
+        }
+        assessmentRealmResults = realm.where(Assessment.class).equalTo("term", termId).findAll();
         if (assessmentRealmResults.size() <= 0) {
             // quit if no data
             Toast.makeText(getApplicationContext(), "No Assessment Data Found", Toast.LENGTH_SHORT).show();
@@ -146,7 +153,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
 
     @Override
     public void onNewViewStateInstance() {
-        // alert user if already taken the assessment
+        /*// alert user if already taken the assessment
         AssessmentGrade assessmentGrade = realm.where(AssessmentGrade.class).findFirst();
         if (assessmentGrade != null) {
             // already taken the assessment
@@ -167,7 +174,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
                         }
                     })
                     .show();
-        }
+        }*/
         // setup data
         ((AssessmentViewState) getViewState()).setCounter(0);
 
@@ -374,11 +381,20 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         summaryListAdapter.setUserAnswerList(userAnswerList);
         dialogBinding.recyclerView.setAdapter(summaryListAdapter);
 
+        Number maxCount = realm
+                .where(AssessmentGrade.class)
+                .equalTo("term", termId)
+                .max("count");
+
+        Number maxId = realm.where(AssessmentGrade.class).max("id");
+
         final AssessmentGrade assessmentGrade = new AssessmentGrade();
-        assessmentGrade.setId(1);
+        assessmentGrade.setId(maxId == null ? 1 : maxId.intValue() + 1);
+        assessmentGrade.setTerm(termId);
         assessmentGrade.setRawScore(score);
         assessmentGrade.setItemCount(items);
         assessmentGrade.setDateUpdated(new Date().getTime());
+        assessmentGrade.setCount(maxCount == null ? 1 : maxCount.intValue() + 1);
         realm.executeTransaction(new Realm.Transaction() {
             @Override
             public void execute(Realm realm) {

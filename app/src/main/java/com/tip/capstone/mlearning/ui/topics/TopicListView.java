@@ -13,4 +13,6 @@ public interface TopicListView extends MvpView {
     void showAlert(String title, String message);
 
     void onTopicClicked(Topic topic);
+
+    void onTakeAssessment();
 }

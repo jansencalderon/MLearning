@@ -1,4 +1,4 @@
-package com.tip.capstone.mlearning.ui.adapters;
+package com.tip.capstone.mlearning.ui.adapter;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;

@@ -20,6 +20,7 @@ public class Topic extends RealmObject {
     private String description;
     private String objective;
     private String image;
+    private String video;
     private RealmList<Lesson> lessons;
     private RealmList<Question> questions;
 
@@ -69,6 +70,14 @@ public class Topic extends RealmObject {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getVideo() {
+        return video;
+    }
+
+    public void setVideo(String video) {
+        this.video = video;
     }
 
     public RealmList<Lesson> getLessons() {

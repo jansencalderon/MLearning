@@ -71,7 +71,7 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
 
         getSupportActionBar().setTitle(topic.getTitle());
 
-        lessonPageAdapter = new LessonPageAdapter(getSupportFragmentManager(), topicId);
+        lessonPageAdapter = new LessonPageAdapter(getSupportFragmentManager(), topicId, topic.getVideo());
         binding.container.addOnPageChangeListener(this);
         binding.container.setAdapter(lessonPageAdapter);
 
@@ -101,7 +101,7 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
                         dialogInterface.dismiss();
                         Intent intent = new Intent(LessonActivity.this, QuizActivity.class);
                         intent.putExtra(Constant.ID, topic.getId());
-                          intent.putExtra(Constant.PRE_QUIZ, true);
+                        intent.putExtra(Constant.PRE_QUIZ, true);
                         startActivity(intent);
                     }
                 })

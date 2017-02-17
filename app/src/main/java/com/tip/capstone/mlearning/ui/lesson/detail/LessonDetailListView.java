@@ -18,4 +18,6 @@ public interface LessonDetailListView extends MvpView {
     void onDetailClick(LessonDetail lessonDetail);
 
     void onQuiz();
+
+    void onViewVideo();
 }

@@ -1,6 +1,5 @@
 package com.tip.capstone.mlearning.ui.assessment;
 
-import android.content.Context;
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -12,7 +11,7 @@ import com.bumptech.glide.Glide;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ItemAssessmentChoiceBinding;
-import com.tip.capstone.mlearning.helper.ImageHelper;
+import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.AssessmentChoice;
 
 import java.util.ArrayList;
@@ -55,7 +54,7 @@ class AssessmentChoiceListAdapter extends RecyclerView.Adapter<AssessmentChoiceL
         holder.itemChoiceBinding.setLetter(x + "");
         if (choice.getChoice_type() == Constant.DETAIL_TYPE_IMAGE) {
             Glide.with(holder.itemView.getContext())
-                    .load(ImageHelper.getResourceId(holder.itemView.getContext(), choice.getBody()))
+                    .load(ResourceHelper.getDrawableResourceId(holder.itemView.getContext(), choice.getBody()))
                     .into(holder.itemChoiceBinding.imgChoice);
         }
         onBind = true;
