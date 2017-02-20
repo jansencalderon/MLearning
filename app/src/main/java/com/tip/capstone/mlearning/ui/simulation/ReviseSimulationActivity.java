@@ -71,7 +71,7 @@ public class ReviseSimulationActivity extends AppCompatActivity
         binding = DataBindingUtil.setContentView(this, R.layout.activity_revise_simulation);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Simulation"); // TODO: 01/12/2016 set title on manifest instead
+        getSupportActionBar().setTitle("Volatile Oils Part 1"); // TODO: 01/12/2016 set title on manifest instead
 
 
         enterShape = ContextCompat.getDrawable(this, R.drawable.shape_droptarget);

@@ -13,6 +13,7 @@ import com.tip.capstone.mlearning.ui.glossary.GlossaryActivity;
 import com.tip.capstone.mlearning.ui.grades.GradesActivity;
 import com.tip.capstone.mlearning.ui.simulation.ReviseSimulationActivity;
 import com.tip.capstone.mlearning.ui.simulation.SimulationActivity;
+import com.tip.capstone.mlearning.ui.simulation.SimulationMenuActivity;
 import com.tip.capstone.mlearning.ui.term.TermActivity;
 import com.tip.capstone.mlearning.ui.videos.VideoListActivity;
 
@@ -53,7 +54,7 @@ public class MainActivity extends MvpActivity<MainView, MainPresenter> implement
 
     @Override
     public void onSimulationClicked() {
-        startActivity(new Intent(this, ReviseSimulationActivity.class));
+        startActivity(new Intent(this, SimulationMenuActivity.class));
     }
 
     @Override

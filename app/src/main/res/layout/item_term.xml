@@ -24,8 +24,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@{term.title}"
-            android:textStyle="bold"
-            android:textColor="@color/darkGray"
+            android:padding="6dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white"
             android:textSize="24sp" />
 
         <TextView

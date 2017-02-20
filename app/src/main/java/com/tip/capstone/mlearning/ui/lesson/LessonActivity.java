@@ -114,6 +114,7 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
                         Intent intent = new Intent(LessonActivity.this, QuizActivity.class);
                         intent.putExtra(Constant.ID, topic.getId());
                         intent.putExtra(Constant.PRE_QUIZ, true);
+
                         startActivity(intent);
                     }
                 })

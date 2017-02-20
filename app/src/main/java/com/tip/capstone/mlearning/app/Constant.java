@@ -19,4 +19,10 @@ public class Constant {
     public static final String RAW_NAME_WITHOUT_EXT = "raw_name_without_extension";
     public static final String VIDEO_TITLE = "video_title";
     public static final String PRE_QUIZ = "pre_quiz";
+
+    public static final String P_STRING = "Phenol-phthalein";
+    public static final String M_STRING = "Methyl red";
+    public static final String R_STRING = "Rosalic acid";
+    public static final String L_STRING = "Lackmoid";
+
 }
