@@ -11,6 +11,7 @@ public class UserAnswer {
     private String userAnswer;
     private String correctAnswer;
     private int choiceType;
+    private int lessonDetailId;
 
     public int getQuestionId() {
         return questionId;
@@ -46,5 +47,13 @@ public class UserAnswer {
 
     public void setChoiceType(int choiceType) {
         this.choiceType = choiceType;
+    }
+
+    public int getLessonDetailId() {
+        return lessonDetailId;
+    }
+
+    public void setLessonDetailId(int lessonDetailId) {
+        this.lessonDetailId = lessonDetailId;
     }
 }

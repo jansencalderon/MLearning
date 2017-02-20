@@ -1,6 +1,7 @@
 package com.tip.capstone.mlearning.ui.quiz;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -29,6 +30,7 @@ import com.tip.capstone.mlearning.model.Topic;
 import com.tip.capstone.mlearning.model.UserAnswer;
 import com.tip.capstone.mlearning.ui.adapter.LetterListAdapter;
 import com.tip.capstone.mlearning.ui.adapter.SummaryListAdapter;
+import com.tip.capstone.mlearning.ui.lesson.LessonActivity;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -286,6 +288,7 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
         Question question = questionList.get(((QuizViewState) getViewState()).getCounter());
         UserAnswer userAnswer = new UserAnswer();
         userAnswer.setQuestionId(question.getId());
+        userAnswer.setLessonDetailId(question.getLesson_detail());
         userAnswer.setCorrectAnswer(question.getAnswer());
 
         if (question.getQuestion_type() == Constant.QUESTION_TYPE_MULTIPLE) {
@@ -400,7 +403,7 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
         dialogBinding.recyclerView.setItemAnimator(new DefaultItemAnimator());
         dialogBinding.recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
 
-        SummaryListAdapter summaryListAdapter = new SummaryListAdapter();
+        SummaryListAdapter summaryListAdapter = new SummaryListAdapter(getMvpView());
         summaryListAdapter.setUserAnswerList(userAnswerList);
         dialogBinding.recyclerView.setAdapter(summaryListAdapter);
 
@@ -450,4 +453,10 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
                 .show();
     }
 
+    @Override
+    public void onViewReference(int lessonDetailId) {
+        Intent intent = new Intent(this, LessonActivity.class);
+        intent.putExtra("lesson_detail_ref_id", lessonDetailId);
+        startActivity(intent);
+    }
 }

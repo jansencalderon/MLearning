@@ -95,7 +95,7 @@ public class TopicListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
     public void setAssessmentEnable(boolean isAssessmentOkayToTake) {
         this.isAssessmentOkayToTake = isAssessmentOkayToTake;
-        notifyItemChanged(getItemCount() - 1);
+        notifyDataSetChanged();
     }
 
     public class TopicViewHolder extends RecyclerView.ViewHolder {

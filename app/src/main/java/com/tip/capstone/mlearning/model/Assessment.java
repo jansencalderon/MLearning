@@ -18,6 +18,7 @@ public class Assessment extends RealmObject {
     private String answer;
     private RealmList<AssessmentChoice> assessmentchoices;
     private int question_type;
+    private int lesson_detail;
 
     public int getId() {
         return id;
@@ -67,4 +68,11 @@ public class Assessment extends RealmObject {
         this.question_type = question_type;
     }
 
+    public int getLesson_detail() {
+        return lesson_detail;
+    }
+
+    public void setLesson_detail(int lesson_detail) {
+        this.lesson_detail = lesson_detail;
+    }
 }

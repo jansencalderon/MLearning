@@ -5,6 +5,7 @@ import com.tip.capstone.mlearning.model.Letter;
 import com.tip.capstone.mlearning.model.Question;
 import com.tip.capstone.mlearning.model.UserAnswer;
 import com.tip.capstone.mlearning.ui.views.IdentificationView;
+import com.tip.capstone.mlearning.ui.views.SummaryView;
 
 import java.util.List;
 
@@ -13,7 +14,7 @@ import java.util.List;
  * @since 21/11/2016
  */
 @SuppressWarnings("WeakerAccess")
-public interface QuizView extends IdentificationView {
+public interface QuizView extends IdentificationView, SummaryView {
 
     // let view public for DataBinding uses
 

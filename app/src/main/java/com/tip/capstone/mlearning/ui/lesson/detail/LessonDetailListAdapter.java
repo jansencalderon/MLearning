@@ -2,6 +2,7 @@ package com.tip.capstone.mlearning.ui.lesson.detail;
 
 import android.databinding.DataBindingUtil;
 import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -21,6 +22,7 @@ import com.tip.capstone.mlearning.databinding.ItemLessonQuizButtonBinding;
 import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.Lesson;
 import com.tip.capstone.mlearning.model.LessonDetail;
+import com.tip.capstone.mlearning.ui.lesson.LessonView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,18 +46,21 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     private final LessonDetailListView view;
     private boolean isLastPage;
     private String query;
+    private int lessonDetailRef;
 
     /**
      * Constructor
-     *
-     * @param lesson lesson of the list (for header purposes)
-     * @param view   for listener of items
+     *  @param lesson          lesson of the list (for header purposes)
+     * @param view            for listener of items
+     * @param lessonDetailRef
      */
-    LessonDetailListAdapter(Lesson lesson, LessonDetailListView view, boolean isLastPage, String query) {
+    LessonDetailListAdapter(Lesson lesson, LessonDetailListView view, boolean isLastPage,
+                            String query, int lessonDetailRef) {
         this.lesson = lesson;
         this.view = view;
         this.isLastPage = isLastPage;
         this.query = query;
+        this.lessonDetailRef = lessonDetailRef;
         lessonDetails = new ArrayList<>();
     }
 
@@ -122,16 +127,20 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 lessonHeaderViewHolder.itemLessonHeaderBinding.setLesson(lesson);
                 break;
             case VIEW_TEXT:
+                LessonDetail lessonDetail = lessonDetails.get(lesson != null ? position - 1 : position);
                 LessonDetailTextViewHolder lessonDetailTextViewHolder = (LessonDetailTextViewHolder) holder;
                 lessonDetailTextViewHolder.itemLessonDetailTextBinding
-                        .setLessonDetail(lessonDetails.get(lesson != null ? position - 1 : position));
+                        .setLessonDetail(lessonDetail);
                 lessonDetailTextViewHolder.itemLessonDetailTextBinding.setView(view);
-
+                lessonDetailTextViewHolder.itemLessonDetailTextBinding.layoutLessonDetailText
+                        .setBackgroundColor(ContextCompat.getColor(holder.itemView.getContext(),
+                                lessonDetail.getId() == lessonDetailRef ?
+                                        R.color.yellow : R.color.white));
                 //use a loop to change text color
-                String text = lessonDetailTextViewHolder.itemLessonDetailTextBinding.getLessonDetail().getBody();
+                String text = lessonDetail.getBody();
                 if (query != null && !query.isEmpty() &&
                         text.toUpperCase().contains(query.toUpperCase())) {
-                    Log.d(TAG, "onBindViewHolder: id:" + lessonDetailTextViewHolder.itemLessonDetailTextBinding.getLessonDetail().getId());
+                    Log.d(TAG, "onBindViewHolder: id:" + lessonDetail.getId());
                     Log.d(TAG, "onBindViewHolder: query: " + query);
                     Spannable WordtoSpan = new SpannableString(text);
                     int startIndex = text.toUpperCase().indexOf(query.toUpperCase());

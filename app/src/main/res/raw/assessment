@@ -1,788 +1,2306 @@
 [
   {
-    "id": 3,
-    "assessmentchoices": [
-      {
-        "id": 9,
-        "body": "Quality",
-        "assessment": 3,
-        "choice_type": 1
-      },
-      {
-        "id": 10,
-        "body": "Drug",
-        "assessment": 3,
-        "choice_type": 1
-      },
-      {
-        "id": 11,
-        "body": "Analysis",
-        "assessment": 3,
-        "choice_type": 1
-      },
-      {
-        "id": 12,
-        "body": "Pharmaceutical",
-        "assessment": 3,
-        "choice_type": 1
-      }
-    ],
-    "question": "The term _______ as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
-    "answer": "Quality",
-    "question_type": 1
+    "id": 43,
+    "assessmentchoices": [],
+    "question": "Is commonly used in titrations to measure precisely how much liquid is used.",
+    "answer": "Burette",
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 211
   },
   {
-    "id": 4,
-    "assessmentchoices": [
-      {
-        "id": 13,
-        "body": "Drug Product",
-        "assessment": 4,
-        "choice_type": 1
-      },
-      {
-        "id": 14,
-        "body": "Quantitative Pharmaceutical Chemistry",
-        "assessment": 4,
-        "choice_type": 1
-      },
-      {
-        "id": 15,
-        "body": "Quality Control",
-        "assessment": 4,
-        "choice_type": 1
-      },
-      {
-        "id": 16,
-        "body": "Quantitative Analytical Methodology",
-        "assessment": 4,
-        "choice_type": 1
-      }
-    ],
-    "question": "Define as the application of the procedures analytical chemistry (1) to the analysis and determination of the purity and quality of drugs and chemicals used in pharmacy.",
-    "answer": "Quantitative Pharmaceutical Chemistry",
-    "question_type": 1
-  },
-  {
-    "id": 5,
-    "assessmentchoices": [
-      {
-        "id": 17,
-        "body": "Formation of an insoluble gas",
-        "assessment": 5,
-        "choice_type": 1
-      },
-      {
-        "id": 18,
-        "body": "Formation of a sparingly soluble solid",
-        "assessment": 5,
-        "choice_type": 1
-      },
-      {
-        "id": 19,
-        "body": "Formation of very slightly ionized molecules",
-        "assessment": 5,
-        "choice_type": 1
-      },
-      {
-        "id": 20,
-        "body": "Formation in precipitation gravimetric",
-        "assessment": 5,
-        "choice_type": 1
-      }
-    ],
-    "question": "Three general conditions tend to prevent reversal and lead to completion of a reaction EXCEPT:",
-    "answer": "Formation in precipitation gravimetric",
-    "question_type": 1
-  },
-  {
-    "id": 6,
-    "assessmentchoices": [
-      {
-        "id": 21,
-        "body": "Volumetric analysis",
-        "assessment": 6,
-        "choice_type": 1
-      },
-      {
-        "id": 22,
-        "body": "Gravimetric analysis",
-        "assessment": 6,
-        "choice_type": 1
-      },
-      {
-        "id": 23,
-        "body": "Physicochemical methods",
-        "assessment": 6,
-        "choice_type": 1
-      },
-      {
-        "id": 24,
-        "body": "Alkaloid assaying",
-        "assessment": 6,
-        "choice_type": 1
-      }
-    ],
-    "question": "Determination of the volume of a solution of known concentration required to react with a given amount of the substance to be analyzed.",
-    "answer": "Volumetric analysis",
-    "question_type": 1
-  },
-  {
-    "id": 7,
-    "assessmentchoices": [
-      {
-        "id": 25,
-        "body": "Stoichiometric point",
-        "assessment": 7,
-        "choice_type": 1
-      },
-      {
-        "id": 26,
-        "body": "Titrimetric methods",
-        "assessment": 7,
-        "choice_type": 1
-      },
-      {
-        "id": 27,
-        "body": "Analytical chemistry",
-        "assessment": 7,
-        "choice_type": 1
-      },
-      {
-        "id": 28,
-        "body": "Equivalence point",
-        "assessment": 7,
-        "choice_type": 1
-      }
-    ],
-    "question": "Defined as those analytical methods in which the volume of a solution of known concentration consumed during an analysis is taken as a measure of the amount of active constituent in a sample being analyzed.",
-    "answer": "Titrimetric methods",
-    "question_type": 1
-  },
-  {
-    "id": 8,
-    "assessmentchoices": [
-      {
-        "id": 29,
-        "body": "Metathesis reaction",
-        "assessment": 8,
-        "choice_type": 1
-      },
-      {
-        "id": 30,
-        "body": "Aqueous solution",
-        "assessment": 8,
-        "choice_type": 1
-      },
-      {
-        "id": 31,
-        "body": "Molecules reaction",
-        "assessment": 8,
-        "choice_type": 1
-      },
-      {
-        "id": 32,
-        "body": "Aquatic solvent",
-        "assessment": 8,
-        "choice_type": 1
-      }
-    ],
-    "question": "Solution in which the solvent is water",
-    "answer": "Aqueous solution",
-    "question_type": 1
-  },
-  {
-    "id": 9,
-    "assessmentchoices": [
-      {
-        "id": 33,
-        "body": "Organic solvent",
-        "assessment": 9,
-        "choice_type": 1
-      },
-      {
-        "id": 34,
-        "body": "Weak base",
-        "assessment": 9,
-        "choice_type": 1
-      },
-      {
-        "id": 35,
-        "body": "Acetic acid",
-        "assessment": 9,
-        "choice_type": 1
-      },
-      {
-        "id": 36,
-        "body": "Nonaqueous titration",
-        "assessment": 9,
-        "choice_type": 1
-      }
-    ],
-    "question": "Is the titration of substances dissolved in solvents other than water.",
-    "answer": "Nonaqueous titration",
-    "question_type": 1
-  },
-  {
-    "id": 10,
-    "assessmentchoices": [
-      {
-        "id": 37,
-        "body": "Direct titration",
-        "assessment": 10,
-        "choice_type": 1
-      },
-      {
-        "id": 38,
-        "body": "Residual titration",
-        "assessment": 10,
-        "choice_type": 1
-      },
-      {
-        "id": 39,
-        "body": "Kjeldahl method",
-        "assessment": 10,
-        "choice_type": 1
-      },
-      {
-        "id": 40,
-        "body": "Acetic acid",
-        "assessment": 10,
-        "choice_type": 1
-      }
-    ],
+    "id": 44,
+    "assessmentchoices": [],
     "question": "Conducted by introducing a standard acid solution gradually from a buret into a solution of the base being assayed until chemically equivalent amounts of each have reacted as shown by some change in properties of the mixture.",
     "answer": "Direct titration",
-    "question_type": 1
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 199
   },
   {
-    "id": 11,
-    "assessmentchoices": [
-      {
-        "id": 41,
-        "body": "Acidic substance",
-        "assessment": 11,
-        "choice_type": 1
-      },
-      {
-        "id": 42,
-        "body": "Alkalimetry",
-        "assessment": 11,
-        "choice_type": 1
-      },
-      {
-        "id": 43,
-        "body": "Alkali solutions",
-        "assessment": 11,
-        "choice_type": 1
-      },
-      {
-        "id": 44,
-        "body": "Weak acid",
-        "assessment": 11,
-        "choice_type": 1
-      },
-      {
-        "id": 45,
-        "body": "Weak acid",
-        "assessment": 11,
-        "choice_type": 1
-      }
-    ],
-    "question": "Is the specialized analytic use of acid-base titration to determine the concentration of a basic (synonymous to alkaline) substance.",
-    "answer": "Alkalimetry",
-    "question_type": 1
-  },
-  {
-    "id": 12,
-    "assessmentchoices": [
-      {
-        "id": 46,
-        "body": "Volhard’s method",
-        "assessment": 12,
-        "choice_type": 1
-      },
-      {
-        "id": 47,
-        "body": "Austin method",
-        "assessment": 12,
-        "choice_type": 1
-      },
-      {
-        "id": 48,
-        "body": "Mohr method",
-        "assessment": 12,
-        "choice_type": 1
-      },
-      {
-        "id": 49,
-        "body": "Fajan’s method",
-        "assessment": 12,
-        "choice_type": 1
-      }
-    ],
-    "question": "Three main procedures are widely used depending on the type of application EXCEPT:",
-    "answer": "Austin method",
-    "question_type": 1
-  },
-  {
-    "id": 13,
-    "assessmentchoices": [
-      {
-        "id": 50,
-        "body": "Complexation Reaction",
-        "assessment": 13,
-        "choice_type": 1
-      },
-      {
-        "id": 51,
-        "body": "Complex",
-        "assessment": 13,
-        "choice_type": 1
-      },
-      {
-        "id": 52,
-        "body": "Chelate",
-        "assessment": 13,
-        "choice_type": 1
-      },
-      {
-        "id": 53,
-        "body": "Coordination Center",
-        "assessment": 13,
-        "choice_type": 1
-      }
-    ],
-    "question": "A reaction between two species having a well-defined stoichiometry.",
-    "answer": "Complexation Reaction",
-    "question_type": 1
-  },
-  {
-    "id": 14,
-    "assessmentchoices": [
-      {
-        "id": 54,
-        "body": "half-reactions",
-        "assessment": 14,
-        "choice_type": 1
-      },
-      {
-        "id": 55,
-        "body": "Redox titration",
-        "assessment": 14,
-        "choice_type": 1
-      },
-      {
-        "id": 56,
-        "body": "oxidation states",
-        "assessment": 14,
-        "choice_type": 1
-      },
-      {
-        "id": 57,
-        "body": "Redox indicators",
-        "assessment": 14,
-        "choice_type": 1
-      }
-    ],
-    "question": "Based on the redox reaction (oxidation-reduction) between analyte and titrant.",
-    "answer": "Redox titration",
-    "question_type": 1
-  },
-  {
-    "id": 15,
-    "assessmentchoices": [
-      {
-        "id": 58,
-        "body": "Iodide solution",
-        "assessment": 15,
-        "choice_type": 1
-      },
-      {
-        "id": 59,
-        "body": "Dichromate",
-        "assessment": 15,
-        "choice_type": 1
-      },
-      {
-        "id": 60,
-        "body": "Zoometric",
-        "assessment": 15,
-        "choice_type": 1
-      },
-      {
-        "id": 61,
-        "body": "Iodometric method",
-        "assessment": 15,
-        "choice_type": 1
-      }
-    ],
-    "question": "Analysis of an oxidizing agent in this way is called an ______________.",
-    "answer": "Iodometric method",
-    "question_type": 1
-  },
-  {
-    "id": 16,
-    "assessmentchoices": [
-      {
-        "id": 62,
-        "body": "hydrochloric acid",
-        "assessment": 16,
-        "choice_type": 1
-      },
-      {
-        "id": 63,
-        "body": "Inorganic",
-        "assessment": 16,
-        "choice_type": 1
-      },
-      {
-        "id": 64,
-        "body": "Ash Content",
-        "assessment": 16,
-        "choice_type": 1
-      },
-      {
-        "id": 65,
-        "body": "toluene distillation",
-        "assessment": 16,
-        "choice_type": 1
-      }
-    ],
-    "question": "Generally taken to be the residue remaining after incineration.",
-    "answer": "Ash Content",
-    "question_type": 1
-  },
-  {
-    "id": 17,
-    "assessmentchoices": [
-      {
-        "id": 66,
-        "body": "Quantitative analyses",
-        "assessment": 17,
-        "choice_type": 1
-      },
-      {
-        "id": 67,
-        "body": "Quality control",
-        "assessment": 17,
-        "choice_type": 1
-      },
-      {
-        "id": 68,
-        "body": "Pharmaceutical analyses",
-        "assessment": 17,
-        "choice_type": 1
-      },
-      {
-        "id": 69,
-        "body": "Drug control",
-        "assessment": 17,
-        "choice_type": 1
-      }
-    ],
-    "question": "Derived from them are made to established purity or to determine the amount of therapeutically active constituents present for the purpose of standardized.",
-    "answer": "Quantitative analyses",
-    "question_type": 1
-  },
-  {
-    "id": 18,
-    "assessmentchoices": [
-      {
-        "id": 70,
-        "body": "balsams",
-        "assessment": 18,
-        "choice_type": 1
-      },
-      {
-        "id": 71,
-        "body": "Acid Value",
-        "assessment": 18,
-        "choice_type": 1
-      },
-      {
-        "id": 72,
-        "body": "Solubility",
-        "assessment": 18,
-        "choice_type": 1
-      },
-      {
-        "id": 73,
-        "body": "Saponification Value",
-        "assessment": 18,
-        "choice_type": 1
-      }
-    ],
-    "question": "Defined as the number of milligrams of potassium hydroxide necessary to neutralize the free acids in 1 of g of oil, fat, wax, resin, balsam, or similar organic substance of complex composition.",
-    "answer": "Acid Value",
-    "question_type": 1
-  },
-  {
-    "id": 19,
-    "assessmentchoices": [
-      {
-        "id": 74,
-        "body": "Syringe",
-        "assessment": 19,
-        "choice_type": 1
-      },
-      {
-        "id": 75,
-        "body": "Soxhlet",
-        "assessment": 19,
-        "choice_type": 1
-      },
-      {
-        "id": 76,
-        "body": "Bullet",
-        "assessment": 19,
-        "choice_type": 1
-      },
-      {
-        "id": 77,
-        "body": "Beaker",
-        "assessment": 19,
-        "choice_type": 1
-      }
-    ],
-    "question": "Is the apparatus generally used for extraction with volatile solvents where small quantities of a drug are extracted, as in quantitative work.",
-    "answer": "Soxhlet",
-    "question_type": 1
-  },
-  {
-    "id": 20,
-    "assessmentchoices": [
-      {
-        "id": 78,
-        "body": "Alkaloids",
-        "assessment": 20,
-        "choice_type": 1
-      },
-      {
-        "id": 79,
-        "body": "Spectrometric",
-        "assessment": 20,
-        "choice_type": 1
-      },
-      {
-        "id": 80,
-        "body": "Amines",
-        "assessment": 20,
-        "choice_type": 1
-      },
-      {
-        "id": 81,
-        "body": "Alkalies",
-        "assessment": 20,
-        "choice_type": 1
-      }
-    ],
-    "question": "Defined as chemical substances which are obtained from plant, animal, or synthetic sources, contain organic nitrogen(s) within their chemical structure, and usually possess physiological activity.",
-    "answer": "Alkaloids",
-    "question_type": 1
-  },
-  {
-    "id": 21,
-    "assessmentchoices": [
-      {
-        "id": 82,
-        "body": "Rotatory Power",
-        "assessment": 21,
-        "choice_type": 1
-      },
-      {
-        "id": 83,
-        "body": "Refractive Index",
-        "assessment": 21,
-        "choice_type": 1
-      },
-      {
-        "id": 84,
-        "body": "Volatile oils",
-        "assessment": 21,
-        "choice_type": 1
-      },
-      {
-        "id": 85,
-        "body": "Specific Gravity",
-        "assessment": 21,
-        "choice_type": 1
-      }
-    ],
-    "question": "Known as ethereal oils or essentials oils and, in some cases, as essences, are generally complex products composed of mixtures of compounds of widely variant chemical characteristics.",
-    "answer": "Volatile oils",
-    "question_type": 1
-  },
-  {
-    "id": 22,
-    "assessmentchoices": [
-      {
-        "id": 86,
-        "body": "United States Pharmaceutical Corporation",
-        "assessment": 22,
-        "choice_type": 1
-      },
-      {
-        "id": 87,
-        "body": "United Sates Quality Drug Inc.,",
-        "assessment": 22,
-        "choice_type": 1
-      },
-      {
-        "id": 88,
-        "body": "United Emirates Conventional Inc.,",
-        "assessment": 22,
-        "choice_type": 1
-      },
-      {
-        "id": 89,
-        "body": "United States Pharmacopeia Convention, inc.,",
-        "assessment": 22,
-        "choice_type": 1
-      }
-    ],
-    "question": "The federal level drug-quality requirements are set through an organization known as the?",
-    "answer": "United States Pharmacopeia Convention, inc.",
-    "question_type": 1
-  },
-  {
-    "id": 23,
+    "id": 45,
     "assessmentchoices": [],
-    "question": "A drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
+    "question": "It is used whenever the end point of a direct titration deviates appreciably from the stoichiometric points",
+    "answer": "Residual titration",
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 201
+  },
+  {
+    "id": 46,
+    "assessmentchoices": [],
+    "question": "In neutralization reactions it is defined as that weight of a substance in rams which (1) ______, (2) furnishes, (3) reacts with directly or indirectly, or (4) replaces 1 gram-atom or ion of hydrogen.",
+    "answer": "Contain",
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 176
+  },
+  {
+    "id": 47,
+    "assessmentchoices": [],
+    "question": "An aqueous solution is a solution in which the _____ is water",
+    "answer": "Solvent",
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 186
+  },
+  {
+    "id": 48,
+    "assessmentchoices": [],
+    "question": "Substances that dissolve in water.",
+    "answer": "Nonelectrolytes",
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 186
+  },
+  {
+    "id": 49,
+    "assessmentchoices": [],
+    "question": "Is an expression of the concentration of a solution in terms of moles per liter.",
+    "answer": "Molarity",
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 178
+  },
+  {
+    "id": 50,
+    "assessmentchoices": [],
+    "question": "A standard solution of known concentration, a common one is aqueous sodium carbonate.",
+    "answer": "Titrant",
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 215
+  },
+  {
+    "id": 51,
+    "assessmentchoices": [],
+    "question": "Defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product",
     "answer": "Quality",
-    "question_type": 2
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 165
   },
   {
-    "id": 24,
+    "id": 52,
     "assessmentchoices": [],
-    "question": "These properties are built into drug products through research and during the manufacturing process by procedures collectively referred to as _____.",
-    "answer": "Quality control",
-    "question_type": 2
+    "question": "Is commonly used in chemistry, biology and medicine to transport a measured volume of liquid, often as a media dispenser.",
+    "answer": "Pipette",
+    "term": 1,
+    "question_type": 2,
+    "lesson_detail": 212
   },
   {
-    "id": 25,
-    "assessmentchoices": [],
-    "question": "Determination of the volume of a solution of known concentration required to react with a given amount of the substance to be analyzed.",
-    "answer": "Volumetric",
-    "question_type": 2
+    "id": 53,
+    "assessmentchoices": [
+      {
+        "id": 90,
+        "body": "True",
+        "assessment": 53,
+        "choice_type": 1
+      },
+      {
+        "id": 91,
+        "body": "False",
+        "assessment": 53,
+        "choice_type": 1
+      },
+      {
+        "id": 92,
+        "body": "Maybe",
+        "assessment": 53,
+        "choice_type": 1
+      },
+      {
+        "id": 93,
+        "body": "None of The Above",
+        "assessment": 53,
+        "choice_type": 1
+      }
+    ],
+    "question": "Analyte or titrand  is used in a titration to determine the concentration of an unknown solution.",
+    "answer": "True",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 216
   },
   {
-    "id": 26,
-    "assessmentchoices": [],
-    "question": "The separation by extraction, precipitation, or other means of the constituents to be determined either in the natural state or in the form of a definite compound the composition of which is known to the analyst, and the weighing of the resulting product.",
-    "answer": "Gravimetric",
-    "question_type": 2
+    "id": 54,
+    "assessmentchoices": [
+      {
+        "id": 94,
+        "body": "Titration Acid",
+        "assessment": 54,
+        "choice_type": 1
+      },
+      {
+        "id": 95,
+        "body": "Direct Titration",
+        "assessment": 54,
+        "choice_type": 1
+      },
+      {
+        "id": 96,
+        "body": "Formulation",
+        "assessment": 54,
+        "choice_type": 1
+      },
+      {
+        "id": 97,
+        "body": "Single formula",
+        "assessment": 54,
+        "choice_type": 1
+      }
+    ],
+    "question": "Describes the titration of a weak acid with a strong base.",
+    "answer": "Single formula",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 210
   },
   {
-    "id": 27,
-    "assessmentchoices": [],
-    "question": "A device used in analytical chemistry for the dispensing of variable, measured amounts of a chemical solution.",
-    "answer": "Burette",
-    "question_type": 2
+    "id": 55,
+    "assessmentchoices": [
+      {
+        "id": 98,
+        "body": "True",
+        "assessment": 55,
+        "choice_type": 1
+      },
+      {
+        "id": 99,
+        "body": "False",
+        "assessment": 55,
+        "choice_type": 1
+      },
+      {
+        "id": 100,
+        "body": "Maybe",
+        "assessment": 55,
+        "choice_type": 1
+      },
+      {
+        "id": 101,
+        "body": "None of The Above",
+        "assessment": 55,
+        "choice_type": 1
+      }
+    ],
+    "question": "The federal level drug-quality requirements are set through an organization known as the United States Pharmacopeia Convention, inc.",
+    "answer": "True",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 167
   },
   {
-    "id": 28,
-    "assessmentchoices": [],
-    "question": "A solution in which the solvent is water.",
-    "answer": "Aqueous",
-    "question_type": 2
+    "id": 56,
+    "assessmentchoices": [
+      {
+        "id": 102,
+        "body": "Borid Acid",
+        "assessment": 56,
+        "choice_type": 1
+      },
+      {
+        "id": 103,
+        "body": "Assaying",
+        "assessment": 56,
+        "choice_type": 1
+      },
+      {
+        "id": 104,
+        "body": "alkaloidal assaying",
+        "assessment": 56,
+        "choice_type": 1
+      },
+      {
+        "id": 105,
+        "body": "Analysis Methods",
+        "assessment": 56,
+        "choice_type": 1
+      }
+    ],
+    "question": "Special methods are those which require a distinct type of technique, such as_?",
+    "answer": "alkaloidal assaying",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 185
   },
   {
-    "id": 29,
-    "assessmentchoices": [],
-    "question": "The titration of substances dissolved in solvents other than water.",
-    "answer": "Nonaqueous",
-    "question_type": 2
+    "id": 57,
+    "assessmentchoices": [
+      {
+        "id": 106,
+        "body": "True",
+        "assessment": 57,
+        "choice_type": 1
+      },
+      {
+        "id": 107,
+        "body": "False",
+        "assessment": 57,
+        "choice_type": 1
+      },
+      {
+        "id": 108,
+        "body": "Maybe",
+        "assessment": 57,
+        "choice_type": 1
+      },
+      {
+        "id": 109,
+        "body": "None of The Above",
+        "assessment": 57,
+        "choice_type": 1
+      }
+    ],
+    "question": "The term “Control” as applied to a drug product has been defined as the sum of all factors which contribute directly or indirectly to the safety, effectiveness, and reliability of the product.",
+    "answer": "False",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 165
   },
   {
-    "id": 30,
-    "assessmentchoices": [],
-    "question": "Ligands that form multiple bonds (multidentate; bi, tri, tetra, penta)",
-    "answer": "Chelate",
-    "question_type": 2
+    "id": 58,
+    "assessmentchoices": [
+      {
+        "id": 110,
+        "body": "Pharmacology",
+        "assessment": 58,
+        "choice_type": 1
+      },
+      {
+        "id": 111,
+        "body": "Gravimetric",
+        "assessment": 58,
+        "choice_type": 1
+      },
+      {
+        "id": 112,
+        "body": "Analysis Quantitative",
+        "assessment": 58,
+        "choice_type": 1
+      },
+      {
+        "id": 113,
+        "body": "Volumetric analysis",
+        "assessment": 58,
+        "choice_type": 1
+      }
+    ],
+    "question": "The determination of the volume of a solution of known concentration required to react with a given amount of the substance to be analyzed.",
+    "answer": "Volumetric analysis",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 175
   },
   {
-    "id": 31,
-    "assessmentchoices": [],
-    "question": "The resulting structure formed during a complexation reaction.",
-    "answer": "Complex",
-    "question_type": 2
+    "id": 59,
+    "assessmentchoices": [
+      {
+        "id": 114,
+        "body": "Liter",
+        "assessment": 59,
+        "choice_type": 1
+      },
+      {
+        "id": 115,
+        "body": "Moles",
+        "assessment": 59,
+        "choice_type": 1
+      },
+      {
+        "id": 116,
+        "body": "Normality",
+        "assessment": 59,
+        "choice_type": 1
+      },
+      {
+        "id": 117,
+        "body": "Molarity",
+        "assessment": 59,
+        "choice_type": 1
+      }
+    ],
+    "question": "Is an expression of the concentration of a solution in terms of moles per liter?",
+    "answer": "Molarity",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 178
   },
   {
-    "id": 32,
-    "assessmentchoices": [],
-    "question": "The _____ method's universality, precision and reproducibility have made it the internationally recognized method for estimating the protein content in foods and it is the standard method against which all other methods are judged.",
-    "answer": "Kjeldahl",
-    "question_type": 2
+    "id": 60,
+    "assessmentchoices": [
+      {
+        "id": 118,
+        "body": "True",
+        "assessment": 60,
+        "choice_type": 1
+      },
+      {
+        "id": 119,
+        "body": "False",
+        "assessment": 60,
+        "choice_type": 1
+      },
+      {
+        "id": 120,
+        "body": "Maybe",
+        "assessment": 60,
+        "choice_type": 1
+      },
+      {
+        "id": 121,
+        "body": "None of The Above",
+        "assessment": 60,
+        "choice_type": 1
+      }
+    ],
+    "question": "Volumetric analysis is the determination of the volume of a solution of known concentration required to react with a given amount of the substance to be analyzed.",
+    "answer": "True",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 175
   },
   {
-    "id": 33,
-    "assessmentchoices": [],
-    "question": "Is the specialized analytic use of acid-base titration to determine the concentration of a basic (synonymous to alkaline) substance.",
+    "id": 61,
+    "assessmentchoices": [
+      {
+        "id": 122,
+        "body": "Neutralization",
+        "assessment": 61,
+        "choice_type": 1
+      },
+      {
+        "id": 123,
+        "body": "Standardization",
+        "assessment": 61,
+        "choice_type": 1
+      },
+      {
+        "id": 124,
+        "body": "Molarity",
+        "assessment": 61,
+        "choice_type": 1
+      },
+      {
+        "id": 125,
+        "body": "Normality",
+        "assessment": 61,
+        "choice_type": 1
+      }
+    ],
+    "question": "Is a concentration expression and is defined as the number of equivalents of solute per liter or milliequivalents per milliliter of solution.",
+    "answer": "Normality",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 178
+  },
+  {
+    "id": 62,
+    "assessmentchoices": [
+      {
+        "id": 126,
+        "body": "1.0079 g",
+        "assessment": 62,
+        "choice_type": 1
+      },
+      {
+        "id": 127,
+        "body": "2.00g",
+        "assessment": 62,
+        "choice_type": 1
+      },
+      {
+        "id": 128,
+        "body": "1.500g",
+        "assessment": 62,
+        "choice_type": 1
+      },
+      {
+        "id": 129,
+        "body": "1.001g",
+        "assessment": 62,
+        "choice_type": 1
+      }
+    ],
+    "question": "The gram-equivalent weight or, more simply, the gram-equivalent of a chemical is defined as that weight in grams which is chemically equivalent to 1 gram-atom of hydrogen?",
+    "answer": "1.0079 g",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 177
+  },
+  {
+    "id": 63,
+    "assessmentchoices": [
+      {
+        "id": 130,
+        "body": "Analyte",
+        "assessment": 63,
+        "choice_type": 1
+      },
+      {
+        "id": 131,
+        "body": "Solvent",
+        "assessment": 63,
+        "choice_type": 1
+      },
+      {
+        "id": 132,
+        "body": "Aqueous",
+        "assessment": 63,
+        "choice_type": 1
+      },
+      {
+        "id": 133,
+        "body": "Various organic solvents",
+        "assessment": 63,
+        "choice_type": 1
+      }
+    ],
+    "question": "It used to replace water since they compete less effectively with the analyte for proton donation or acceptance.",
+    "answer": "Various organic solvents",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 189
+  },
+  {
+    "id": 64,
+    "assessmentchoices": [
+      {
+        "id": 134,
+        "body": "True",
+        "assessment": 64,
+        "choice_type": 1
+      },
+      {
+        "id": 135,
+        "body": "False",
+        "assessment": 64,
+        "choice_type": 1
+      },
+      {
+        "id": 136,
+        "body": "Maybe",
+        "assessment": 64,
+        "choice_type": 1
+      },
+      {
+        "id": 137,
+        "body": "None of The Above",
+        "assessment": 64,
+        "choice_type": 1
+      }
+    ],
+    "question": "The word aqueous means pertaining to, related to, similar to, or dissolved in water.",
+    "answer": "True",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 186
+  },
+  {
+    "id": 65,
+    "assessmentchoices": [
+      {
+        "id": 138,
+        "body": "Vohr Method",
+        "assessment": 65,
+        "choice_type": 1
+      },
+      {
+        "id": 139,
+        "body": "Morgans Theory",
+        "assessment": 65,
+        "choice_type": 1
+      },
+      {
+        "id": 140,
+        "body": "Brønsted-Lowry theory",
+        "assessment": 65,
+        "choice_type": 1
+      },
+      {
+        "id": 141,
+        "body": "Austin Method",
+        "assessment": 65,
+        "choice_type": 1
+      }
+    ],
+    "question": "The reactions which occur during many non aqueous titrations can be explained by means of the concepts of the ___?",
+    "answer": "Brønsted-Lowry theory.",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 182
+  },
+  {
+    "id": 66,
+    "assessmentchoices": [
+      {
+        "id": 142,
+        "body": "Miligram",
+        "assessment": 66,
+        "choice_type": 1
+      },
+      {
+        "id": 143,
+        "body": "Gram-miligram",
+        "assessment": 66,
+        "choice_type": 1
+      },
+      {
+        "id": 144,
+        "body": "Gram-milliequivalent weight",
+        "assessment": 66,
+        "choice_type": 1
+      },
+      {
+        "id": 145,
+        "body": "Gram equivalent",
+        "assessment": 66,
+        "choice_type": 1
+      }
+    ],
+    "question": "Is defined as GEW/1000.",
+    "answer": "Gram-milliequivalent weight",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 178
+  },
+  {
+    "id": 67,
+    "assessmentchoices": [
+      {
+        "id": 146,
+        "body": "Equivalent",
+        "assessment": 67,
+        "choice_type": 1
+      },
+      {
+        "id": 147,
+        "body": "Gram equivalent",
+        "assessment": 67,
+        "choice_type": 1
+      },
+      {
+        "id": 148,
+        "body": "Mililiter",
+        "assessment": 67,
+        "choice_type": 1
+      },
+      {
+        "id": 149,
+        "body": "Liter",
+        "assessment": 67,
+        "choice_type": 1
+      }
+    ],
+    "question": "Is defined as the number of gram-equivalents involved in a quantitative procedure.",
+    "answer": "Equivalent",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 178
+  },
+  {
+    "id": 68,
+    "assessmentchoices": [
+      {
+        "id": 150,
+        "body": "True",
+        "assessment": 68,
+        "choice_type": 1
+      },
+      {
+        "id": 151,
+        "body": "False",
+        "assessment": 68,
+        "choice_type": 1
+      },
+      {
+        "id": 152,
+        "body": "Maybe",
+        "assessment": 68,
+        "choice_type": 1
+      },
+      {
+        "id": 153,
+        "body": "None of The Above",
+        "assessment": 68,
+        "choice_type": 1
+      }
+    ],
+    "question": "Normality is a concentration expression and is defined as the number of equivalents of solute per liter (equiv/liter) or milliequivalents per milliliter (meq/ml) of solution.",
+    "answer": "True",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 178
+  },
+  {
+    "id": 69,
+    "assessmentchoices": [
+      {
+        "id": 154,
+        "body": "nOH- added",
+        "assessment": 69,
+        "choice_type": 1
+      },
+      {
+        "id": 162,
+        "body": "pKa",
+        "assessment": 69,
+        "choice_type": 1
+      },
+      {
+        "id": 163,
+        "body": "nHA initial",
+        "assessment": 69,
+        "choice_type": 1
+      },
+      {
+        "id": 164,
+        "body": "apa",
+        "assessment": 69,
+        "choice_type": 1
+      }
+    ],
+    "question": "Is the number of moles of added strong base in the solution.",
+    "answer": "nOH- added",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 206
+  },
+  {
+    "id": 70,
+    "assessmentchoices": [
+      {
+        "id": 165,
+        "body": "Titration",
+        "assessment": 70,
+        "choice_type": 1
+      },
+      {
+        "id": 166,
+        "body": "Base Titration",
+        "assessment": 70,
+        "choice_type": 1
+      },
+      {
+        "id": 167,
+        "body": "Weak Acid",
+        "assessment": 70,
+        "choice_type": 1
+      },
+      {
+        "id": 168,
+        "body": "Alkalimetry",
+        "assessment": 70,
+        "choice_type": 1
+      }
+    ],
+    "question": "The specialized analytic use of acid-base titration to determine the concentration of a basic (synonymous to alkaline) substance.",
     "answer": "Alkalimetry",
-    "question_type": 2
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 203
   },
   {
-    "id": 34,
-    "assessmentchoices": [],
-    "question": "This method utilizes chromate as an indicator.",
-    "answer": "Mohr",
-    "question_type": 2
+    "id": 71,
+    "assessmentchoices": [
+      {
+        "id": 169,
+        "body": "True",
+        "assessment": 71,
+        "choice_type": 1
+      },
+      {
+        "id": 170,
+        "body": "False",
+        "assessment": 71,
+        "choice_type": 1
+      },
+      {
+        "id": 171,
+        "body": "Maybe",
+        "assessment": 71,
+        "choice_type": 1
+      },
+      {
+        "id": 172,
+        "body": "None of The Above",
+        "assessment": 71,
+        "choice_type": 1
+      }
+    ],
+    "question": "pKa is the negative log of the acid dissociation constant of the weak acid.",
+    "answer": "True",
+    "term": 1,
+    "question_type": 1,
+    "lesson_detail": 206
   },
   {
-    "id": 35,
+    "id": 72,
+    "assessmentchoices": [
+      {
+        "id": 173,
+        "body": "True",
+        "assessment": 72,
+        "choice_type": 1
+      },
+      {
+        "id": 174,
+        "body": "False",
+        "assessment": 72,
+        "choice_type": 1
+      },
+      {
+        "id": 175,
+        "body": "Maybe",
+        "assessment": 72,
+        "choice_type": 1
+      },
+      {
+        "id": 176,
+        "body": "None of The Above",
+        "assessment": 72,
+        "choice_type": 1
+      }
+    ],
+    "question": "The standard solutions used in the official assays by oxidation-reduction methods include ferric ammonium sulfate, potassium permanganate, potassium dichromate, potassium bromated, potassium iodate and sodium thiosulfate as reducing agents.",
+    "answer": "True",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 247
+  },
+  {
+    "id": 73,
+    "assessmentchoices": [
+      {
+        "id": 177,
+        "body": "Potassium Permanganate",
+        "assessment": 73,
+        "choice_type": 1
+      },
+      {
+        "id": 178,
+        "body": "Sodium Thiosulfate",
+        "assessment": 73,
+        "choice_type": 1
+      },
+      {
+        "id": 179,
+        "body": "Permanganate",
+        "assessment": 73,
+        "choice_type": 1
+      },
+      {
+        "id": 180,
+        "body": "Oxidation",
+        "assessment": 73,
+        "choice_type": 1
+      }
+    ],
+    "question": "A solution can be standardized easily, and it retains its concentration over long periods of time when proper precautions are observed in its preparation and preservation.",
+    "answer": "Potassium Permanganate",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 249
+  },
+  {
+    "id": 74,
+    "assessmentchoices": [
+      {
+        "id": 181,
+        "body": "Analyte",
+        "assessment": 74,
+        "choice_type": 1
+      },
+      {
+        "id": 182,
+        "body": "Potassium Chromate",
+        "assessment": 74,
+        "choice_type": 1
+      },
+      {
+        "id": 183,
+        "body": "Residual Titration",
+        "assessment": 74,
+        "choice_type": 1
+      },
+      {
+        "id": 184,
+        "body": "Direct Titration",
+        "assessment": 74,
+        "choice_type": 1
+      }
+    ],
+    "question": "Also known as back titration. The term back titration (residual titration) is used when a titration is done \"backwards” instead of titrating the original analyte, a volumetric solution of a reagent is added to the solution to react with the analyte, then the excess reagent is titrated",
+    "answer": "Residual Titration",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 201
+  },
+  {
+    "id": 75,
+    "assessmentchoices": [
+      {
+        "id": 185,
+        "body": "Oxidation Precipitation",
+        "assessment": 75,
+        "choice_type": 1
+      },
+      {
+        "id": 186,
+        "body": "Titration",
+        "assessment": 75,
+        "choice_type": 1
+      },
+      {
+        "id": 187,
+        "body": "Cerimetry",
+        "assessment": 75,
+        "choice_type": 1
+      },
+      {
+        "id": 188,
+        "body": "Oxidation Reduction",
+        "assessment": 75,
+        "choice_type": 1
+      }
+    ],
+    "question": "A reaction in which one reactant is oxidized and one reactant is reduced simultaneously.",
+    "answer": "Oxidation Reduction",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 252
+  },
+  {
+    "id": 76,
+    "assessmentchoices": [
+      {
+        "id": 189,
+        "body": "Oxidation",
+        "assessment": 76,
+        "choice_type": 1
+      },
+      {
+        "id": 190,
+        "body": "Precipitation Oxidation",
+        "assessment": 76,
+        "choice_type": 1
+      },
+      {
+        "id": 191,
+        "body": "Standard Solutions",
+        "assessment": 76,
+        "choice_type": 1
+      },
+      {
+        "id": 192,
+        "body": "Non Aqueous",
+        "assessment": 76,
+        "choice_type": 1
+      }
+    ],
+    "question": "It used in the official assays by oxidation-reduction methods include ferric ammonium sulfate, potassium permanganate, potassium dichromate, potassium bromated, potassium iodate and sodium thiosulfate as reducing agents.",
+    "answer": "Standard Solutions",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 247
+  },
+  {
+    "id": 77,
+    "assessmentchoices": [
+      {
+        "id": 193,
+        "body": "True",
+        "assessment": 77,
+        "choice_type": 1
+      },
+      {
+        "id": 194,
+        "body": "False",
+        "assessment": 77,
+        "choice_type": 1
+      },
+      {
+        "id": 195,
+        "body": "Maybe",
+        "assessment": 77,
+        "choice_type": 1
+      },
+      {
+        "id": 196,
+        "body": "None of The Above",
+        "assessment": 77,
+        "choice_type": 1
+      }
+    ],
+    "question": "In the Volhard method, named after Karl Friedrich Mohr, potassium chromate is an indicator, giving red silver chromate after all chloride ions have reacted.",
+    "answer": "False",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 221
+  },
+  {
+    "id": 78,
+    "assessmentchoices": [
+      {
+        "id": 197,
+        "body": "True",
+        "assessment": 78,
+        "choice_type": 1
+      },
+      {
+        "id": 198,
+        "body": "False",
+        "assessment": 78,
+        "choice_type": 1
+      },
+      {
+        "id": 199,
+        "body": "Maybe",
+        "assessment": 78,
+        "choice_type": 1
+      },
+      {
+        "id": 200,
+        "body": "None of The Above",
+        "assessment": 78,
+        "choice_type": 1
+      }
+    ],
+    "question": "An example of back titration, the Mohr method, involves the addition of excess silver nitrate to the analyte",
+    "answer": "False",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 224
+  },
+  {
+    "id": 79,
+    "assessmentchoices": [
+      {
+        "id": 201,
+        "body": "Mohr",
+        "assessment": 79,
+        "choice_type": 1
+      },
+      {
+        "id": 202,
+        "body": "Volhard",
+        "assessment": 79,
+        "choice_type": 1
+      },
+      {
+        "id": 203,
+        "body": "Fajans",
+        "assessment": 79,
+        "choice_type": 1
+      },
+      {
+        "id": 204,
+        "body": "Austin",
+        "assessment": 79,
+        "choice_type": 1
+      }
+    ],
+    "question": "There are three types of Methods of Precipitation Titration EXCEPT:",
+    "answer": "Austin",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 220
+  },
+  {
+    "id": 80,
+    "assessmentchoices": [
+      {
+        "id": 205,
+        "body": "Oxidation",
+        "assessment": 80,
+        "choice_type": 1
+      },
+      {
+        "id": 206,
+        "body": "Titrimetric",
+        "assessment": 80,
+        "choice_type": 1
+      },
+      {
+        "id": 207,
+        "body": "Titrant",
+        "assessment": 80,
+        "choice_type": 1
+      },
+      {
+        "id": 208,
+        "body": "Analyte",
+        "assessment": 80,
+        "choice_type": 1
+      }
+    ],
+    "question": "Reacts with the analyte forming an insoluble material and the titration continues till the very last amount of analyte is consumed.",
+    "answer": "Titrant",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 217
+  },
+  {
+    "id": 81,
+    "assessmentchoices": [
+      {
+        "id": 209,
+        "body": "True",
+        "assessment": 81,
+        "choice_type": 1
+      },
+      {
+        "id": 210,
+        "body": "False",
+        "assessment": 81,
+        "choice_type": 1
+      },
+      {
+        "id": 211,
+        "body": "Maybe",
+        "assessment": 81,
+        "choice_type": 1
+      },
+      {
+        "id": 212,
+        "body": "None of The Above",
+        "assessment": 81,
+        "choice_type": 1
+      }
+    ],
+    "question": "Ferric acetate removes phosphates.",
+    "answer": "True",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 222
+  },
+  {
+    "id": 82,
+    "assessmentchoices": [
+      {
+        "id": 213,
+        "body": "True",
+        "assessment": 82,
+        "choice_type": 1
+      },
+      {
+        "id": 214,
+        "body": "False",
+        "assessment": 82,
+        "choice_type": 1
+      },
+      {
+        "id": 215,
+        "body": "Maybe",
+        "assessment": 82,
+        "choice_type": 1
+      },
+      {
+        "id": 216,
+        "body": "None of The Above",
+        "assessment": 82,
+        "choice_type": 1
+      }
+    ],
+    "question": "The Austin Method is widely used because we can detect the end point of precipitation titration very well.",
+    "answer": "False",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 228
+  },
+  {
+    "id": 83,
+    "assessmentchoices": [
+      {
+        "id": 217,
+        "body": "Ferric acetate",
+        "assessment": 83,
+        "choice_type": 1
+      },
+      {
+        "id": 218,
+        "body": "Dichlorofluorescein",
+        "assessment": 83,
+        "choice_type": 1
+      },
+      {
+        "id": 219,
+        "body": "Acetic",
+        "assessment": 83,
+        "choice_type": 1
+      },
+      {
+        "id": 220,
+        "body": "Boric",
+        "assessment": 83,
+        "choice_type": 1
+      }
+    ],
+    "question": "Anionic dyes such as ___ are attracted to the particles, and undergo a color change upon adsorption, representing the end-point.",
+    "answer": "Dichlorofluorescein",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 226
+  },
+  {
+    "id": 84,
+    "assessmentchoices": [
+      {
+        "id": 221,
+        "body": "Dl",
+        "assessment": 84,
+        "choice_type": 1
+      },
+      {
+        "id": 222,
+        "body": "Ac",
+        "assessment": 84,
+        "choice_type": 1
+      },
+      {
+        "id": 223,
+        "body": "Zn",
+        "assessment": 84,
+        "choice_type": 1
+      },
+      {
+        "id": 224,
+        "body": "Zb",
+        "assessment": 84,
+        "choice_type": 1
+      }
+    ],
+    "question": "Historically, the quantitative analysis of inorganic pharmaceutical products containing metal ions such as Al, Bi, Ca, and __?",
+    "answer": "Zn",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 229
+  },
+  {
+    "id": 85,
+    "assessmentchoices": [
+      {
+        "id": 225,
+        "body": "True",
+        "assessment": 85,
+        "choice_type": 1
+      },
+      {
+        "id": 226,
+        "body": "False",
+        "assessment": 85,
+        "choice_type": 1
+      },
+      {
+        "id": 227,
+        "body": "Maybe",
+        "assessment": 85,
+        "choice_type": 1
+      },
+      {
+        "id": 228,
+        "body": "None of The Above",
+        "assessment": 85,
+        "choice_type": 1
+      }
+    ],
+    "question": "When a metal ion combines with a molecule which can donate electrons, the resulting compound is termed a complex.",
+    "answer": "True",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 230
+  },
+  {
+    "id": 86,
+    "assessmentchoices": [
+      {
+        "id": 229,
+        "body": "Complex",
+        "assessment": 86,
+        "choice_type": 1
+      },
+      {
+        "id": 230,
+        "body": "Ligand",
+        "assessment": 86,
+        "choice_type": 1
+      },
+      {
+        "id": 231,
+        "body": "Chelate",
+        "assessment": 86,
+        "choice_type": 1
+      },
+      {
+        "id": 232,
+        "body": "Coordination Center",
+        "assessment": 86,
+        "choice_type": 1
+      }
+    ],
+    "question": "Metal ion in a complex (Lewis acid).",
+    "answer": "Coordination Center",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 232
+  },
+  {
+    "id": 87,
+    "assessmentchoices": [
+      {
+        "id": 233,
+        "body": "Chelate",
+        "assessment": 87,
+        "choice_type": 1
+      },
+      {
+        "id": 234,
+        "body": "Ligand",
+        "assessment": 87,
+        "choice_type": 1
+      },
+      {
+        "id": 235,
+        "body": "Complex",
+        "assessment": 87,
+        "choice_type": 1
+      },
+      {
+        "id": 236,
+        "body": "Atonomy",
+        "assessment": 87,
+        "choice_type": 1
+      }
+    ],
+    "question": "Volumetric method involves reaction of metal with __ to form complex.",
+    "answer": "Ligand",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 232
+  },
+  {
+    "id": 88,
+    "assessmentchoices": [
+      {
+        "id": 237,
+        "body": "Complex formation",
+        "assessment": 88,
+        "choice_type": 1
+      },
+      {
+        "id": 238,
+        "body": "Ligand",
+        "assessment": 88,
+        "choice_type": 1
+      },
+      {
+        "id": 239,
+        "body": "Chelate",
+        "assessment": 88,
+        "choice_type": 1
+      },
+      {
+        "id": 240,
+        "body": "Coordination Center",
+        "assessment": 88,
+        "choice_type": 1
+      }
+    ],
+    "question": "Is a type of acid base reaction according to lewis concept, where metal ion is lewis acid (electron acceptor) and ligand is lewis base electron donor.",
+    "answer": "Complex formation",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 237
+  },
+  {
+    "id": 89,
+    "assessmentchoices": [
+      {
+        "id": 241,
+        "body": "Da²⁺",
+        "assessment": 89,
+        "choice_type": 1
+      },
+      {
+        "id": 242,
+        "body": "Pa²⁺",
+        "assessment": 89,
+        "choice_type": 1
+      },
+      {
+        "id": 243,
+        "body": "Ba²⁺",
+        "assessment": 89,
+        "choice_type": 1
+      },
+      {
+        "id": 244,
+        "body": "Ca²⁺",
+        "assessment": 89,
+        "choice_type": 1
+      }
+    ],
+    "question": "The metal ions which are determined by direct titration with EDTA are __, Mg²⁺, and Zn²⁺.",
+    "answer": "Ca²⁺",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 241
+  },
+  {
+    "id": 90,
+    "assessmentchoices": [
+      {
+        "id": 245,
+        "body": "FATA",
+        "assessment": 90,
+        "choice_type": 1
+      },
+      {
+        "id": 246,
+        "body": "DFTA",
+        "assessment": 90,
+        "choice_type": 1
+      },
+      {
+        "id": 247,
+        "body": "DETS",
+        "assessment": 90,
+        "choice_type": 1
+      },
+      {
+        "id": 248,
+        "body": "EDTA",
+        "assessment": 90,
+        "choice_type": 1
+      }
+    ],
+    "question": "Is a Secondary Standard.",
+    "answer": "EDTA",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 238
+  },
+  {
+    "id": 91,
+    "assessmentchoices": [
+      {
+        "id": 249,
+        "body": "Masking",
+        "assessment": 91,
+        "choice_type": 1
+      },
+      {
+        "id": 250,
+        "body": "Complex",
+        "assessment": 91,
+        "choice_type": 1
+      },
+      {
+        "id": 251,
+        "body": "Reaction",
+        "assessment": 91,
+        "choice_type": 1
+      },
+      {
+        "id": 252,
+        "body": "Metalism",
+        "assessment": 91,
+        "choice_type": 1
+      }
+    ],
+    "question": "This term is used to indicate the determination of a metal in the presence of another",
+    "answer": "Masking",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 242
+  },
+  {
+    "id": 92,
+    "assessmentchoices": [
+      {
+        "id": 253,
+        "body": "True",
+        "assessment": 92,
+        "choice_type": 1
+      },
+      {
+        "id": 254,
+        "body": "False",
+        "assessment": 92,
+        "choice_type": 1
+      },
+      {
+        "id": 255,
+        "body": "Maybe",
+        "assessment": 92,
+        "choice_type": 1
+      },
+      {
+        "id": 256,
+        "body": "None of The Above",
+        "assessment": 92,
+        "choice_type": 1
+      }
+    ],
+    "question": "The indirect or residual titration method is applied to the analysis of aluminum and bismuth compounds.",
+    "answer": "True",
+    "term": 2,
+    "question_type": 1,
+    "lesson_detail": 251
+  },
+  {
+    "id": 93,
     "assessmentchoices": [],
-    "question": "This is an indirect method for chloride determination where an excess amount of standard Ag+ is added to the chloride solution containing  Fe3+ as an indicator.",
+    "question": "The _____ method of permanganate oxidation is employed with those compounds that can be converted through chemical reactions to an equivalent amount of oxalate, which in turn can then be quantitatively oxidized by permanganate.",
+    "answer": "Indirect",
+    "term": 2,
+    "question_type": 2,
+    "lesson_detail": 250
+  },
+  {
+    "id": 94,
+    "assessmentchoices": [],
+    "question": "One of the techniques used in quantitative analysis in chemistry.",
+    "answer": "Permanganometry",
+    "term": 2,
+    "question_type": 2,
+    "lesson_detail": 248
+  },
+  {
+    "id": 95,
+    "assessmentchoices": [],
+    "question": "Is a method of volumetric chemical analysis, a redox titration where the appearance or disappearance of elementary iodine indicates the end point.",
+    "answer": "Iodometry",
+    "term": 2,
+    "question_type": 2,
+    "lesson_detail": 258
+  },
+  {
+    "id": 96,
+    "assessmentchoices": [],
+    "question": "This method is widely used because we can detect the end point of precipitation titration very well.",
     "answer": "Volhard",
-    "question_type": 2
+    "term": 2,
+    "question_type": 2,
+    "lesson_detail": 228
   },
   {
-    "id": 36,
+    "id": 97,
     "assessmentchoices": [],
-    "question": "Fluorescein and its derivatives are adsorbed to the surface of colloidal AgCl.",
+    "question": "The _____ reacts with the analyte forming an insoluble material and the titration continues till the very last amount of analyte is consumed.",
+    "answer": "Titrant",
+    "term": 2,
+    "question_type": 2,
+    "lesson_detail": 217
+  },
+  {
+    "id": 98,
+    "assessmentchoices": [],
+    "question": "The _____ agent itself is a compound capable of entering a complexation reaction.",
+    "answer": "Masking",
+    "term": 2,
+    "question_type": 2,
+    "lesson_detail": 242
+  },
+  {
+    "id": 99,
+    "assessmentchoices": [],
+    "question": "Is a method that typically dichlorofluorescein is used as an indicator; the end-point is marked by the green suspension turning pink.",
     "answer": "Fajans",
-    "question_type": 2
+    "term": 2,
+    "question_type": 2,
+    "lesson_detail": 226
   },
   {
-    "id": 37,
+    "id": 100,
     "assessmentchoices": [],
-    "question": "The apparatus generally used for extraction with volatile solvents where small quantities of a drug are extracted, as in quantitative work.",
-    "answer": "Soxhlet",
-    "question_type": 2
+    "question": "A titration that based on the redox reaction (oxidation-reduction) between analyte and titrant.",
+    "answer": "Redox",
+    "term": 2,
+    "question_type": 2,
+    "lesson_detail": 257
   },
   {
-    "id": 38,
+    "id": 101,
+    "assessmentchoices": [],
+    "question": "Also known as cerate oximetry, is a method of volumetric chemical analysis developed by Ion Atanasiu.",
+    "answer": "Cerimetry",
+    "term": 2,
+    "question_type": 2,
+    "lesson_detail": 255
+  },
+  {
+    "id": 102,
+    "assessmentchoices": [],
+    "question": "Essential oils, also known as__?",
+    "answer": "Volatile",
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 271
+  },
+  {
+    "id": 103,
+    "assessmentchoices": [],
+    "question": "Present both in the Free State and in combination with acids as esters.",
+    "answer": "Alcohols",
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 273
+  },
+  {
+    "id": 104,
     "assessmentchoices": [],
     "question": "Defined as chemical substances which are obtained from plant, animal, or synthetic sources, contain organic nitrogen(s) within their chemical structure, and usually possess physiological activity.",
     "answer": "Alkaloids",
-    "question_type": 2
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 275
   },
   {
-    "id": 39,
+    "id": 105,
     "assessmentchoices": [],
-    "question": "the most important being camphor, carvone,fenchone, thujone and menthone.",
+    "question": "The methods of analysis of fatty substances, waxes, resins, etc., usually consist of the determination of a number of physical and chemical properties or values commonly known as __?",
+    "answer": "Constant",
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 265
+  },
+  {
+    "id": 106,
+    "assessmentchoices": [],
+    "question": "The total ___ is the residue remaining after incineration.",
+    "answer": "Ash",
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 260
+  },
+  {
+    "id": 107,
+    "assessmentchoices": [],
+    "question": "Defined as the number of milligrams of potassium hydroxide necessary to neutralize the free acids in 1 of g of oil, fat, _____ , resin, balsam, or similar organic substance of complex composition.",
+    "answer": "Wax",
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 267
+  },
+  {
+    "id": 108,
+    "assessmentchoices": [],
+    "question": "The acid value of Rosin",
+    "answer": "150-",
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 268
+  },
+  {
+    "id": 109,
+    "assessmentchoices": [],
+    "question": "The most important being camphor, carvone,fenchone, thujone and menthone.",
     "answer": "Ketones",
-    "question_type": 2
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 274
   },
   {
-    "id": 40,
+    "id": 110,
     "assessmentchoices": [],
-    "question": "An excellent solvent and is also naturally abundant, it is a ubiquitous solvent in chemistry.",
-    "answer": "Water",
-    "question_type": 2
+    "question": "May be defined as chemical substances which are obtained from plant, animal, or synthetic sources, contain organic nitrogen(s) within their chemical structure, and usually possess physiological activity.",
+    "answer": "Alkaloids",
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 275
   },
   {
-    "id": 41,
+    "id": 111,
     "assessmentchoices": [],
-    "question": "Required for the toxicity and potency of serological preparations such as vaccines, serums, toxoids, and antitoxins.",
-    "answer": "Tests",
-    "question_type": 2
+    "question": "May be defined as chemical substances which are obtained from plant, animal, or synthetic sources, contain organic nitrogen(s) within their chemical structure, and usually possess physiological activity.",
+    "answer": "Alkaloids",
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 275
   },
   {
-    "id": 42,
+    "id": 112,
     "assessmentchoices": [],
-    "question": "Present both in the free state and in combination with acids as esters.",
+    "question": "_____ oils, also known as volatile or natural oils, typically extracted from the seeds, roots, flowers, leaves, stems, bark and other parts of plants by distillation or from steam.",
+    "answer": "Essential",
+    "term": 3,
+    "question_type": 2,
+    "lesson_detail": 271
+  },
+  {
+    "id": 113,
+    "assessmentchoices": [
+      {
+        "id": 257,
+        "body": "120-345",
+        "assessment": 113,
+        "choice_type": 1
+      },
+      {
+        "id": 258,
+        "body": "190-195",
+        "assessment": 113,
+        "choice_type": 1
+      },
+      {
+        "id": 259,
+        "body": "246-100",
+        "assessment": 113,
+        "choice_type": 1
+      },
+      {
+        "id": 260,
+        "body": "188-195",
+        "assessment": 113,
+        "choice_type": 1
+      }
+    ],
+    "question": "The saponification value of Cocoa butter.",
+    "answer": "188-195",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 270
+  },
+  {
+    "id": 114,
+    "assessmentchoices": [
+      {
+        "id": 261,
+        "body": "True",
+        "assessment": 114,
+        "choice_type": 1
+      },
+      {
+        "id": 262,
+        "body": "False",
+        "assessment": 114,
+        "choice_type": 1
+      },
+      {
+        "id": 263,
+        "body": "Maybe",
+        "assessment": 114,
+        "choice_type": 1
+      },
+      {
+        "id": 264,
+        "body": "None of The Above",
+        "assessment": 114,
+        "choice_type": 1
+      }
+    ],
+    "question": "Hydrocarbons, occasionally of the acyclic series, such as heptane and myrcene,",
+    "answer": "True",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 273
+  },
+  {
+    "id": 115,
+    "assessmentchoices": [
+      {
+        "id": 265,
+        "body": "150-",
+        "assessment": 115,
+        "choice_type": 1
+      },
+      {
+        "id": 266,
+        "body": "4-6",
+        "assessment": 115,
+        "choice_type": 1
+      },
+      {
+        "id": 267,
+        "body": "2-7",
+        "assessment": 115,
+        "choice_type": 1
+      },
+      {
+        "id": 268,
+        "body": "1-0",
+        "assessment": 115,
+        "choice_type": 1
+      }
+    ],
+    "question": "The acid value of Carnuba wax.",
+    "answer": "2-7",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 268
+  },
+  {
+    "id": 116,
+    "assessmentchoices": [
+      {
+        "id": 269,
+        "body": "True",
+        "assessment": 116,
+        "choice_type": 1
+      },
+      {
+        "id": 270,
+        "body": "False",
+        "assessment": 116,
+        "choice_type": 1
+      },
+      {
+        "id": 271,
+        "body": "Maybe",
+        "assessment": 116,
+        "choice_type": 1
+      },
+      {
+        "id": 272,
+        "body": "None of The Above",
+        "assessment": 116,
+        "choice_type": 1
+      }
+    ],
+    "question": "Acids, sometimes present in the Free State in small quantities, those occurring most commonly being acetic, propionic, butyric, valeric, benzoic, cinnamic, and hydrocyanic acids",
+    "answer": "True",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 274
+  },
+  {
+    "id": 117,
+    "assessmentchoices": [
+      {
+        "id": 273,
+        "body": "True",
+        "assessment": 117,
+        "choice_type": 1
+      },
+      {
+        "id": 274,
+        "body": "False",
+        "assessment": 117,
+        "choice_type": 1
+      },
+      {
+        "id": 275,
+        "body": "Maybe",
+        "assessment": 117,
+        "choice_type": 1
+      },
+      {
+        "id": 276,
+        "body": "None of The Above",
+        "assessment": 117,
+        "choice_type": 1
+      }
+    ],
+    "question": "The ash content of a crude drug is generally taken to be the residue remaining after incineration.",
+    "answer": "True",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 260
+  },
+  {
+    "id": 118,
+    "assessmentchoices": [
+      {
+        "id": 277,
+        "body": "Phenols",
+        "assessment": 118,
+        "choice_type": 1
+      },
+      {
+        "id": 278,
+        "body": "Aldehydes",
+        "assessment": 118,
+        "choice_type": 1
+      },
+      {
+        "id": 279,
+        "body": "Alcohols",
+        "assessment": 118,
+        "choice_type": 1
+      },
+      {
+        "id": 280,
+        "body": "Ketones",
+        "assessment": 118,
+        "choice_type": 1
+      }
+    ],
+    "question": "Both in the free state and in combination with acids as esters.",
     "answer": "Alcohols",
-    "question_type": 2
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 273
+  },
+  {
+    "id": 120,
+    "assessmentchoices": [
+      {
+        "id": 281,
+        "body": "True",
+        "assessment": 120,
+        "choice_type": 1
+      },
+      {
+        "id": 282,
+        "body": "False",
+        "assessment": 120,
+        "choice_type": 1
+      },
+      {
+        "id": 283,
+        "body": "Maybe",
+        "assessment": 120,
+        "choice_type": 1
+      },
+      {
+        "id": 284,
+        "body": "None of The Above",
+        "assessment": 120,
+        "choice_type": 1
+      }
+    ],
+    "question": "The saponification value is defined as the number of milligrams of potassium hydroxide required to neutralize the free acids and saponify the esters contained in 1 g of fat, fatty or volatile oil, wax, resin, balsam, or other substance of similar composition.",
+    "answer": "True",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 269
+  },
+  {
+    "id": 121,
+    "assessmentchoices": [
+      {
+        "id": 285,
+        "body": "U.V.P",
+        "assessment": 121,
+        "choice_type": 1
+      },
+      {
+        "id": 286,
+        "body": "P.G.N",
+        "assessment": 121,
+        "choice_type": 1
+      },
+      {
+        "id": 287,
+        "body": "U.S.P.",
+        "assessment": 121,
+        "choice_type": 1
+      }
+    ],
+    "question": "Many drugs official ___ and N.F. contain varying quantities of water, either as water of crystallization (hydrates) or as water in the adsorbed form.",
+    "answer": "U.S.P.",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 261
+  },
+  {
+    "id": 122,
+    "assessmentchoices": [
+      {
+        "id": 288,
+        "body": "True",
+        "assessment": 122,
+        "choice_type": 1
+      },
+      {
+        "id": 289,
+        "body": "False",
+        "assessment": 122,
+        "choice_type": 1
+      },
+      {
+        "id": 290,
+        "body": "Maybe",
+        "assessment": 122,
+        "choice_type": 1
+      },
+      {
+        "id": 291,
+        "body": "None of The Above",
+        "assessment": 122,
+        "choice_type": 1
+      }
+    ],
+    "question": "Essential oils are highly concentrated and used in perfumes, cosmetics, soaps and many other products for adding fragrance.",
+    "answer": "True",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 272
+  },
+  {
+    "id": 123,
+    "assessmentchoices": [
+      {
+        "id": 292,
+        "body": "150-",
+        "assessment": 123,
+        "choice_type": 1
+      },
+      {
+        "id": 293,
+        "body": "18-24",
+        "assessment": 123,
+        "choice_type": 1
+      },
+      {
+        "id": 294,
+        "body": "234+",
+        "assessment": 123,
+        "choice_type": 1
+      },
+      {
+        "id": 295,
+        "body": "18+24",
+        "assessment": 123,
+        "choice_type": 1
+      }
+    ],
+    "question": "The acid value of Yellow wax.",
+    "answer": "18-24",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 268
+  },
+  {
+    "id": 124,
+    "assessmentchoices": [
+      {
+        "id": 296,
+        "body": "Acid Value",
+        "assessment": 124,
+        "choice_type": 1
+      },
+      {
+        "id": 297,
+        "body": "Balsam",
+        "assessment": 124,
+        "choice_type": 1
+      },
+      {
+        "id": 298,
+        "body": "Acetic",
+        "assessment": 124,
+        "choice_type": 1
+      },
+      {
+        "id": 299,
+        "body": "Saponification",
+        "assessment": 124,
+        "choice_type": 1
+      }
+    ],
+    "question": "Also known as the acid number and as the acidity index.",
+    "answer": "Acid Value",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 267
+  },
+  {
+    "id": 125,
+    "assessmentchoices": [
+      {
+        "id": 300,
+        "body": "Two",
+        "assessment": 125,
+        "choice_type": 1
+      },
+      {
+        "id": 301,
+        "body": "Six",
+        "assessment": 125,
+        "choice_type": 1
+      },
+      {
+        "id": 302,
+        "body": "Five",
+        "assessment": 125,
+        "choice_type": 1
+      },
+      {
+        "id": 303,
+        "body": "Three",
+        "assessment": 125,
+        "choice_type": 1
+      }
+    ],
+    "question": "Water content is generally determined by one of __ methods.",
+    "answer": "Six",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 262
+  },
+  {
+    "id": 126,
+    "assessmentchoices": [
+      {
+        "id": 304,
+        "body": "True",
+        "assessment": 126,
+        "choice_type": 1
+      },
+      {
+        "id": 305,
+        "body": "False",
+        "assessment": 126,
+        "choice_type": 1
+      },
+      {
+        "id": 306,
+        "body": "Maybe",
+        "assessment": 126,
+        "choice_type": 1
+      },
+      {
+        "id": 307,
+        "body": "None of The Above",
+        "assessment": 126,
+        "choice_type": 1
+      }
+    ],
+    "question": "The amount of extractive and drug yields to a given solvent is often an approximate measure of the amount of a certain constituent or group of related constituents the drug contains.",
+    "answer": "True",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 263
+  },
+  {
+    "id": 127,
+    "assessmentchoices": [
+      {
+        "id": 308,
+        "body": "Meter",
+        "assessment": 127,
+        "choice_type": 1
+      },
+      {
+        "id": 309,
+        "body": "Soxhlet",
+        "assessment": 127,
+        "choice_type": 1
+      },
+      {
+        "id": 310,
+        "body": "Flask",
+        "assessment": 127,
+        "choice_type": 1
+      },
+      {
+        "id": 311,
+        "body": "Burette",
+        "assessment": 127,
+        "choice_type": 1
+      }
+    ],
+    "question": "Generally used for extraction with volatile solvents where small quantities of a drug are extracted, as in quantitative work.",
+    "answer": "Soxhlet",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 264
+  },
+  {
+    "id": 128,
+    "assessmentchoices": [
+      {
+        "id": 312,
+        "body": "120-345",
+        "assessment": 128,
+        "choice_type": 1
+      },
+      {
+        "id": 313,
+        "body": "190-195",
+        "assessment": 128,
+        "choice_type": 1
+      },
+      {
+        "id": 314,
+        "body": "246-100",
+        "assessment": 128,
+        "choice_type": 1
+      },
+      {
+        "id": 315,
+        "body": "100-200",
+        "assessment": 128,
+        "choice_type": 1
+      }
+    ],
+    "question": "The saponification value of Olive oil.",
+    "answer": "190-195",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 270
+  },
+  {
+    "id": 129,
+    "assessmentchoices": [
+      {
+        "id": 316,
+        "body": "Phenols",
+        "assessment": 129,
+        "choice_type": 1
+      },
+      {
+        "id": 317,
+        "body": "Aldehydes",
+        "assessment": 129,
+        "choice_type": 1
+      },
+      {
+        "id": 318,
+        "body": "Acids",
+        "assessment": 129,
+        "choice_type": 1
+      },
+      {
+        "id": 319,
+        "body": "Ketones",
+        "assessment": 129,
+        "choice_type": 1
+      }
+    ],
+    "question": "Such as anethol, eugenol, carvacrol, safrol, chavicol, and thymol.",
+    "answer": "Phenols",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 274
+  },
+  {
+    "id": 130,
+    "assessmentchoices": [
+      {
+        "id": 320,
+        "body": "Benzoic",
+        "assessment": 130,
+        "choice_type": 1
+      },
+      {
+        "id": 321,
+        "body": "Sulfur compounds",
+        "assessment": 130,
+        "choice_type": 1
+      },
+      {
+        "id": 322,
+        "body": "Citronellal",
+        "assessment": 130,
+        "choice_type": 1
+      },
+      {
+        "id": 323,
+        "body": "Valeric",
+        "assessment": 130,
+        "choice_type": 1
+      }
+    ],
+    "question": "Such as allyl isothiocyanate (mustard oil).",
+    "answer": "Sulfur compounds",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 274
+  },
+  {
+    "id": 131,
+    "assessmentchoices": [
+      {
+        "id": 324,
+        "body": "190-200",
+        "assessment": 131,
+        "choice_type": 1
+      },
+      {
+        "id": 325,
+        "body": "190-195",
+        "assessment": 131,
+        "choice_type": 1
+      },
+      {
+        "id": 326,
+        "body": "185-195",
+        "assessment": 131,
+        "choice_type": 1
+      },
+      {
+        "id": 327,
+        "body": "188-195",
+        "assessment": 131,
+        "choice_type": 1
+      },
+      {
+        "id": 330,
+        "body": "limonene",
+        "assessment": 131,
+        "choice_type": 1
+      },
+      {
+        "id": 331,
+        "body": "Pinene",
+        "assessment": 131,
+        "choice_type": 1
+      }
+    ],
+    "question": "The saponification value of Peanut Oil.",
+    "answer": "185-195",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 270
+  },
+  {
+    "id": 132,
+    "assessmentchoices": [
+      {
+        "id": 328,
+        "body": "santalol",
+        "assessment": 132,
+        "choice_type": 1
+      },
+      {
+        "id": 329,
+        "body": "Aldehydes",
+        "assessment": 132,
+        "choice_type": 1
+      }
+    ],
+    "question": "Such as benzaldehyde, cinnamic aldehyde, salicyl aldehyde, citral, and citronellal.",
+    "answer": "Aldehydes",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 274
+  },
+  {
+    "id": 133,
+    "assessmentchoices": [
+      {
+        "id": 332,
+        "body": "190-200",
+        "assessment": 133,
+        "choice_type": 1
+      },
+      {
+        "id": 333,
+        "body": "190-195",
+        "assessment": 133,
+        "choice_type": 1
+      },
+      {
+        "id": 334,
+        "body": "246-100",
+        "assessment": 133,
+        "choice_type": 1
+      },
+      {
+        "id": 335,
+        "body": "188-195",
+        "assessment": 133,
+        "choice_type": 1
+      }
+    ],
+    "question": "The saponification value of Almond oil.",
+    "answer": "190-200",
+    "term": 3,
+    "question_type": 1,
+    "lesson_detail": 270
   }
 ]

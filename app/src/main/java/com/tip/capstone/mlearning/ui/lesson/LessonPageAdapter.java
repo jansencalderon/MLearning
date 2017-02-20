@@ -24,11 +24,13 @@ class LessonPageAdapter extends FragmentStatePagerAdapter {
     private String query;
     private int firstLessonId;
     private String videoRawName;
+    private int lessonDetailId;
 
-    LessonPageAdapter(FragmentManager fm, int topicId, String videoRawName) {
+    LessonPageAdapter(FragmentManager fm, int topicId, String videoRawName, int lessonDetailId) {
         super(fm);
         this.topicId = topicId;
         this.videoRawName = videoRawName;
+        this.lessonDetailId = lessonDetailId;
         lessonList = new ArrayList<>();
     }
 
@@ -36,7 +38,7 @@ class LessonPageAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
         Log.d(TAG, "getItem: " + query);
         return LessonDetailListFragment.newInstance(topicId, lessonList.get(position).getId(),
-                position == (lessonList.size() - 1), query, firstLessonId, videoRawName);
+                position == (lessonList.size() - 1), query, firstLessonId, videoRawName, lessonDetailId);
     }
 
     @Override

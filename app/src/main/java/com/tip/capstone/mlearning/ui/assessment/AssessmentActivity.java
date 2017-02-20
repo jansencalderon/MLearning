@@ -1,6 +1,7 @@
 package com.tip.capstone.mlearning.ui.assessment;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -27,6 +28,7 @@ import com.tip.capstone.mlearning.model.Letter;
 import com.tip.capstone.mlearning.model.UserAnswer;
 import com.tip.capstone.mlearning.ui.adapter.SummaryListAdapter;
 import com.tip.capstone.mlearning.ui.adapter.LetterListAdapter;
+import com.tip.capstone.mlearning.ui.lesson.LessonActivity;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -263,6 +265,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         UserAnswer userAnswer = new UserAnswer();
         userAnswer.setQuestionId(assessment.getId());
         userAnswer.setCorrectAnswer(assessment.getAnswer());
+        userAnswer.setLessonDetailId(assessment.getLesson_detail());
 
         if (assessment.getQuestion_type() == Constant.QUESTION_TYPE_MULTIPLE) {
             AssessmentChoice choice = choiceAdapter.getSelectedChoice();
@@ -377,7 +380,7 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
         dialogBinding.recyclerView.setItemAnimator(new DefaultItemAnimator());
         dialogBinding.recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
 
-        SummaryListAdapter summaryListAdapter = new SummaryListAdapter();
+        SummaryListAdapter summaryListAdapter = new SummaryListAdapter(getMvpView());
         summaryListAdapter.setUserAnswerList(userAnswerList);
         dialogBinding.recyclerView.setAdapter(summaryListAdapter);
 
@@ -415,4 +418,10 @@ public class AssessmentActivity extends MvpViewStateActivity<AssessmentView, Ass
                 .show();
     }
 
+    @Override
+    public void onViewReference(int lessonDetailId) {
+        Intent intent = new Intent(this, LessonActivity.class);
+        intent.putExtra("lesson_detail_ref_id", lessonDetailId);
+        startActivity(intent);
+    }
 }

@@ -1,8 +1,10 @@
 package com.tip.capstone.mlearning.ui.adapter;
 
 import android.databinding.DataBindingUtil;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
@@ -11,6 +13,7 @@ import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ItemUserAnswerBinding;
 import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.UserAnswer;
+import com.tip.capstone.mlearning.ui.views.SummaryView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,11 +27,13 @@ import java.util.List;
 public class SummaryListAdapter extends RecyclerView.Adapter<SummaryListAdapter.ViewHolder> {
 
     private final List<UserAnswer> userAnswerList;
+    private SummaryView view;
 
     /**
      * Constructor and init the list
      */
-    public SummaryListAdapter() {
+    public SummaryListAdapter(SummaryView view) {
+        this.view = view;
         userAnswerList = new ArrayList<>();
     }
 
@@ -51,12 +56,20 @@ public class SummaryListAdapter extends RecyclerView.Adapter<SummaryListAdapter.
         // load the images if the choice type is image
         if (userAnswer.getChoiceType() == Constant.DETAIL_TYPE_IMAGE) {
             Glide.with(holder.itemUserAnswerBinding.getRoot().getContext())
-                    .load(ResourceHelper.getDrawableResourceId(holder.itemUserAnswerBinding.getRoot().getContext(), userAnswer.getUserAnswer()))
+                    .load(ResourceHelper.getDrawableResourceId(
+                            holder.itemUserAnswerBinding.getRoot().getContext(),
+                            userAnswer.getUserAnswer()))
                     .into(holder.itemUserAnswerBinding.imgUserAnswer);
             Glide.with(holder.itemUserAnswerBinding.getRoot().getContext())
-                    .load(ResourceHelper.getDrawableResourceId(holder.itemUserAnswerBinding.getRoot().getContext(), userAnswer.getCorrectAnswer()))
+                    .load(ResourceHelper.getDrawableResourceId(
+                            holder.itemUserAnswerBinding.getRoot().getContext(),
+                            userAnswer.getCorrectAnswer()))
                     .into(holder.itemUserAnswerBinding.imgCorrectAnswer);
         }
+        holder.itemUserAnswerBinding.itemUserAnswer.setBackgroundColor(
+                ContextCompat.getColor(holder.itemView.getContext(),
+                        userAnswer.isCorrect() ? R.color.green : R.color.red));
+        holder.itemUserAnswerBinding.setView(view);
     }
 
     @Override

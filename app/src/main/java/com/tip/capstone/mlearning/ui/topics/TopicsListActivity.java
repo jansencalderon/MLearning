@@ -8,6 +8,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -72,11 +73,13 @@ public class TopicsListActivity extends MvpActivity<TopicListView, TopicListPres
         boolean isAssessmentOkayToTake = true;
         for (int i = 0; i < term.getTopics().size(); i++) {
             QuizGrade quizGrade = realm.where(QuizGrade.class)
-                    .equalTo("id", term.getTopics().get(i).getId())
+                    .equalTo("topic", term.getTopics().get(i).getId())
                     .findFirst();
             if (quizGrade == null) {
                 isAssessmentOkayToTake = false;
-                break;
+                Log.d("Quiz", "Not Taken: " + term.getTopics().get(i).getTitle());
+            } else {
+                Log.d("Quiz", "Taken: " + term.getTopics().get(i).getTitle());
             }
         }
         topicListAdapter.setAssessmentEnable(isAssessmentOkayToTake);

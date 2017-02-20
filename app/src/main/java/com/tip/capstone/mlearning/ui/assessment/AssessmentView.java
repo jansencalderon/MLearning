@@ -5,6 +5,7 @@ import com.tip.capstone.mlearning.model.Assessment;
 import com.tip.capstone.mlearning.model.Letter;
 import com.tip.capstone.mlearning.model.UserAnswer;
 import com.tip.capstone.mlearning.ui.views.IdentificationView;
+import com.tip.capstone.mlearning.ui.views.SummaryView;
 
 import java.util.List;
 
@@ -15,7 +16,7 @@ import java.util.List;
  */
 
 @SuppressWarnings("WeakerAccess")
-public interface AssessmentView extends IdentificationView {
+public interface AssessmentView extends IdentificationView, SummaryView {
 
     // let view to be public for DataBinding Uses (R.layout.activity_assessment)
 

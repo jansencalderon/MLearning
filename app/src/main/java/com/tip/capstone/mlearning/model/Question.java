@@ -17,6 +17,7 @@ public class Question extends RealmObject {
     private String answer;
     private int question_type;
     private RealmList<Choice> choices;
+    private int lesson_detail;
 
     public int getId() {
         return id;
@@ -56,5 +57,13 @@ public class Question extends RealmObject {
 
     public void setChoices(RealmList<Choice> choices) {
         this.choices = choices;
+    }
+
+    public int getLesson_detail() {
+        return lesson_detail;
+    }
+
+    public void setLesson_detail(int lesson_detail) {
+        this.lesson_detail = lesson_detail;
     }
 }

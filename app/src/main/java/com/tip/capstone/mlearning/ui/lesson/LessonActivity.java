@@ -26,6 +26,8 @@ import com.tip.capstone.mlearning.model.PreQuizGrade;
 import com.tip.capstone.mlearning.model.Topic;
 import com.tip.capstone.mlearning.ui.quiz.QuizActivity;
 
+import java.util.List;
+
 import io.realm.Case;
 import io.realm.Realm;
 import io.realm.RealmResults;
@@ -45,6 +47,8 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
     private ImageView[] dots;
     private LessonPageAdapter lessonPageAdapter;
     private Topic topic;
+    private List<Lesson> lessons;
+    private int lessonDetailRefId;
 
     @SuppressWarnings("ConstantConditions") // assumes that toolbar is setup
     @Override
@@ -56,22 +60,30 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+
         // checking for intent pass
         int topicId = getIntent().getIntExtra(Constant.ID, -1);
+        lessonDetailRefId = getIntent().getIntExtra("lesson_detail_ref_id", -1);
+        if (lessonDetailRefId != -1) {
+            topic = realm.where(Topic.class).equalTo("lessons.lessondetails.id", lessonDetailRefId).findFirst();
+            if (topic != null)
+                topicId = topic.getId();
+        }
         if (topicId == -1) {
-            Toast.makeText(this, "No Intent Extra Found", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "No Intent Extra Found", Toast.LENGTH_SHORT).show();
             finish();
         }
         //check if has data
         topic = realm.where(Topic.class).equalTo(Constant.ID, topicId).findFirst();
         if (topic == null) {
-            Toast.makeText(this, "No Topic Object Found", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "No Topic Object Found", Toast.LENGTH_SHORT).show();
             finish();
         }
 
+
         getSupportActionBar().setTitle(topic.getTitle());
 
-        lessonPageAdapter = new LessonPageAdapter(getSupportFragmentManager(), topicId, topic.getVideo());
+        lessonPageAdapter = new LessonPageAdapter(getSupportFragmentManager(), topicId, topic.getVideo(), lessonDetailRefId);
         binding.container.addOnPageChangeListener(this);
         binding.container.setAdapter(lessonPageAdapter);
 
@@ -216,7 +228,8 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
 
     private void setUiPageViewController() {
         // setup view page controller specially the counter indicator
-        lessonPageAdapter.setLessonList(realm.copyFromRealm(topic.getLessons().sort(Lesson.COL_SEQ)));
+        lessons = realm.copyFromRealm(topic.getLessons().sort(Lesson.COL_SEQ));
+        lessonPageAdapter.setLessonList(lessons);
         dotsCount = lessonPageAdapter.getCount();
         if (dotsCount <= 0) return;
         dots = new ImageView[dotsCount];
@@ -237,6 +250,16 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
         }
 
         dots[0].setImageDrawable(ContextCompat.getDrawable(this, R.drawable.selected_item_dot));
+
+        for (int i = 0; i < lessons.size(); i++) {
+            for (int j = 0; j < lessons.get(i).getLessondetails().size(); j++) {
+                if (lessons.get(i).getLessondetails().get(j).getId() == lessonDetailRefId) {
+                    binding.container.setCurrentItem(i);
+                    return;
+                }
+            }
+        }
+
     }
 
 }

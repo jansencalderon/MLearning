@@ -8,9 +8,15 @@
         <variable
             name="answer"
             type="com.tip.capstone.mlearning.model.UserAnswer" />
+
+        <variable
+            name="view"
+            type="com.tip.capstone.mlearning.ui.views.SummaryView" />
+
     </data>
 
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/item_user_answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -25,7 +31,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:orientation="vertical">
 
             <TextView
@@ -67,6 +73,13 @@
                 android:layout_height="wrap_content"
                 android:visibility="@{answer.choiceType == 2 ? View.VISIBLE : View.GONE}"
                 tools:ignore="ContentDescription" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:onClick="@{() -> view.onViewReference(answer.lessonDetailId)}"
+                android:text="See Reference" />
 
         </LinearLayout>
 

@@ -1,6 +1,7 @@
 package com.tip.capstone.mlearning.ui.lesson.detail;
 
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -26,6 +27,7 @@ import com.tip.capstone.mlearning.databinding.FragmentLessonBinding;
 import com.tip.capstone.mlearning.helper.ResourceHelper;
 import com.tip.capstone.mlearning.model.Lesson;
 import com.tip.capstone.mlearning.model.LessonDetail;
+import com.tip.capstone.mlearning.ui.lesson.LessonView;
 import com.tip.capstone.mlearning.ui.quiz.QuizActivity;
 import com.tip.capstone.mlearning.ui.videos.play.VideoPlayActivity;
 
@@ -49,28 +51,33 @@ public class LessonDetailListFragment
     private static final String ARG_FIRST_INST = "arg-first-inst";
     private static final String TAG = LessonDetailListFragment.class.getSimpleName();
     private static final String ARG_VIDEO = "arg-video";
+    private static final String ARG_DETAIL_REF = "arg-detail-ref";
 
     private int topicId;
     private int lessonId;
     private boolean isLastPage;
     private String query;
     private String videoRawName;
+    private int lessonDetailRef;
 
     private Realm realm;
     private FragmentLessonBinding binding;
     private TextToSpeech textToSpeech;
     private int firstLessonId;
     private LinearLayoutManager layoutManager;
+    private LessonView lessonViewCallback;
 
     /**
      * Create New Instance of the fragment with the parameters as Bundle
      *
-     * @param lessonId      lesson id to be diplay on the fragment
+     * @param lessonId       lesson id to be diplay on the fragment
      * @param firstLessonId
+     * @param lessonDetailId
      * @return new instance of LessonDetailFragment
      */
     public static LessonDetailListFragment newInstance(int topicId, int lessonId, boolean isLastPage,
-                                                       String query, int firstLessonId, String videoRawName) {
+                                                       String query, int firstLessonId,
+                                                       String videoRawName, int lessonDetailId) {
         LessonDetailListFragment fragment = new LessonDetailListFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_TOPIC_ID, topicId);
@@ -79,6 +86,7 @@ public class LessonDetailListFragment
         args.putString(ARG_QUERY, query);
         args.putInt(ARG_FIRST_INST, firstLessonId);
         args.putString(ARG_VIDEO, videoRawName);
+        args.putInt(ARG_DETAIL_REF, lessonDetailId);
         fragment.setArguments(args);
         Log.d(TAG, "newInstance: query: " + query);
         return fragment;
@@ -101,6 +109,7 @@ public class LessonDetailListFragment
             query = getArguments().getString(ARG_QUERY);
             firstLessonId = getArguments().getInt(ARG_FIRST_INST, -1);
             videoRawName = getArguments().getString(ARG_VIDEO, null);
+            lessonDetailRef = getArguments().getInt(ARG_DETAIL_REF, -1);
         }
     }
 
@@ -121,7 +130,7 @@ public class LessonDetailListFragment
         // init data
         realm = Realm.getDefaultInstance();
         Lesson lesson = realm.where(Lesson.class).equalTo(Constant.ID, lessonId).findFirst();
-        LessonDetailListAdapter lessonDetailListAdapter = new LessonDetailListAdapter(lesson, getMvpView(), isLastPage, query);
+        LessonDetailListAdapter lessonDetailListAdapter = new LessonDetailListAdapter(lesson, getMvpView(), isLastPage, query, lessonDetailRef);
         binding.recyclerView.setAdapter(lessonDetailListAdapter);
         List<LessonDetail> lessonDetails = realm.copyFromRealm(lesson.getLessondetails().sort(LessonDetail.COL_SEQ));
         lessonDetailListAdapter.setLessonDetails(lessonDetails);
@@ -129,9 +138,7 @@ public class LessonDetailListFragment
         Log.d(TAG, "onStart: " + firstLessonId);
         for (int i = 0; i < lessonDetails.size(); i++) {
             if (lessonDetails.get(i).getId() == firstLessonId) {
-                //logd
-                //layoutManager.scrollToPosition(i + 1);
-                //binding.recyclerView.getLayoutManager().scrollToPosition(i + 1);
+                binding.recyclerView.scrollToPosition(i);
                 return;
             }
         }
@@ -205,4 +212,5 @@ public class LessonDetailListFragment
             Log.e("TTS", "Initilization Failed!");
         }
     }
+
 }
