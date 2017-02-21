@@ -2,7 +2,9 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-
+        <variable
+            name="view"
+            type="com.tip.capstone.mlearning.ui.grades.detail.GradesDetailView"/>
         <variable
             name="grade"
             type="com.tip.capstone.mlearning.model.Grades" />
@@ -12,7 +14,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#1aff8b02"
+        android:foreground="?selectableItemBackground"
         android:orientation="vertical"
+        android:onClick="@{()->view.showGradeHistory(grade)}"
         android:paddingTop="6dp"
         android:paddingBottom="6dp"
         android:paddingRight="@dimen/activity_vertical_margin"

@@ -1,4 +1,4 @@
-package com.tip.capstone.mlearning.ui.grades;
+package com.tip.capstone.mlearning.ui.grades.detail;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
@@ -20,15 +20,17 @@ import java.util.List;
  * List Adapter for Grades
  */
 
-class GradesListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+class GradesDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private static final int VIEW_HEADER = 0;
     private static final int VIEW_ASSESSMENT = 1;
     private static final int VIEW_GRADE = 2;
     private final List<Grades> gradesList;
+    private GradesDetailView gradesDetailView;
 
-    GradesListAdapter() {
+    GradesDetailListAdapter(GradesDetailView gradesDetailView) {
         this.gradesList = new ArrayList<>();
+        this.gradesDetailView = gradesDetailView;
     }
 
     @Override
@@ -77,10 +79,12 @@ class GradesListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             case VIEW_HEADER:
                 HeaderViewHolder headerViewHolder = (HeaderViewHolder) holder;
                 headerViewHolder.itemGradesHeaderBinding.setGrade(gradesList.get(position));
+                headerViewHolder.itemGradesHeaderBinding.setView(gradesDetailView);
                 break;
             case VIEW_ASSESSMENT:
                 AssessmentViewHolder assessmentViewHolder = (AssessmentViewHolder) holder;
                 assessmentViewHolder.itemGradeAssessmentBinding.setGrade(gradesList.get(position));
+                assessmentViewHolder.itemGradeAssessmentBinding.setView(gradesDetailView);
                 break;
             case VIEW_GRADE:
                 GradesViewHolder gradesViewHolder = (GradesViewHolder) holder;

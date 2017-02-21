@@ -50,7 +50,7 @@ public class AcidBasedSimulationActivity extends AppCompatActivity {
         binding.r.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setPick(Constant.L_STRING);
+                setPick(Constant.R_STRING);
             }
         });
 
@@ -145,11 +145,11 @@ public class AcidBasedSimulationActivity extends AppCompatActivity {
             drawableResult =  R.drawable.m_r;
             phResult = "-/log [13.00 x 2.3] = 29.9";
         } else if ((pick1.equals(Constant.M_STRING) && pick2.equals(Constant.P_STRING)) ||
-                (pick2.equals(Constant.P_STRING) && pick1.equals(Constant.M_STRING))) {
+                (pick2.equals(Constant.M_STRING) && pick1.equals(Constant.P_STRING))) {
             drawableResult = R.drawable.m_p;
             phResult = "-/log [13.00 x 1.28] = 16.64";
         } else if ((pick1.equals(Constant.M_STRING) && pick2.equals(Constant.L_STRING)) ||
-                (pick2.equals(Constant.L_STRING) && pick1.equals(Constant.M_STRING))) {
+                (pick2.equals(Constant.M_STRING) && pick1.equals(Constant.L_STRING))) {
             drawableResult = R.drawable.m_l;
             phResult = "-/log [13.00 x 12.55] = 163.15";
         } else if ((pick1.equals(Constant.R_STRING) && pick2.equals(Constant.P_STRING)) ||

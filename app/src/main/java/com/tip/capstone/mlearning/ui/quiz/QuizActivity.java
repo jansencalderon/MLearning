@@ -396,7 +396,7 @@ public class QuizActivity extends MvpViewStateActivity<QuizView, QuizPresenter> 
             if (userAnswer.isCorrect()) score++;
         }
         dialogBinding.txtRawScore.setText(score + "/" + items);
-        String ave = presenter.getAverage(score, items) + "%";
+        String ave = Math.round(presenter.getAverage(score, items))+ "%";
         dialogBinding.txtAverage.setText(ave);
 
         dialogBinding.recyclerView.setLayoutManager(new LinearLayoutManager(this));

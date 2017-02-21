@@ -30,7 +30,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ui.quiz.QuizActivity" />
         <activity android:name=".ui.assessment.AssessmentActivity" />
-        <activity android:name=".ui.grades.GradesActivity" />
+        <activity android:name=".ui.grades.detail.GradesDetailActivity" />
         <activity android:name=".ui.videos.VideoListActivity" />
         <activity
             android:name=".ui.videos.play.VideoPlayActivity"
@@ -55,9 +55,11 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".ui.simulation.SimulationMenuActivity" />
-        <activity android:name=".ui.simulation.AcidBasedSimulationActivity"
-            android:theme="@style/AppTheme.NoActionBar.FullScreen"
-            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".ui.simulation.AcidBasedSimulationActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen" />
+        <activity android:name=".ui.grades.GradesActivity"></activity>
     </application>
 
 </manifest>

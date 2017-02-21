@@ -20,6 +20,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_solid"
             android:enabled="@{enable ? true : false}"
             android:onClick="@{() -> view.onTakeAssessment()}"
             android:text="Take Assessment" />

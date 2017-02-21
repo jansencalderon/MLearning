@@ -68,7 +68,7 @@ public class SummaryListAdapter extends RecyclerView.Adapter<SummaryListAdapter.
         }
         holder.itemUserAnswerBinding.itemUserAnswer.setBackgroundColor(
                 ContextCompat.getColor(holder.itemView.getContext(),
-                        userAnswer.isCorrect() ? R.color.green : R.color.red));
+                        userAnswer.isCorrect() ? R.color.green_light : R.color.red_light));
         holder.itemUserAnswerBinding.setView(view);
     }
 

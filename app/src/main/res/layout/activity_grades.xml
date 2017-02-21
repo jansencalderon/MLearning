@@ -9,88 +9,67 @@
             type="com.tip.capstone.mlearning.ui.grades.GradesView" />
     </data>
 
-    <ScrollView
+    <LinearLayout
+        android:id="@+id/activity_grades_activity"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.tip.capstone.mlearning.ui.grades.GradesActivity">
 
-        <LinearLayout
-            android:id="@+id/activity_grades"
+
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingBottom="@dimen/activity_vertical_margin"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            tools:context="com.tip.capstone.mlearning.ui.grades.GradesActivity">
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button_solid"
+            android:onClick="@{()-> view.Prelim()}"
+            android:padding="16dp"
+            android:text="Prelim Assessments"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:textStyle="bold"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Pre Assessments"
-                android:textColor="@color/darkGray"
-                android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button_solid"
+            android:onClick="@{()-> view.Midterm()}"
+            android:padding="16dp"
+            android:text="Midterm Assessments"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-            <com.github.mikephil.charting.charts.BarChart
-                android:id="@+id/preQuiz"
-                android:visibility="gone"
-                android:layout_width="match_parent"
-                android:layout_height="120dp" />
 
-            <com.github.mikephil.charting.charts.LineChart
-                android:id="@+id/preQuizLineGraph"
-                android:layout_width="match_parent"
-                android:layout_height="200dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button_solid"
+            android:onClick="@{()-> view.Finals()}"
+            android:padding="16dp"
+            android:text="Finals Assessment"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:textStyle="bold"
-                android:text="Post Assesments"
-                android:textColor="@color/darkGray"
-                android:textSize="16sp"
-                android:layout_marginTop="20dp"
-                android:id="@+id/textView2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/rounded_button_solid"
+            android:onClick="@{()-> view.Finals()}"
+            android:padding="16dp"
+            android:text="All Assessments"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
 
-            <com.github.mikephil.charting.charts.BarChart
-                android:id="@+id/quiz"
-                android:visibility="gone"
-                android:layout_width="match_parent"
-                android:layout_height="120dp" />
-
-            <com.github.mikephil.charting.charts.LineChart
-                android:id="@+id/postQuizLineGraph"
-                android:layout_width="match_parent"
-                android:layout_height="200dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:layout_marginTop="20dp"
-                android:text="Pre and Post Assessment Comparison"
-                android:textColor="@color/darkGray"
-                android:textStyle="bold"
-                android:textSize="16sp" />
-
-            <com.github.mikephil.charting.charts.BarChart
-                android:id="@+id/comparison"
-                android:layout_width="match_parent"
-                android:layout_height="200dp" />
-
-            <Button
-                android:id="@+id/showDialog"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/rounded_button_solid"
-                android:text="View Grades TABLE"
-                android:textColor="@color/white" />
-
-        </LinearLayout>
-    </ScrollView>
-
+    </LinearLayout>
 </layout>

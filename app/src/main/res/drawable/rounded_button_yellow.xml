@@ -7,7 +7,7 @@
             xmlns:android="http://schemas.android.com/apk/res/android">
 
             <corners android:radius="10dp" />
-            <solid android:color="@color/colorPrimaryDark" />
+            <solid android:color="#dac90e" />
 
         </shape>
     </item>
@@ -17,18 +17,7 @@
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
             <corners android:radius="10dp" />
-            <solid android:color="@color/colorPrimaryDark" />
-
-        </shape>
-    </item>
-
-    <!-- Button Disabled-->
-    <item android:state_enabled="false">
-
-        <shape xmlns:android="http://schemas.android.com/apk/res/android">
-
-            <corners android:radius="10dp" />
-            <solid android:color="@color/lightestGray"/>
+            <solid android:color="#dac90e" />
 
         </shape>
     </item>
@@ -40,7 +29,7 @@
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
             <corners android:radius="10dp" />
-            <solid android:color="@color/colorPrimaryDark" />
+            <solid android:color="#dac90e" />
 
         </shape>
     </item>
@@ -51,7 +40,7 @@
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
             <corners android:radius="10dp" />
-            <solid android:color="@color/colorPrimary" />
+            <solid android:color="#ffea00" />
 
         </shape>
     </item>

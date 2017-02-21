@@ -4,6 +4,10 @@
     <data>
 
         <variable
+            name="view"
+            type="com.tip.capstone.mlearning.ui.grades.detail.GradesDetailView" />
+
+        <variable
             name="grade"
             type="com.tip.capstone.mlearning.model.Grades" />
     </data>
@@ -12,6 +16,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#6cff8b02"
+        android:foreground="?selectableItemBackground"
+        android:onClick="@{()->view.showAssessmentHistory(grade)}"
         android:paddingBottom="6dp"
         android:paddingLeft="@dimen/activity_vertical_margin"
         android:paddingRight="@dimen/activity_vertical_margin"
@@ -20,7 +26,6 @@
 
         <TextView
             android:id="@+id/txt_raw_score"
-            android:textSize="16sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/txt_title"
@@ -28,7 +33,9 @@
             android:gravity="end"
             android:text='@{grade.assessmentGrade.id != 0 ? grade.assessmentGrade.rawScore + "/" + grade.assessmentGrade.itemCount : "N/A"}'
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
-            app:layout_widthPercent="30%" />
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:layout_widthPercent="0%" />
 
         <TextView
             android:id="@+id/txt_average"
@@ -37,10 +44,11 @@
             android:layout_toEndOf="@+id/txt_raw_score"
             android:layout_toRightOf="@+id/txt_raw_score"
             android:gravity="end"
-            android:textSize="16sp"
             android:text='@{grade.assessmentGrade.id != 0 ? grade.assessmentGrade.average() + "%" : "N/A"}'
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
-            app:layout_widthPercent="30%" />
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:layout_widthPercent="0%" />
 
         <TextView
             android:id="@+id/txt_title"
@@ -49,10 +57,10 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:textSize="16sp"
             android:text="@{grade.title}"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
-            app:layout_widthPercent="40%" />
+            android:textSize="14sp"
+            app:layout_widthPercent="100%" />
 
     </android.support.percent.PercentRelativeLayout>
 

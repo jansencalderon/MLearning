@@ -3,14 +3,15 @@ package com.tip.capstone.mlearning.ui.grades;
 import com.hannesdorfmann.mosby.mvp.MvpView;
 
 /**
- * @author pocholomia
- * @since 22/11/2016
+ * Created by Sen on 2/21/2017.
  */
 
-@SuppressWarnings("WeakerAccess")
 public interface GradesView extends MvpView {
-    void showDialog();
+    void Prelim();
 
-    // make view public for DataBinding uses
-    // TODO: 24/11/2016 Ready for future updates
+    void Midterm();
+
+    void Finals();
+
+    void All();
 }
