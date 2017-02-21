@@ -34,6 +34,7 @@ import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityGradesBinding;
 import com.tip.capstone.mlearning.databinding.DialogGradesBinding;
+import com.tip.capstone.mlearning.model.Assessment;
 import com.tip.capstone.mlearning.model.AssessmentGrade;
 import com.tip.capstone.mlearning.model.Grades;
 import com.tip.capstone.mlearning.model.PreQuizGrade;
@@ -46,6 +47,7 @@ import java.util.List;
 
 import io.realm.Realm;
 import io.realm.RealmResults;
+import io.realm.Sort;
 
 /**
  * @author pocholomia
@@ -147,7 +149,7 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
             }
 
             ArrayList<String> labels = new ArrayList<>();
-            for (int i = 0; i < realmResults.size(); i++) { 
+            for (int i = 0; i < realmResults.size(); i++) {
                 labels.add(i, "Quiz " + i);
             }
 
@@ -321,7 +323,8 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
 
                 nonHeader.setHeader(false);
                 nonHeader.setTitle("Pre Assessments");
-                PreQuizGrade preQuizGrade = realm.where(PreQuizGrade.class).equalTo(Constant.ID, topic.getId()).findFirst();
+                PreQuizGrade preQuizGrade = realm.where(PreQuizGrade.class)
+                        .equalTo(Constant.ID, topic.getId()).findFirst();
                 if (preQuizGrade != null) {
                     QuizGrade preGrade = new QuizGrade();
                     preGrade.setRawScore(preQuizGrade.getRawScore());
@@ -336,7 +339,13 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
                 nonHeader = new Grades();
                 nonHeader.setHeader(false);
                 nonHeader.setTitle("Post Assessments");
-                QuizGrade quizGrade = realm.where(QuizGrade.class).equalTo(Constant.ID, topic.getId()).findFirst();
+                RealmResults<QuizGrade> quizGradeRealmResults = realm.where(QuizGrade.class)
+                        .equalTo("topic", topic.getId()).findAllSorted("count", Sort.DESCENDING);
+
+                QuizGrade quizGrade = null;
+                if (quizGradeRealmResults.size() > 0) {
+                    quizGrade = quizGradeRealmResults.first();
+                }
 
                 if (quizGrade != null) {
                     nonHeader.setQuizGrade(realm.copyFromRealm(quizGrade));
@@ -348,15 +357,24 @@ public class GradesActivity extends MvpActivity<GradesView, GradesPresenter> imp
                 gradesList.add(nonHeader);
             }
 
+            RealmResults<AssessmentGrade> assessmentGradeRealmResults = realm
+                    .where(AssessmentGrade.class)
+                    .equalTo("term", term.getId())
+                    .findAllSorted("count", Sort.DESCENDING);
+
+            AssessmentGrade assessmentGrade = null;
+            if (assessmentGradeRealmResults.size() > 0) {
+                assessmentGrade = assessmentGradeRealmResults.first();
+            }
+
+            Grades gradeAssessmentHeader = new Grades();
+            gradeAssessmentHeader.setTitle(term.getTitle() + " Assessment");
+            gradeAssessmentHeader.setSequence(gradesList.size() + 1);
+            gradeAssessmentHeader.setAssessmentGrade(assessmentGrade != null ? realm.copyFromRealm(assessmentGrade) : new AssessmentGrade());
+            gradesList.add(gradeAssessmentHeader);
+
         }
 
-        AssessmentGrade assessmentGrade = realm.where(AssessmentGrade.class).findFirst();
-
-        Grades gradeAssessmentHeader = new Grades();
-        gradeAssessmentHeader.setTitle("Assessment");
-        gradeAssessmentHeader.setSequence(gradesList.size() + 1);
-        gradeAssessmentHeader.setAssessmentGrade(assessmentGrade != null ? realm.copyFromRealm(assessmentGrade) : new AssessmentGrade());
-        gradesList.add(gradeAssessmentHeader);
 
         adapter.setGradesList(gradesList);
 

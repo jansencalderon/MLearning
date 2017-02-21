@@ -10,6 +10,8 @@ import android.text.style.BackgroundColorSpan;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
+import android.view.View;
 import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
@@ -50,7 +52,8 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
     /**
      * Constructor
-     *  @param lesson          lesson of the list (for header purposes)
+     *
+     * @param lesson          lesson of the list (for header purposes)
      * @param view            for listener of items
      * @param lessonDetailRef
      */
@@ -128,7 +131,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 break;
             case VIEW_TEXT:
                 LessonDetail lessonDetail = lessonDetails.get(lesson != null ? position - 1 : position);
-                LessonDetailTextViewHolder lessonDetailTextViewHolder = (LessonDetailTextViewHolder) holder;
+                final LessonDetailTextViewHolder lessonDetailTextViewHolder = (LessonDetailTextViewHolder) holder;
                 lessonDetailTextViewHolder.itemLessonDetailTextBinding
                         .setLessonDetail(lessonDetail);
                 lessonDetailTextViewHolder.itemLessonDetailTextBinding.setView(view);
@@ -151,6 +154,42 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 } else {
                     Log.d(TAG, "onBindViewHolder: query: " + query);
                 }
+
+
+
+                lessonDetailTextViewHolder.itemLessonDetailTextBinding.txtBody
+                        .setOnTouchListener(new View.OnTouchListener() {
+
+                            final float STEP = 200;
+                            float mRatio = 1.0f;
+                            int mBaseDist;
+                            float mBaseRatio;
+                            float fontsize = 13;
+
+                            @Override
+                            public boolean onTouch(View view, MotionEvent motionEvent) {
+                                if (motionEvent.getPointerCount() == 2) {
+                                    int action = motionEvent.getAction();
+                                    int pureaction = action & MotionEvent.ACTION_MASK;
+                                    if (pureaction == MotionEvent.ACTION_POINTER_DOWN) {
+                                        mBaseDist = getDistance(motionEvent);
+                                        mBaseRatio = mRatio;
+                                    } else {
+                                        float delta = (getDistance(motionEvent) - mBaseDist) / STEP;
+                                        float multi = (float) Math.pow(2, delta);
+                                        mRatio = Math.min(1024.0f, Math.max(0.1f, mBaseRatio * multi));
+                                        lessonDetailTextViewHolder.itemLessonDetailTextBinding.txtBody.setTextSize(mRatio + 13);
+                                    }
+                                }
+                                return true;
+                            }
+
+                            int getDistance(MotionEvent event) {
+                                int dx = (int) (event.getX(0) - event.getX(1));
+                                int dy = (int) (event.getY(0) - event.getY(1));
+                                return (int) (Math.sqrt(dx * dx + dy * dy));
+                            }
+                        });
                 break;
             case VIEW_IMAGE:
                 LessonDetailImageViewHolder lessonDetailImageViewHolder = (LessonDetailImageViewHolder) holder;
