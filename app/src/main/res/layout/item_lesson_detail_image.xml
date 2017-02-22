@@ -11,6 +11,7 @@
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:maxHeight="256dp"
         android:orientation="vertical"
         android:padding="@dimen/activity_vertical_margin"
         tools:ignore="UseCompoundDrawables">
@@ -19,7 +20,10 @@
             android:id="@+id/image_lesson_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxHeight="256dp"
+            android:minHeight="120dp"
+            android:maxHeight="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/redox_titration_image1"
             tools:ignore="ContentDescription" />
 
         <TextView

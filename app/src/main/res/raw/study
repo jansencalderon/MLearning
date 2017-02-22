@@ -36,7 +36,7 @@
               {
                 "id": 166,
                 "sequence": 3,
-                "body": "introduction_images1",
+                "body": "introduction_images1.jpg",
                 "caption": "Quality inspector in a Volkseigener Betrieb sewing machine parts factory in Dresden, East Germany, 1977.",
                 "lesson": 71,
                 "body_type": 2
@@ -78,7 +78,7 @@
               {
                 "id": 169,
                 "sequence": 6,
-                "body": "volumetric analysis.gif",
+                "body": "volumetric_analysis.gif",
                 "caption": "this image shows the volumetric analysis. Indicators.  all pH profiles have an equivalence point and an end  point. The end point is determined by the indicator used.",
                 "lesson": 73,
                 "body_type": 2
@@ -103,7 +103,7 @@
               {
                 "id": 171,
                 "sequence": 8,
-                "body": "physicochemical methods.gif",
+                "body": "physicochemical_methods.gif",
                 "caption": "this image shows the technique used to separate   components of a mixture based on the rates at   which they are carried through a solid stationary   phase by a gas or liquid mobile phase.",
                 "lesson": 74,
                 "body_type": 2
@@ -128,7 +128,7 @@
               {
                 "id": 173,
                 "sequence": 10,
-                "body": "gravimetric analysis.gif",
+                "body": "gravimetric_analysis.gif",
                 "caption": "this image shows the separation by precipitation  to be determined the natural   state form of a  definite compound the composition and the weighing  of the resulting product.",
                 "lesson": 75,
                 "body_type": 2
@@ -1071,7 +1071,7 @@
               {
                 "id": 188,
                 "sequence": 3,
-                "body": "Aqueous.gif",
+                "body": "aqueous.gif",
                 "caption": "This image shows the dissolving of sugar in water is an example of a solution because it completely dissolves in water, Therefore it is an aqueous solution.",
                 "lesson": 86,
                 "body_type": 2
@@ -1096,7 +1096,7 @@
               {
                 "id": 190,
                 "sequence": 5,
-                "body": "non aqueous.gif",
+                "body": "non_aqueous_img.gif",
                 "caption": "this image shows Microscopic view of the surface of liquid water",
                 "lesson": 87,
                 "body_type": 2
@@ -1189,7 +1189,7 @@
               {
                 "id": 196,
                 "sequence": 11,
-                "body": "weak acid.gif",
+                "body": "weak_acid.gif",
                 "caption": "this image shows when these substances were dissolved in water, no light was observed. This implies that were no ions in solution. From these examples, we can tentatively conclude that covalently bonded species don't dissolve in water to form ions.",
                 "lesson": 92,
                 "body_type": 2
@@ -1528,7 +1528,7 @@
               {
                 "id": 198,
                 "sequence": 2,
-                "body": "acid base titration.gif",
+                "body": "acid_base_titration.gif",
                 "caption": "this image shows the measuring the volumes of reagents, especially by titration with base titrant.",
                 "lesson": 93,
                 "body_type": 2
@@ -1553,7 +1553,7 @@
               {
                 "id": 200,
                 "sequence": 4,
-                "body": "burette titration.gif",
+                "body": "burette_titration.gif",
                 "caption": "this image shows the titrate each mixture with the sodium thiosulfate solution until the yellow-brown colour of the iodine has become pale Record the final volume of liquid in the burette for each titration.",
                 "lesson": 94,
                 "body_type": 2
@@ -1578,7 +1578,7 @@
               {
                 "id": 202,
                 "sequence": 6,
-                "body": "laboratory apparatus.gif",
+                "body": "laboratory_apparatus.gif",
                 "caption": "this image shows the Laboratory installation for the distillation of the organic phase received after interaction ammonia with carbon disulfide of the HFCB. 1 – three-necked flask, 2 – Stand, 3 – flask, 4 – oven, 5 – condensate receiver, 6 – clamp,7 – kipelki, 8 – tube, 9, 11 – thermometer 10 – reflux, \"Tree\", 12 – refrigerator, 13 – receiver of benzene, 14 – allonge, 15 – Drexel flask, 16 – tube transition Head fraction received after interaction with ammonia was heated in a water bath in a three-neck flask 1, fixed to a stand2. The resulting mixture of water vapors and benzene, routed through reflux \"Tree\" 10, is a refrigerator 12, from which the condensed mixture flows down the rider 14 to receiver 13. Also, a rider is 14 pairs of H 2 S, falls into the bottle Dressel 15, where the ammonia is absorbed.",
                 "lesson": 95,
                 "body_type": 2
@@ -1603,7 +1603,7 @@
               {
                 "id": 204,
                 "sequence": 8,
-                "body": "alkalimetry acid solution.gif",
+                "body": "alkalimetry_acid_solution.gif",
                 "caption": "this image shows the quantitative estimation of bases by directly titrating of acid or other acidic substance with standard alkali solutions to determined the amount in excess by residual titration with standard acid solution.",
                 "lesson": 96,
                 "body_type": 2
@@ -1722,7 +1722,7 @@
               {
                 "id": 211,
                 "sequence": 15,
-                "body": "Division of Neutralization_image1",
+                "body": "div_of_neutralization_image1.jpg",
                 "caption": "The burette is commonly used in titrations to measure precisely how much liquid is used.",
                 "lesson": 103,
                 "body_type": 2
@@ -1739,7 +1739,7 @@
               {
                 "id": 212,
                 "sequence": 16,
-                "body": "Division of Neutralization_image2",
+                "body": "div_of_neutralization_image2.jpg",
                 "caption": "Pipette is commonly used in chemistry, biology and medicine to transport a measured volume of liquid, often as a media dispenser.",
                 "lesson": 104,
                 "body_type": 2
@@ -1756,7 +1756,7 @@
               {
                 "id": 213,
                 "sequence": 17,
-                "body": "Division of Neutralization_image3.jpg",
+                "body": "div_of_neutralization_image3.jpg",
                 "caption": "pH indicator (the one used varies depending on the reactants)",
                 "lesson": 105,
                 "body_type": 2
@@ -1773,7 +1773,7 @@
               {
                 "id": 214,
                 "sequence": 18,
-                "body": "Division of Neutralization_image4.jpg",
+                "body": "div_of_neutralization_image4.jpg",
                 "caption": "Erlenmeyer flask  - also known as a conical flask (BrE)[1] or titration flask, is a type of laboratory flask which features a flat bottom, a conical body, and a cylindrical neck.",
                 "lesson": 106,
                 "body_type": 2
@@ -1790,7 +1790,7 @@
               {
                 "id": 215,
                 "sequence": 19,
-                "body": "Division of Neutralization_image5.jpg",
+                "body": "div_of_neutralization_image5.jpg",
                 "caption": "Titrant or titrator (a standard solution of known concentration, a common one is aqueous sodium carbonate)",
                 "lesson": 107,
                 "body_type": 2
@@ -1807,7 +1807,7 @@
               {
                 "id": 216,
                 "sequence": 20,
-                "body": "Division of Neutralization_image6.jg",
+                "body": "div_of_neutralization_image6.jpg",
                 "caption": "Analyte or titrand  is used in a titration to determine the concentration of an unknown solution.   It is also usually the solution of known concentration that is delivered by a burette into a known quantity of the solution of unknown concentration.",
                 "lesson": 108,
                 "body_type": 2
@@ -2201,7 +2201,7 @@
               {
                 "id": 218,
                 "sequence": 2,
-                "body": "solubility precipitation.gif",
+                "body": "solubility_precipitation.gif",
                 "caption": "this image shows the silver and the iodide ions react to form solid silver iodide. Ions that do not react are known as spectator ions.",
                 "lesson": 109,
                 "body_type": 2
@@ -2277,7 +2277,7 @@
               {
                 "id": 223,
                 "sequence": 6,
-                "body": "precipitation titration_images1.jpg",
+                "body": "precipitation_titration_images1.jpg",
                 "caption": "Karl Friedrich Mohr (1806-1879)",
                 "lesson": 113,
                 "body_type": 2
@@ -2302,7 +2302,7 @@
               {
                 "id": 225,
                 "sequence": 7,
-                "body": "precipitation titration_images2.jpg",
+                "body": "precipitation_titration_images2.jpg",
                 "caption": "Jacob Volhard (1834-1910)",
                 "lesson": 114,
                 "body_type": 2
@@ -2336,7 +2336,7 @@
               {
                 "id": 227,
                 "sequence": 9,
-                "body": "precipitation titration_images3.jpg",
+                "body": "precipitation_titration_images3.jpg",
                 "caption": "Kazimierz Fajans (1887-1975)",
                 "lesson": 116,
                 "body_type": 2
@@ -2788,7 +2788,7 @@
               {
                 "id": 234,
                 "sequence": 6,
-                "body": "chelated-magnesium.gif",
+                "body": "chelated_magnesium.gif",
                 "caption": "This image shows the Chelated Magnesium is simply magnesium bonded to an ionic salt to increase its bioavailability in the body, ensuring maximum absorption.",
                 "lesson": 120,
                 "body_type": 2
@@ -2813,7 +2813,7 @@
               {
                 "id": 236,
                 "sequence": 8,
-                "body": "complex formation_image1.jpg",
+                "body": "complex_formation_image1.jpg",
                 "caption": "",
                 "lesson": 121,
                 "body_type": 2
@@ -2838,7 +2838,7 @@
               {
                 "id": 238,
                 "sequence": 10,
-                "body": "complex formation_image2.jpg",
+                "body": "complex_formation_image2.jpg",
                 "caption": "EDTA  Ethylene Diamine Tetra Acetic acid di sodium salt Na2H2y. 2H2O EDTA is a typical sequestering agent EDTA is a Secondary Standard... Why? Due to the presence of impurities from industrial synthesis",
                 "lesson": 122,
                 "body_type": 2
@@ -3310,7 +3310,7 @@
               {
                 "id": 246,
                 "sequence": 18,
-                "body": "Ionic Bonding.gif",
+                "body": "ionic_bonding.gif",
                 "caption": "This image shows the Ionic bonding  Sodium and fluorine undergoing a redox reaction to form sodium fluoride.",
                 "lesson": 128,
                 "body_type": 2
@@ -3344,7 +3344,7 @@
               {
                 "id": 249,
                 "sequence": 21,
-                "body": "Redox titration_image1.jpg",
+                "body": "redox_titration_image1.jpg",
                 "caption": "This image shows the Structural chemical formulas of ascorbic acid (vitamin C).",
                 "lesson": 130,
                 "body_type": 2
@@ -3403,7 +3403,7 @@
               {
                 "id": 253,
                 "sequence": 25,
-                "body": "oxidation reduction.gif",
+                "body": "oxidation_reduction.gif",
                 "caption": "This image shows the oxidation process either produces positive ions or removes negative ions from the solution at the anode or it may change one  ion to a more positive one, and the reduction process either removes positive ion or produces negative ions in the solution at the cathode.",
                 "lesson": 133,
                 "body_type": 2
@@ -3453,7 +3453,7 @@
               {
                 "id": 256,
                 "sequence": 28,
-                "body": "Redox titration_image2.jpg",
+                "body": "redox_titration_image2.jpg",
                 "caption": "This image shows the Iodine standard solution, sealed in an ampoule for iodometric analysis.",
                 "lesson": 135,
                 "body_type": 2
@@ -3495,7 +3495,7 @@
               {
                 "id": 259,
                 "sequence": 31,
-                "body": "Redox titration_image3.jpg",
+                "body": "redox_titration_image3.jpg",
                 "caption": "this image shows Color of iodometric titration mixture before (left) and after (right) the end point",
                 "lesson": 137,
                 "body_type": 2
@@ -3934,7 +3934,7 @@
               {
                 "id": 264,
                 "sequence": 5,
-                "body": "Soxhlet apparatus.gif",
+                "body": "soxhlet_apparatus.gif",
                 "caption": "The Soxhlet is the apparatus generally used for extraction with volatile solvents where small quantities of a drug are extracted, as in quantitative work.",
                 "lesson": 141,
                 "body_type": 2
@@ -3959,7 +3959,7 @@
               {
                 "id": 266,
                 "sequence": 7,
-                "body": "special methods_image1",
+                "body": "special_methods_image1.jpg",
                 "caption": "",
                 "lesson": 142,
                 "body_type": 2
@@ -3984,7 +3984,7 @@
               {
                 "id": 268,
                 "sequence": 9,
-                "body": "special methods_image2.jpg",
+                "body": "special_methods_image2.jpg",
                 "caption": "",
                 "lesson": 143,
                 "body_type": 2
@@ -4009,7 +4009,7 @@
               {
                 "id": 270,
                 "sequence": 11,
-                "body": "special methods_image3.jpg",
+                "body": "special_methods_image3.jpg",
                 "caption": "",
                 "lesson": 144,
                 "body_type": 2
@@ -4026,7 +4026,7 @@
               {
                 "id": 271,
                 "sequence": 12,
-                "body": "volatile oil.gif",
+                "body": "volatile_oil.gif",
                 "caption": "",
                 "lesson": 145,
                 "body_type": 2
