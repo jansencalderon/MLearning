@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-
+        <import type="com.tip.capstone.mlearning.helper.DateTimeUtils" />
         <variable
             name="grade"
             type="com.tip.capstone.mlearning.model.QuizGrade" />
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/txt_raw_score"
             android:layout_toRightOf="@+id/txt_raw_score"
-            android:text='@{grade.dateUpdated+""}'
+            android:text='@{DateTimeUtils.getDateTimeFormatted(grade.dateUpdated)}'
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_widthPercent="50%" />
 

@@ -16,7 +16,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.hannesdorfmann.mosby.mvp.MvpActivity;
+import com.hannesdorfmann.mosby.mvp.viewstate.MvpViewStateActivity;
+import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityLessonBinding;
@@ -36,7 +37,7 @@ import io.realm.RealmResults;
  * @author pocholomia
  * @since 18/11/2016
  */
-public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
+public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPresenter>
         implements LessonView, ViewPager.OnPageChangeListener {
 
     private static final String TAG = LessonActivity.class.getSimpleName();
@@ -90,18 +91,6 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
         setUiPageViewController();
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        // TODO: 07/12/2016 save instance to check if objective is already displayed
-        PreQuizGrade preQuizGrade = realm.where(PreQuizGrade.class).equalTo(Constant.ID, topic.getId()).findFirst();
-        if (preQuizGrade == null) {
-            showPreQuizPrompt();
-        } else {
-            showObjectives();
-        }
-    }
-
     private void showPreQuizPrompt() {
         new AlertDialog.Builder(this)
                 .setTitle(topic.getTitle())
@@ -114,8 +103,8 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
                         Intent intent = new Intent(LessonActivity.this, QuizActivity.class);
                         intent.putExtra(Constant.ID, topic.getId());
                         intent.putExtra(Constant.PRE_QUIZ, true);
-
                         startActivity(intent);
+                        LessonActivity.this.finish();
                     }
                 })
                 .setNegativeButton("BACK", new DialogInterface.OnClickListener() {
@@ -263,4 +252,19 @@ public class LessonActivity extends MvpActivity<LessonView, LessonPresenter>
 
     }
 
+    @NonNull
+    @Override
+    public ViewState<LessonView> createViewState() {
+        return new LessonViewState();
+    }
+
+    @Override
+    public void onNewViewStateInstance() {
+        PreQuizGrade preQuizGrade = realm.where(PreQuizGrade.class).equalTo(Constant.ID, topic.getId()).findFirst();
+        if (preQuizGrade == null) {
+            showPreQuizPrompt();
+        } else {
+            showObjectives();
+        }
+    }
 }
