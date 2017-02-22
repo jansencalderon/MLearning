@@ -8,9 +8,10 @@
         android:title="Search"
         app:actionViewClass="android.support.v7.widget.SearchView"
         app:showAsAction="ifRoom" />
-    <!--<item
-        android:id="@+id/action_quiz"
+    <item
+        android:id="@+id/action_notes"
+        android:icon="@drawable/ic_create_white_24dp"
         android:orderInCategory="200"
-        android:title="@string/quiz"
-        app:showAsAction="never" />-->
+        android:title="Take Notes"
+        app:showAsAction="ifRoom" />
 </menu>

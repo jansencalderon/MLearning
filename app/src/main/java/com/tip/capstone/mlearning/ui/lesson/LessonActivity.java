@@ -21,8 +21,10 @@ import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityLessonBinding;
+import com.tip.capstone.mlearning.databinding.DialogNoteBinding;
 import com.tip.capstone.mlearning.model.Lesson;
 import com.tip.capstone.mlearning.model.LessonDetail;
+import com.tip.capstone.mlearning.model.Note;
 import com.tip.capstone.mlearning.model.PreQuizGrade;
 import com.tip.capstone.mlearning.model.Topic;
 import com.tip.capstone.mlearning.ui.quiz.QuizActivity;
@@ -187,14 +189,47 @@ public class LessonActivity extends MvpViewStateActivity<LessonView, LessonPrese
             case android.R.id.home:
                 onBackPressed();
                 return true;
-            /*case R.id.action_quiz:
-                Intent intent = new Intent(this, QuizActivity.class);
-                intent.putExtra(Constant.ID, topic.getId());
-                startActivity(intent);
-                return true;*/
+            case R.id.action_notes:
+                takeNote();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    private void takeNote() {
+        final Note note = realm.where(Note.class).equalTo("topicId", topic.getId()).findFirst();
+        final DialogNoteBinding dialogNoteBinding = DataBindingUtil.inflate(getLayoutInflater(),
+                R.layout.dialog_note, null, false);
+        if (note != null) {
+
+            dialogNoteBinding.etNote.setText(note.getContent());
+        } else {
+
+        }
+        AlertDialog show = new AlertDialog.Builder(this)
+                .setTitle("Take Notes")
+                .setView(dialogNoteBinding.getRoot())
+                .setCancelable(false)
+                .setPositiveButton("SAVE", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        String noteStr = dialogNoteBinding.etNote.getText().toString();
+                        Log.d(TAG, "onClick: note: " + noteStr);
+                        realm.beginTransaction();
+                        if (note != null) {
+                            note.setContent(noteStr);
+                        } else {
+                            Note note1 = new Note();
+                            note1.setTopicId(topic.getId());
+                            note1.setContent(noteStr);
+                            realm.insertOrUpdate(note1);
+                        }
+                        realm.commitTransaction();
+                    }
+                })
+                .setNegativeButton("CANCEL", null)
+                .show();
     }
 
     @Override

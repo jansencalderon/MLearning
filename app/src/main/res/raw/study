@@ -495,7 +495,7 @@
         "description": "--",
         "objective": "The student aims to Define the function of Quality Control in relation to drug analysis",
         "image": "topic1_img",
-        "video": "",
+        "video": "gravimetric_analysis_of_an_unknown_chloride_salt.avi",
         "term": 1
       },
       {
@@ -599,14 +599,6 @@
               {
                 "id": 182,
                 "sequence": 8,
-                "body": "OfficialMethods_Images.jpeg",
-                "caption": "A quantitative analysis of a double replacement reaction.",
-                "lesson": 81,
-                "body_type": 2
-              },
-              {
-                "id": 183,
-                "sequence": 9,
                 "body": "OfficialMethods_Images.jpeg",
                 "caption": "A quantitative analysis of a double replacement reaction.",
                 "lesson": 81,
@@ -1034,7 +1026,7 @@
         "description": "--",
         "objective": "The student aims to Demonstrate the different divisions of Volumetric Analysis",
         "image": "topic2_img",
-        "video": "",
+        "video": "alkalimetric_titration.mp4",
         "term": 1
       },
       {
@@ -1508,7 +1500,7 @@
         "description": "--",
         "objective": "The student can Explain the principles of Neutralization",
         "image": "topic3_img",
-        "video": "",
+        "video": "titrimetric_volumetric.avi",
         "term": 1
       },
       {
@@ -2172,7 +2164,7 @@
         "description": "--",
         "objective": "The student aims to describe Official Drugs Assayed using Neutralization titration",
         "image": "topic4_img",
-        "video": "",
+        "video": "acidimetric.mp4",
         "term": 1
       }
     ],
@@ -2709,7 +2701,7 @@
         "description": "--",
         "objective": "The student can Identify the Different methods applied in Precipitation Titration; Explain the Principle of Precipitation Titration",
         "image": "topic5_img",
-        "video": "http://www.howcast.com/videos/99d2OI4rz34-precipitation-titration-mohr-method/",
+        "video": "precipitation_titration_mohr_method.mp4",
         "term": 2
       },
       {
@@ -3273,7 +3265,7 @@
         "description": "--",
         "objective": "The Student aims to Explain the Principles  of Complex Formation Titration",
         "image": "topic6_img",
-        "video": "https://www.youtube.com/watch?v=44rJF0WeywI&list=PL1PKZY9wIhigoFw9BXCdoXkSbJ_6vnUbg",
+        "video": "complexometric_titration.avi",
         "term": 2
       },
       {
@@ -3854,7 +3846,7 @@
         "description": "----",
         "objective": "The Student aims to Explain the principles of Redox Titrations",
         "image": "topic7_img",
-        "video": "https://www.youtube.com/watch?v=UCReOPY-YDU",
+        "video": "redox_titration_lab.mp4",
         "term": 2
       }
     ],
@@ -4444,7 +4436,7 @@
         "description": "------",
         "objective": "The Student aims to Identify the special methods used in Pharmaceutical Analysis",
         "image": "topic8_img",
-        "video": "",
+        "video": "how_to_prepare_standard_edta_solution.mp4",
         "term": 3
       }
     ],
