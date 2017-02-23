@@ -1,6 +1,7 @@
 package com.tip.capstone.mlearning.app;
 
 import android.app.Application;
+import android.support.v7.app.AppCompatDelegate;
 
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.helper.StringHelper;
@@ -28,7 +29,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         // initialize realm configuration
         Realm.init(this);
         RealmConfiguration config = new RealmConfiguration.Builder()

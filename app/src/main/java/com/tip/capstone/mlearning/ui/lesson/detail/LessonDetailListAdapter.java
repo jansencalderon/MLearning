@@ -212,16 +212,16 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                             .load(ResourceHelper.getRawResourceId(holder.itemView.getContext(), lessonDetails.get(lesson != null ? position - 1 : position)
                                     .getBody()))
                             .diskCacheStrategy(DiskCacheStrategy.NONE)
-                            .placeholder(R.drawable.ic_photo)
-                            .error(R.drawable.ic_photo)
+                            //.placeholder(R.drawable.ic_photo)
+                            //.error(R.drawable.ic_photo)
                             .into(imageViewTarget);
                 } else {
                     Glide.with(holder.itemView.getContext())
                             .load(ResourceHelper.getDrawableResourceId(holder.itemView.getContext(),
                                     lessonDetails.get(lesson != null ? position - 1 : position).getBody()))
                             .diskCacheStrategy(DiskCacheStrategy.NONE)
-                            .placeholder(R.drawable.ic_photo)
-                            .error(R.drawable.ic_photo)
+                            //.placeholder(R.drawable.ic_photo)
+                            //.error(R.drawable.ic_photo)
                             .into(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
                 }
 
