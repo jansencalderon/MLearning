@@ -47,7 +47,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
     private final Lesson lesson;
     private final List<LessonDetail> lessonDetails;
-    private final LessonDetailListView view;
+    private final LessonDetailListView lessonDetailListView;
     private boolean isLastPage;
     private String query;
     private int lessonDetailRef;
@@ -62,7 +62,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     LessonDetailListAdapter(Lesson lesson, LessonDetailListView view, boolean isLastPage,
                             String query, int lessonDetailRef) {
         this.lesson = lesson;
-        this.view = view;
+        this.lessonDetailListView = view;
         this.isLastPage = isLastPage;
         this.query = query;
         this.lessonDetailRef = lessonDetailRef;
@@ -132,11 +132,11 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 lessonHeaderViewHolder.itemLessonHeaderBinding.setLesson(lesson);
                 break;
             case VIEW_TEXT:
-                LessonDetail lessonDetail = lessonDetails.get(lesson != null ? position - 1 : position);
+                final LessonDetail lessonDetail = lessonDetails.get(lesson != null ? position - 1 : position);
                 final LessonDetailTextViewHolder lessonDetailTextViewHolder = (LessonDetailTextViewHolder) holder;
                 lessonDetailTextViewHolder.itemLessonDetailTextBinding
                         .setLessonDetail(lessonDetail);
-                lessonDetailTextViewHolder.itemLessonDetailTextBinding.setView(view);
+                lessonDetailTextViewHolder.itemLessonDetailTextBinding.setView(lessonDetailListView);
                 lessonDetailTextViewHolder.itemLessonDetailTextBinding.layoutLessonDetailText
                         .setBackgroundColor(ContextCompat.getColor(holder.itemView.getContext(),
                                 lessonDetail.getId() == lessonDetailRef ?
@@ -157,7 +157,14 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                     Log.d(TAG, "onBindViewHolder: query: " + query);
                 }
 
-
+                lessonDetailTextViewHolder.itemLessonDetailTextBinding.txtBody
+                        .setOnLongClickListener(new View.OnLongClickListener() {
+                            @Override
+                            public boolean onLongClick(View view) {
+                                lessonDetailListView.onDetailClick(lessonDetail);
+                                return true;
+                            }
+                        });
                 lessonDetailTextViewHolder.itemLessonDetailTextBinding.txtBody
                         .setOnTouchListener(new View.OnTouchListener() {
 
@@ -182,7 +189,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                                         lessonDetailTextViewHolder.itemLessonDetailTextBinding.txtBody.setTextSize(mRatio + 13);
                                     }
                                 }
-                                return true;
+                                return false;
                             }
 
                             int getDistance(MotionEvent event) {
@@ -191,6 +198,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                                 return (int) (Math.sqrt(dx * dx + dy * dy));
                             }
                         });
+                lessonDetailTextViewHolder.itemLessonDetailTextBinding.txtBody.setLongClickable(true);
                 break;
             case VIEW_IMAGE:
                 LessonDetailImageViewHolder lessonDetailImageViewHolder = (LessonDetailImageViewHolder) holder;
@@ -220,7 +228,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 break;
             case VIEW_QUIZ:
                 LessonQuizButtonHolder lessonQuizButtonHolder = (LessonQuizButtonHolder) holder;
-                lessonQuizButtonHolder.itemLessonQuizButtonBinding.setView(view);
+                lessonQuizButtonHolder.itemLessonQuizButtonBinding.setView(lessonDetailListView);
                 break;
         }
     }
