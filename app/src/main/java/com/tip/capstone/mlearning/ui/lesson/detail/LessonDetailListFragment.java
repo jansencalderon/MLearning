@@ -18,6 +18,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Toast;
 
 import com.hannesdorfmann.mosby.mvp.MvpFragment;
@@ -192,6 +194,14 @@ public class LessonDetailListFragment
             Toast.makeText(getContext(), "No Video Name", Toast.LENGTH_SHORT).show();
         }
     }
+
+    @Override
+    public void imageZoom(LessonDetail lessonDetail) {
+
+        startActivity(new Intent(getActivity(), ZoomActivity.class).putExtra("pic",lessonDetail.getBody()));
+
+    }
+
 
     @Override
     public void onInit(int i) {

@@ -197,7 +197,7 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_button_gray"
-                android:text="About"
+                android:text="INSTRUCTIONS"
                 android:textColor="@color/white" />
 
             <Button
@@ -207,7 +207,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_button_gray"
-                android:text="Exit"
+                android:text="CLOSE"
                 android:textColor="@color/white" />
 
         </LinearLayout>

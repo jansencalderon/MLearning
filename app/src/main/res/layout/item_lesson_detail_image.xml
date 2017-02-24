@@ -4,6 +4,10 @@
     <data>
 
         <variable
+            name="view"
+            type="com.tip.capstone.mlearning.ui.lesson.detail.LessonDetailListView" />
+
+        <variable
             name="lessonDetail"
             type="com.tip.capstone.mlearning.model.LessonDetail" />
     </data>
@@ -11,7 +15,7 @@
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:maxHeight="256dp"
+        android:maxHeight="250dp"
         android:orientation="vertical"
         android:padding="@dimen/activity_vertical_margin"
         tools:ignore="UseCompoundDrawables">
@@ -19,9 +23,8 @@
         <ImageView
             android:id="@+id/image_lesson_detail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="120dp"
-            android:maxHeight="250dp"
+            android:layout_height="220dp"
+            android:onClick="@{()->view.imageZoom(lessonDetail)}"
             android:scaleType="fitCenter"
             tools:ignore="ContentDescription" />
 
@@ -31,6 +34,33 @@
             android:text="@{lessonDetail.bodyCaption}"
             android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/zoom_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rounded_button_solid"
+                android:padding="5dp"
+                android:text="+ ZOOM IN"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/zoom_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button_solid"
+                android:padding="5dp"
+                android:text="- ZOOM OUT"
+                android:textColor="@color/white" />
+        </LinearLayout>
     </LinearLayout>
 
 </layout>

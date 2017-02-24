@@ -59,7 +59,9 @@
             android:name=".ui.simulation.AcidBasedSimulationActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar.FullScreen" />
-        <activity android:name=".ui.grades.GradesActivity"></activity>
+        <activity android:name=".ui.grades.GradesActivity" />
+        <activity android:name=".ui.lesson.detail.ZoomActivity"
+                  android:theme="@style/AppTheme.NoActionBar.FullScreen"/>
     </application>
 
 </manifest>

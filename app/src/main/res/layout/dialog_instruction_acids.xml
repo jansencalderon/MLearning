@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|end"
+            android:background="@drawable/rounded_button_gray"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/ic_clear_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="The program is intended for calculation of acid-base titrimetric pH color mixture. The potential hydrogen(pH) is used to determine the amount of acid-base indicator."
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="INSTRUCTION:"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Click the number buttons 1, 2, 3 and 4 to view the different acid-base solution. For example: If you want to view the strong acid and strong base click number 1 button. It shows the methyl red as the indicator and then automatically displayed the pH level of the acid-base. "
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</layout>

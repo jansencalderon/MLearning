@@ -205,7 +205,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 lessonDetailImageViewHolder.itemLessonDetailImageBinding
                         .setLessonDetail(lessonDetails.get(lesson != null ? position - 1 : position));
                 Log.d(TAG, "onBindViewHolder: " + lessonDetails.get(lesson != null ? position - 1 : position).getBody());
-
+                lessonDetailImageViewHolder.itemLessonDetailImageBinding.setView(lessonDetailListView);
                 if (lessonDetails.get(lesson != null ? position - 1 : position).getBody().contains(".gif")) {
                     GlideDrawableImageViewTarget imageViewTarget = new GlideDrawableImageViewTarget(lessonDetailImageViewHolder.itemLessonDetailImageBinding.imageLessonDetail);
                     Glide.with(holder.itemView.getContext())
@@ -219,6 +219,7 @@ class LessonDetailListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                     Glide.with(holder.itemView.getContext())
                             .load(ResourceHelper.getDrawableResourceId(holder.itemView.getContext(),
                                     lessonDetails.get(lesson != null ? position - 1 : position).getBody()))
+                            .asBitmap()
                             .diskCacheStrategy(DiskCacheStrategy.NONE)
                             //.placeholder(R.drawable.ic_photo)
                             //.error(R.drawable.ic_photo)

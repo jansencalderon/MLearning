@@ -16,6 +16,7 @@ import com.tip.capstone.mlearning.app.Constant;
 import com.tip.capstone.mlearning.databinding.ActivityAcidBasedSimulationBinding;
 import com.tip.capstone.mlearning.databinding.DialogAboutBinding;
 import com.tip.capstone.mlearning.databinding.DialogComputationBinding;
+import com.tip.capstone.mlearning.databinding.DialogInstructionAcidsBinding;
 
 public class AcidBasedSimulationActivity extends AppCompatActivity {
 
@@ -69,7 +70,7 @@ public class AcidBasedSimulationActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 new AlertDialog.Builder(AcidBasedSimulationActivity.this)
-                        .setTitle("Exit?")
+                        .setTitle("Close Simulation?")
                         .setCancelable(false)
                         .setPositiveButton("YES", new DialogInterface.OnClickListener() {
                             @Override
@@ -92,7 +93,7 @@ public class AcidBasedSimulationActivity extends AppCompatActivity {
         binding.about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DialogAboutBinding dialogBinding = DataBindingUtil.inflate(
+               /* DialogAboutBinding dialogBinding = DataBindingUtil.inflate(
                         getLayoutInflater(),
                         R.layout.dialog_about,
                         null,
@@ -106,25 +107,44 @@ public class AcidBasedSimulationActivity extends AppCompatActivity {
                         dialog.dismiss();
                     }
                 });
+                dialog.show();*/
+                DialogInstructionAcidsBinding instructionAcidsBinding = DataBindingUtil.inflate(
+                        getLayoutInflater(),
+                        R.layout.dialog_instruction_acids,
+                        null,
+                        false);
+                final Dialog dialog = new Dialog(AcidBasedSimulationActivity.this);
+                dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+                dialog.setContentView(instructionAcidsBinding.getRoot());
+                instructionAcidsBinding.close.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
                 dialog.show();
 
             }
         });
+
+
+
+
     }
 
     private void setPick(String pick) {
         if (pick1.equals("")) {
             pick1 = pick;
             binding.pick1.setText(pick);
-            binding.phValue.setText("pH = "+this.phValue(pick));
+            binding.phValue.setText("pH = " + this.phValue(pick));
         } else if (pick2.equals("")) {
             pick2 = pick;
             binding.pick2.setText(pick);
-            binding.phValue.setText("pH = "+this.phValue(pick));
+            binding.phValue.setText("pH = " + this.phValue(pick));
         } else if (!pick1.equals(pick) || !pick2.equals(pick)) {
             pick1 = pick;
             binding.pick1.setText(pick);
-            binding.phValue.setText("pH = "+this.phValue(pick));
+            binding.phValue.setText("pH = " + this.phValue(pick));
 
             //reset pick 2
             pick2 = "";
@@ -142,7 +162,7 @@ public class AcidBasedSimulationActivity extends AppCompatActivity {
         String phResult;
         if ((pick1.equals(Constant.M_STRING) && pick2.equals(Constant.R_STRING)) ||
                 (pick2.equals(Constant.M_STRING) && pick1.equals(Constant.R_STRING))) {
-            drawableResult =  R.drawable.m_r;
+            drawableResult = R.drawable.m_r;
             phResult = "-/log [13.00 x 2.3] = 29.9";
         } else if ((pick1.equals(Constant.M_STRING) && pick2.equals(Constant.P_STRING)) ||
                 (pick2.equals(Constant.M_STRING) && pick1.equals(Constant.P_STRING))) {
@@ -218,7 +238,7 @@ public class AcidBasedSimulationActivity extends AppCompatActivity {
                 indicatorDrawable = R.drawable.m;
                 break;
             case Constant.P_STRING:
-                indicatorDrawable =  R.drawable.p ;
+                indicatorDrawable = R.drawable.p;
                 break;
             case Constant.L_STRING:
                 indicatorDrawable = R.drawable.l;
