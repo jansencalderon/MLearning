@@ -1,7 +1,6 @@
 package com.tip.capstone.mlearning.app;
 
 import android.app.Application;
-import android.support.v7.app.AppCompatDelegate;
 
 import com.tip.capstone.mlearning.R;
 import com.tip.capstone.mlearning.helper.StringHelper;
@@ -14,6 +13,7 @@ import com.tip.capstone.mlearning.model.LessonDetail;
 import com.tip.capstone.mlearning.model.Question;
 import com.tip.capstone.mlearning.model.Term;
 import com.tip.capstone.mlearning.model.Topic;
+import com.tip.capstone.mlearning.model.Tutorial;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
@@ -29,7 +29,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+
         // initialize realm configuration
         Realm.init(this);
         RealmConfiguration config = new RealmConfiguration.Builder()
@@ -52,13 +52,14 @@ public class App extends Application {
                 realm.delete(Choice.class);
                 realm.delete(Assessment.class);
                 realm.delete(AssessmentChoice.class);
-
                 realm.delete(Glossary.class);
+                realm.delete(Tutorial.class);
 
                 // add data from raw files
                 realm.createAllFromJson(Term.class, StringHelper.readRawTextFile(getApplicationContext(), R.raw.study));
                 realm.createAllFromJson(Assessment.class, StringHelper.readRawTextFile(getApplicationContext(), R.raw.assessment));
                 realm.createAllFromJson(Glossary.class, StringHelper.readRawTextFile(getApplicationContext(), R.raw.glossary));
+                realm.createAllFromJson(Tutorial.class, StringHelper.readRawTextFile(getApplicationContext(), R.raw.tutorials));
 
             }
         }, new Realm.Transaction.OnSuccess() {

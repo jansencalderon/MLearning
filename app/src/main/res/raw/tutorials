@@ -1,0 +1,204 @@
+[
+  {
+    "sequence": 1,
+    "string": "Tap the Study button to show the Terms",
+    "drawable": "tutorial_1.jpg"
+  },
+  {
+    "sequence": 2,
+    "string": "Tap the term to show the topics",
+    "drawable": "tutorial_2.jpg"
+  },
+  {
+    "sequence": 3,
+    "string": "Tap the term to show the topics",
+    "drawable": "tutorial_3.jpg"
+  },
+  {
+    "sequence": 4 ,
+    "string": "Tap the topic to begin the lessons",
+    "drawable": "tutorial_4.jpg"
+  },
+  {
+    "sequence": 5,
+    "string": "Tap OK to start the Pre Assessment",
+    "drawable": "tutorial_5.jpg"
+  },
+  {
+    "sequence": 6 ,
+    "string": "Select the Correct Answer",
+    "drawable": "tutorial_6.jpg"
+  },
+  {
+    "sequence":7 ,
+    "string": "Tap the Previous to Previous the questions",
+    "drawable": "tutorial_7.jpg"
+  },
+  {
+    "sequence":8 ,
+    "string": "Tap Next to proceed to other questions",
+    "drawable": "tutorial_8.jpg"
+  },
+  {
+    "sequence": 9,
+    "string": "Tap YES to submit",
+    "drawable": "tutorial_9.jpg"
+  },
+  {
+    "sequence": 10,
+    "string": "Tap OK to start reading the lessons",
+    "drawable": "tutorial_10.jpg"
+  },
+  {
+    "sequence": 11,
+    "string": "Long press the lesson to show the Text-to-Speech",
+    "drawable": "tutorial_11.jpg"
+  },
+  {
+    "sequence": 12 ,
+    "string": "Tap Yes to start listen to Text-to-Speech",
+    "drawable": "tutorial_12.jpg"
+  },
+  {
+    "sequence": 13 ,
+    "string": "Slide the screen to next the lessons",
+    "drawable": "tutorial_13.jpg"
+  },
+  {
+    "sequence": 14 ,
+    "string": "Pinch the Screen to Zoom in or Zoom out the lessons",
+    "drawable": "tutorial_14.jpg"
+  },
+  {
+    "sequence":15 ,
+    "string": "Tap Save to save the notes",
+    "drawable": "tutorial_15.jpg"
+  },
+  {
+    "sequence": 16,
+    "string": "Tap the Search and Type the what word you want",
+    "drawable": "tutorial_16.jpg"
+  },
+  {
+    "sequence":17 ,
+    "string": "Tap Video to show the Video per lesson",
+    "drawable": "tutorial_17.jpg"
+  },
+  {
+    "sequence":18 ,
+    "string": "Tap the Take Quiz to start the Post Assessment",
+    "drawable": "tutorial_18.jpg"
+  },
+  {
+    "sequence": 19,
+    "string": "Select the correct answer",
+    "drawable": "tutorial_19.jpg"
+  },
+  {
+    "sequence": 20,
+    "string": "Tap the Previous to Previous the questions",
+    "drawable": "tutorial_20.jpg"
+  },
+  {
+    "sequence": 21,
+    "string": "Select the correct answer",
+    "drawable": "tutorial_21.jpg"
+  },
+  {
+    "sequence": 22 ,
+    "string": "Tap YES to submit",
+    "drawable": "tutorial_22.jpg"
+  },
+  {
+    "sequence": 23 ,
+    "string": "Tap the See Reference to review",
+    "drawable": "tutorial_23.jpg"
+  },
+  {
+    "sequence": 24 ,
+    "string": "Tap Simulation to show the simulation",
+    "drawable": "tutorial_24.jpg"
+  },
+  {
+    "sequence":25 ,
+    "string": "Choosing Volatile Oils Simulation",
+    "drawable": "tutorial_25.jpg"
+  },
+  {
+    "sequence": 26,
+    "string": "Tap Start to start the first simulation",
+    "drawable": "tutorial_26.jpg"
+  },
+  {
+    "sequence":27 ,
+    "string": "Drag to the designated volatile oils",
+    "drawable": "tutorial_27.jpg"
+  },
+  {
+    "sequence":28 ,
+    "string": "Choosing Acid Base Titration Simulation",
+    "drawable": "tutorial_28.jpg"
+  },
+  {
+    "sequence": 29,
+    "string": "Click number buttons to view the different acid-based solution.",
+    "drawable": "tutorial_29.jpg"
+  },
+  {
+    "sequence": 30,
+    "string": "Tap the Calculate to overview the Acid base mixture and calculation.",
+    "drawable": "tutorial_30.jpg"
+  },
+  {
+    "sequence": 31,
+    "string": "Tap the About to show the intended of the simulation",
+    "drawable": "tutorial_31.jpg"
+  },
+  {
+    "sequence": 32,
+    "string": "Tap EXIT to close the Simulation",
+    "drawable": "tutorial_32.jpg"
+  },
+  {
+    "sequence": 33,
+    "string": "Tap the Assessment to show the result of Assessment",
+    "drawable": "tutorial_33.jpg"
+  },
+  {
+    "sequence": 34,
+    "string": "Choose what term you want to see",
+    "drawable": "tutorial_34.jpg"
+  },
+  {
+    "sequence": 35,
+    "string": "Tap the Topic to see the score and the date",
+    "drawable": "tutorial_35.jpg"
+  }
+  ,{
+    "sequence": 36,
+    "string": "Tap the Topic to see the score and the date",
+    "drawable": "tutorial_36.jpg"
+  }
+  ,
+  {
+    "sequence": 37,
+    "string": "Tap Reset to Reset the post assessment and Assessment per term",
+    "drawable": "tutorial_37.jpg"
+  },
+  {
+    "sequence": 38,
+    "string": "Tap the Glossary to show the alphabetical list of terms or words",
+    "drawable": "tutorial_38.jpg"
+  }
+  ,{
+    "sequence": 39,
+    "string": "Slide up or down to show all the words",
+    "drawable": "tutorial_39.jpg"
+  }
+  ,
+  {
+    "sequence": 40,
+    "string": "Tap the search button to find the word you want",
+    "drawable": "tutorial_40.jpg"
+  }
+]

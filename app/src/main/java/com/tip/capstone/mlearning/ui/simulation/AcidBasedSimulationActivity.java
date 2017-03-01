@@ -95,7 +95,7 @@ public class AcidBasedSimulationActivity extends AppCompatActivity {
             public void onClick(View v) {
                /* DialogAboutBinding dialogBinding = DataBindingUtil.inflate(
                         getLayoutInflater(),
-                        R.layout.dialog_about,
+                        R.layout.dialog_about_acids,
                         null,
                         false);
                 final Dialog dialog = new Dialog(AcidBasedSimulationActivity.this);
