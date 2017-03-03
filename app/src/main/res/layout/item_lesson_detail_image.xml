@@ -31,7 +31,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{lessonDetail.bodyCaption}"
+            android:text="@{lessonDetail.caption}"
             android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
 
 

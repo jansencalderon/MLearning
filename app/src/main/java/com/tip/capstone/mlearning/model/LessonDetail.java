@@ -15,7 +15,7 @@ public class LessonDetail extends RealmObject {
     private int id;
     private int sequence;
     private String body;
-    private String bodyCaption;
+    private String caption;
     private int body_type;
 
     public int getId() {
@@ -42,12 +42,12 @@ public class LessonDetail extends RealmObject {
         this.body = body;
     }
 
-    public String getBodyCaption() {
-        return bodyCaption;
+    public String getCaption() {
+        return caption;
     }
 
-    public void setBodyCaption(String bodyCaption) {
-        this.bodyCaption = bodyCaption;
+    public void setCaption(String caption) {
+        this.caption = caption;
     }
 
     public int getBody_type() {
